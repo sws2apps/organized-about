@@ -15,4 +15,4 @@ You can also check out the app's GitHub repository page for more detailed inform
 This webpage is currently available in `English` and a few other languages. If you'd like to view the page in your language, feel free to help by translating it on our [Crowdin project](https://crowdin.com/project/organized) page. The `About Organized website` fodler contains all the strings for this website. Some strings have a maximum character limit due to space constraints. In such cases, feel free to rephrase sentences and words while keeping the original idea intact.
 
 ### Want to contribute?
-All the contributions are higly welcome and appreciated. We mostly need contribution assistance with the [Organized app](https://github.com/sws2apps/organized-app) itself, but if you have any ideas or suggestions regarding this website, feel free to share and contribute!
+All the contributions are higly welcome and appreciated. While we primarily need assistance with contributions to the [Organized app](https://github.com/sws2apps/organized-app) itself, we're open to any ideas or suggestions you may have regarding this website. Feel free to share and contribute!
