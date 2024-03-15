@@ -37734,8 +37734,10 @@ organized.require('ix2').init({
 
 const languageFiles = {
 	English: '/locales/en/strings.json',
-	Українська: '/locales/uk/strings.json',
-	Русский: '/locales/ru/strings.json',
+    Deutsch: '/locales/de/strings.json',
+    Français: '/locales/fr/strings.json',
+    Русский: '/locales/ru/strings.json',
+    Українська: '/locales/uk/strings.json',
 };
 
 const select = document.querySelector('.language-btn');
