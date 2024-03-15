@@ -23,7 +23,7 @@
     "tr_howSupportQ": "How can I support the app?",
     "tr_howSupportA": "We really appreciate your volunteer spirit! You can contribute to the app in a few ways – 1. by just telling others about Organized, 2. supporting the app by donating, or 3. helping with web development, UI design or translation. Learn more about these options on the How can I support Organized page.",
     "tr_facingIssueQ": "I am facing an issue. How to contact Organized support?",
-    "tr_FacingIssueA": "If you encounter any issues you can't resolve by checking out our How to use guide, please reach out to us at GitHub Discussions or via email at support-sws2apps@gmail.com.",
+    "tr_FacingIssueA": "If you encounter any issues you can't resolve by checking out our How to use guide, please reach out to us at GitHub Discussions or via email at support@organized-app.com.",
     "tr_howLearnQ": "How to learn more about Organized features?",
     "tr_howLearnA": "See our How to use guide for step-by-step instructions and detailed explanations. For video tutorials, check out our YouTube channel.",
     "tr_shouldUseQ": "Should the whole congregation use Organized?",
@@ -52,7 +52,6 @@
     "tr_isOfficialA": "<p>No, the app is not made by Jehovah’s Witnesses organization. Our small development team consists of enthusiastic brothers and sisters from a few countries who donate their time to maintain the app and create new features. Most of our team members are pioneers, ministerial servants and elders.</p><p>Additionally, we recommend that the usage of the Organized app be approved by the congregation body of elders.</p>",
     "tr_isApprovedByBethelQ": "Is the Organized app approved by Bethel or World Headquarters?",
     "tr_organizedDecs": "Organized is a free web app for Jehovah’s Witnesses congregations that helps with assignments, schedules, reports and saves time for other important things!",
-    "tr_demo": "Try demo",
     "tr_advantages": "Advantages of the Organized",
     "tr_benefits": "Key benefits of the app",
     "tr_itWorks": "It just works. Everywhere",
@@ -85,7 +84,6 @@
     "tr_manageAccess": "Securely manage access to Organized",
     "tr_manageAccessDesc": "Take full control of your congregation’s access and security with a few layers of security. No one can connect to your congregation without a personal invitation code and the necessary rights granted. Assign roles like Coordinator or Secretary, customizing Organized functionality for each user based on their responsibilities.",
     "tr_yourUpcomingAssignments": "Your upcoming assignments at a glance",
-    "tr_upcomingAssignmentsDesc": "Whether you’re a publisher, appointed brother, or midweek meeting student, easily view all your upcoming assignments on the My Assignments page. No need to search multiple sources – everything is at a glance and updates automatically. Organized makes it easier to never miss your assignments. Just remember to check this page regularly.",
     "tr_sendServiceReports": "Send service reports really easily",
     "tr_sendServiceReportsDesc": "Open the page and submit your monthly service report – yes, that’s it. Appointed brothers will appreciate the digital submissions, making everyone’s job easier.",
     "tr_submitAuxiliaryApp": "Submit auxiliary pioneer service",
@@ -178,5 +176,8 @@
     "tr_seamless": "seamless",
     "tr_smoother": "smoother",
     "tr_effortless": "effortless",
-    "tr_withOrganized": "with Organized."
+    "tr_withOrganized": "with Organized.",
+    "tr_comingSoon": "Coming soon",
+    "tr_demoModeComingSoon": "The demonstration mode is coming soon, stay updated 😉",
+    "tr_ok": "OK"
 }
