@@ -1,6 +1,7 @@
 {
     "tr_mainTitlePart": "Make your congregation life more",
     "tr_register": "Register",
+    "tr_0": "App is available fully or partially in 20 languages and more to come!",
     "tr_seeOrganized": "See Organized in action!",
     "tr_seeOrganizedDesc": "Register your account for a full personalized experience or explore our Demonstration mode to see the app's main features in action right away!",
     "tr_more": "More",
@@ -24,7 +25,7 @@
     "tr_facingIssueQ": "I am facing an issue. How to contact Organized support?",
     "tr_FacingIssueA": "If you encounter any issues you can't resolve by checking out our How to use guide, please reach out to us at GitHub Discussions or via email at support-sws2apps@gmail.com.",
     "tr_howLearnQ": "How to learn more about Organized features?",
-    "tr_howLearnA": "See our How to use guide for step-by-step instructions and detailed explanations. For video tutorials, check out our YouTube channel.\r\n",
+    "tr_howLearnA": "See our How to use guide for step-by-step instructions and detailed explanations. For video tutorials, check out our YouTube channel.",
     "tr_shouldUseQ": "Should the whole congregation use Organized?",
     "tr_shouldUseA": "<p>It’s not a must – you can use the app separately (for example, as a coordinator, public talks coordinator, secretary, territory overseer, etc.), but the more people in your congregation use the app, the easier it is to collaborate.</p><p>Using Organized makes it convenient for publishers, as all appointed brothers can easily create and publish schedules, assignments, and events directly within the app, and everyone in congregation can easily find and view it.</p>",
     "tr_manuallyEnterQ": "Do I have to manually enter info from the meeting workbook?",
@@ -49,6 +50,5 @@
     "tr_isFreeA": "Yes, the Organized app is free for everyone. We don't ask for a monthly or annual subscription. Currently, we cover the server and maintenance costs ourselves. However, your donations will contribute to keeping the app free forever, especially for congregations in less affluent countries.",
     "tr_isOfficialQ": "Is Organized an official app of Jehovah’s Witnesses?",
     "tr_isOfficialA": "<p>No, the app is not made by Jehovah’s Witnesses organization. Our small development team consists of enthusiastic brothers and sisters from a few countries who donate their time to maintain the app and create new features. Most of our team members are pioneers, ministerial servants and elders.</p><p>Additionally, we recommend that the usage of the Organized app be approved by the congregation body of elders.</p>",
-    "tr_isApprovedByBethelQ": "Is the Organized app approved by Bethel or World Headquarters?",
-    "tr_languagesDecs": "App is available fully or partially in 20 languages and more to come!"
+    "tr_isApprovedByBethelQ": "Is the Organized app approved by Bethel or World Headquarters?"
 }
