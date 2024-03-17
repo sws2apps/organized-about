@@ -3461,6 +3461,7 @@ html {
     border-radius: 999px;
     padding: 8px 24px;
     user-select: none;
+    text-align: center;
   }
   
   .tab-link-style.w--current {
