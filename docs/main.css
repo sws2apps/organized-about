@@ -2680,7 +2680,6 @@ html {
   }
   
   .some-difficulties-card.grimacing-face {
-    height: 111px;
     top: -105%;
     left: -158%;
   }
@@ -2832,6 +2831,10 @@ html {
     width: 100%;
     margin-top: 8px;
     margin-bottom: 8px;
+  }
+
+  .faq-dropdown h4 {
+      margin-right: 10px;
   }
   
   .faq-divider {
@@ -4914,6 +4917,7 @@ html {
     .app-cards {
       padding-left: 10px;
       padding-right: 10px;
+      cursor: pointer;  
     }
   
     .app-card-header {
