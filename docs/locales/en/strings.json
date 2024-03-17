@@ -168,6 +168,7 @@
     "tr_howToGetTerritory": "How to get a territory?",
     "tr_needTerritoryForPreaching": "Need a territory for preaching, but the territory overseer is unavailable or absent from today’s meeting?",
     "tr_doAssignments": "Do your assignments",
+    "tr_withOrganized": "with Organized.",
     "tr_well": "well",
     "tr_easier": "easier",
     "tr_better": "better",
@@ -179,5 +180,9 @@
     "tr_comingSoon": "Coming soon",
     "tr_demoModComingSoon": "The demonstration mode is coming soon, stay updated 😉",
     "tr_OK": "OK",
-    "tr_withOrganized": "with Organized."
+    "tr_notOnlyDigital": "Not only digital",
+    "tr_printTemplates": "Organized also provides print templates",
+    "tr_noOnlyDigitalDesc": "Organized helps you efficiently manage schedules and other activities, providing the added convenience of easily exporting them into attractive print-ready files. Print them your information board or share them as PDFs with others.",
+    "tr_faq": "FAQ",
+    "tr_faqDesc": "Frequently asked questions"
 }
