@@ -3167,7 +3167,7 @@ html {
   }
   
   .hero-leftside-container {
-    max-width: 436px;
+    max-width: 455px;
     grid-column-gap: 40px;
     grid-row-gap: 40px;
     flex-direction: column;
