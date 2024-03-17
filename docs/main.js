@@ -37774,7 +37774,7 @@ options.forEach((option) => {
 					// Перевіряємо, чи існує переклад для вибраної мови
 					if (translations[key]) {
 						// Якщо існує, підмінюємо текст елементу перекладом
-						el.textContent = translations[key];
+						el.innerHTML = translations[key];
 					}
 				});
 			});
