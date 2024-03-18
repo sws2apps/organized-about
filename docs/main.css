@@ -4236,6 +4236,23 @@ html {
       grid-row-gap: 40px;
       flex-direction: row;
     }
+
+    ul.dropdown li a {
+      font-size: 14px;
+      pading: 15px 20px;
+    }
+
+    ul.dropdown li a:hover {
+      background-color: transparent;
+    }
+
+    ul.dropdown li a:active {
+      background-color: #D5DFFD;
+    }
+ 
+    ul.dropdown {
+      max-width: 100%; 
+    }
   
     .hero-container {
       height: 41.7rem;
@@ -4724,6 +4741,23 @@ html {
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
+    }
+
+    ul.dropdown li a {
+      font-size: 14px;
+      pading: 15px 20px;
+    }
+
+    ul.dropdown li a:hover {
+      background-color: transparent;
+    }
+
+    ul.dropdown li a:active {
+      background-color: #D5DFFD;
+    }
+ 
+    ul.dropdown {
+      max-width: 100%; 
     }
   
     .hero-container {
