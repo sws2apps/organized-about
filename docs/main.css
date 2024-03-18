@@ -2829,8 +2829,8 @@ html {
   }
 
     .faq-answer a:visited {
-    color: inherit;
-  text-decoration: inherit;
+    color: var(--accent-dark);
+    text-decoration: inherit;
   }
   
   .faq-answer.w--open {
