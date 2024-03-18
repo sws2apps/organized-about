@@ -345,7 +345,6 @@ html {
   }
 
   ul.dropdown {
-/*     max-width: 12%; */
     background-color: #f2f5ff;
     position: absolute;
     z-index: 999;
@@ -354,7 +353,6 @@ html {
     padding: 0;
     margin: 10px 0px 0px 0px;
     border-radius: 12px;
-    transform: translate(-15%);
     list-style: none;
   }
   
@@ -4253,6 +4251,7 @@ html {
  
     ul.dropdown {
       max-width: 100%; 
+      right: 0;
     }
 
     .header-container {
@@ -4772,7 +4771,6 @@ html {
  
     ul.dropdown {
       max-width: 100%;
-      transform: translate(-40px);
     }
   
     .hero-container {
