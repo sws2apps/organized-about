@@ -16,3 +16,19 @@ This webpage is currently available in `English` and a few other languages. If y
 
 ### Want to contribute?
 All the contributions are higly welcome and appreciated. While we primarily need assistance with contributions to the [Organized app](https://github.com/sws2apps/organized-app) itself, we're open to any ideas or suggestions you may have regarding this website. Feel free to share and contribute!
+
+## Useful links
+
+To learn more about Organized and how to use it, check out the following useful links:
+
+| Link                                                         | Description                                                   |
+|-------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [Organized app](organized-app.com)                                           | Open and use the Organized app.           |
+| [Organized repo](about.organized-app.com)                                | See the repository of the Organized app itself. Learn about the app and its development. |
+| [About Organized](about.organized-app.com)                                | Learn more about the goals, features, and benefits of the Organized app. Feel free to share this link with others. |
+| [JW EPUB Parser repo](about.organized-app.com)                                | Our tool that is used in the Organized app. It parses all the info for meeting scheduling.  |
+| [Contribution guide](https://github.com/sws2apps/organized-app/blob/main/CONTRIBUTING.md)                     | See how you can contribute to the Organized project.     |
+| [How to use guide](sws2apps.com/docs/category/congregation-program-for-everyone) | Read text documentation on how to start using the app and learn about different features.       |
+| [Crowdin project](crowdin.com/project/organized)                              | Collaborate on translating the Organized app – it's easy and convenient.                   |
+| [Video tutorials](https://www.youtube.com/@organized-app)                     | Watch video tutorials and guides on using and contributing on our YouTube chanel.     |
+
