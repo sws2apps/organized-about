@@ -2849,10 +2849,10 @@ html {
     display: flex;
   }
   
-  .faq-link {
+/*   .faq-link {
     color: var(--accent-dark);
     text-decoration: none;
-  }
+  } */
   
   .grid-section {
     z-index: 5;
@@ -4104,6 +4104,11 @@ html {
   
     .faq-cards {
       align-items: center;
+    }
+
+    .faq-cards A {
+    color: var(--accent-dark);
+    text-decoration: none;
     }
   
     .faq-answer {
