@@ -4013,7 +4013,7 @@ html {
   
     .start-using-app {
       grid-template-rows: auto auto;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
     }
   
     .real-wold-benefits-section {
@@ -4916,8 +4916,6 @@ html {
     }
   
     .container {
-      padding-left: 15px;
-      padding-right: 15px;
       width: 100%;
     }
   
@@ -4996,8 +4994,8 @@ html {
     }
   
     .app-cards {
-      padding-left: 10px;
-      padding-right: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
       cursor: pointer;  
     }
   
