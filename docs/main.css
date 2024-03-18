@@ -1995,7 +1995,7 @@ html {
   
   @media screen and (max-width: 479px) {
     .w-tab-link {
-      display: block;
+      font-size: block;
     }
   }
   
@@ -4846,7 +4846,24 @@ html {
     }
   
     .header-container {
-      width: 50%;
+      width: 100%;
+    }
+
+    ul.dropdown li a {
+      font-size: 14px;
+      pading: 15px 20px;
+    }
+
+    ul.dropdown li a:hover {
+      background-color: transparent;
+    }
+
+    ul.dropdown li a:active {
+      background-color: #D5DFFD;
+    }
+ 
+    ul.dropdown {
+      max-width: 100%; 
     }
   
     .container {
