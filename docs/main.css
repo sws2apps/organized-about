@@ -4260,6 +4260,7 @@ html {
       border-bottom-right-radius: 20px;
       border-bottom-left-radius: 20px;
       margin-bottom: 100px;
+      pading-right: 0;
     }
   
     .hero-leftside-container {
@@ -4767,6 +4768,7 @@ html {
     .hero-container {
       height: 39.7rem;
       margin-bottom: 60px;
+      pading-right: 0;
     }
   
     .hero-rightside-container {
