@@ -4,7 +4,7 @@
     "tr_organizedPageTitle": "Organized",
     "tr_register": "S'inscrire",
     "tr_seeOrganized": "Observez Organized en action !",
-    "tr_seeOrganizedDesc": "Register your account for a full personalized experience or try our <a href='#'>Test mode</a> to see the app's main features in action right away!",
+    "tr_seeOrganizedDesc": "Inscrivez vous pour une expérience entièrement personnalisée ou explorez notre mode de démonstrattion pour voir les fonctionnalités clés de l'application dès maintenant !",
     "tr_more": "Plus",
     "tr_gitHub": "Repository GitHub",
     "tr_privatyPolicy": "Politique de confidentialité",
@@ -23,7 +23,7 @@
     "tr_howSupportQ": "Comment je peux supporter l'application ?",
     "tr_howSupportA": "We really appreciate your volunteer spirit! You can contribute to the app in a few ways – 1. by just telling others about Organized, 2. supporting the app by <a href='https://www.buymeacoffee.com/sws2apps'>donating</a>, or 3. helping with web development, UI design or translation. Learn more about these options on the <a href='#'>How can I support Organized</a> page.",
     "tr_facingIssueQ": "Je rencontre un problème. Comment je peux contacter le support d'Organized ?",
-    "tr_FacingIssueA": "If you encounter any issues you can’t resolve by checking out our <a href='https://sws2apps.com/docs/category/congregation-program-for-everyone/' class='faq-link'>How to use</a> guide, please reach out to us at <a href='https://github.com/sws2apps/organized-app/discussions' target='_blank' class='faq-link'>GitHub Discussions</a> or via email at <a href='mailto:support-sws2apps@gmail.com' target='_blank' class='faq-link'>support-sws2apps@gmail.com</a> email.",
+    "tr_FacingIssueA": "If you encounter any issues you can't resolve by checking out our <a href='#'>How to use guide</a>, please reach out to us at <a href='https://github.com/sws2apps/organized-app/discussions'>GitHub Discussions</a> or via <a href='mailto:support@organized-app'>support@organized-app</a> email.",
     "tr_howLearnQ": "Comment en savoir plus sur les fonctionnalités d'Organized ?",
     "tr_howLearnA": "Consultez notre guide d'utilisation pour des instructions étape par étape et des explications détaillées. Pour des tutoriels vidéo, consultez notre chaîne YouTube.",
     "tr_shouldUseQ": "Toute l'assemblée devrait-elle utiliser Organized ?",
@@ -184,5 +184,9 @@
     "tr_printTemplates": "Organized also provides print templates",
     "tr_noOnlyDigitalDesc": "Organized helps you efficiently manage schedules and other activities, providing the added convenience of easily exporting them into attractive print-ready files. Print them your information board or share them as PDFs with others.",
     "tr_faq": "FAQ",
-    "tr_faqDesc": "Frequently asked questions"
+    "tr_faqDesc": "Frequently asked questions",
+    "tr_tryTestMode": "Try the app in a test mode to experience its features right away! No registration required, but please note that your changes will reset after a page reload.",
+    "tr_404Desc": "The page you’re looking for doesn’t exist",
+    "tr_oops": "Oops",
+    "tr_backHome": "Back home"
 }
