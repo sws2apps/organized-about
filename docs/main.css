@@ -2149,7 +2149,7 @@ html {
     justify-content: space-between;
     align-items: center;
     margin-top: 25px;
-    padding-right: 69px;
+    padding-right: 64.033px;
     display: flex;
     position: absolute;
   }
@@ -3176,7 +3176,6 @@ html {
     align-items: center;
     margin-bottom: 80px;
     padding-left: 6vw;
-    padding-right: 6vw;
     display: flex;
     position: relative;
     overflow: hidden;
@@ -4184,7 +4183,9 @@ html {
     }
   
     .footer-image-container {
-      display: none;
+      display: block;
+      width: 30px;
+      margin: -5px 0px;
     }
   
     .emoji-card-heading {
@@ -4699,7 +4700,9 @@ html {
     }
   
     .footer-image-container {
-      display: none;
+      display: block;
+      width: 30px;
+      margin: -5px 0px;
     }
   
     .emoji-card-heading {
@@ -4727,7 +4730,7 @@ html {
   
     .footer-title-contaner {
       width: 100%;
-      flex-direction: row;
+      flex-direction: column;
     }
   
     .footer-heading-interaction-container {
@@ -5237,7 +5240,9 @@ html {
     }
   
     .footer-image-container {
-      display: none;
+      display: block;
+      width: 30px;
+      margin: -5px 0px;
     }
   
     .features-grid {
