@@ -2848,6 +2848,11 @@ html {
     padding: 16px 16px 16px 0;
     display: flex;
   }
+
+    .faq-dropdown a {
+    color: var(--accent-dark);
+    text-decoration: none;
+    }
   
 /*   .faq-link {
     color: var(--accent-dark);
@@ -4104,11 +4109,6 @@ html {
   
     .faq-cards {
       align-items: center;
-    }
-
-    .faq-cards A {
-    color: var(--accent-dark);
-    text-decoration: none;
     }
   
     .faq-answer {
