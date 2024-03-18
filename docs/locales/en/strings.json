@@ -23,7 +23,7 @@
     "tr_howSupportQ": "How can I support the app?",
     "tr_howSupportA": "We really appreciate your volunteer spirit! You can contribute to the app in a few ways – 1. by just telling others about Organized, 2. supporting the app by <a href='https://www.buymeacoffee.com/sws2apps'>donating</a>, or 3. helping with web development, UI design or translation. Learn more about these options on the <a href='#'>How can I support Organized</a> page.",
     "tr_facingIssueQ": "I am facing an issue. How to contact Organized support?",
-    "tr_FacingIssueA": "If you encounter any issues you can't resolve by checking out our <a href='#'>How to use guide</a>, please reach out to us at <a href='https://github.com/sws2apps/organized-app/discussions'>GitHub Discussions</a> or via <a href='mailto:support@organized-app'>support@organized-app</a> email.",
+    "tr_FacingIssueA": "If you encounter any issues you can’t resolve by checking out our <span><a href='https://sws2apps.com/docs/category/congregation-program-for-everyone/' class='faq-link'>How to use</a></span> guide, please reach out to us at <span><a href='https://github.com/sws2apps/organized-app/discussions' target='_blank' class='faq-link'>GitHub Discussions</a></span> or via email at <span><a href='mailto:support-sws2apps@gmail.com' target='_blank' class='faq-link'>support-sws2apps@gmail.com</a></span> email.",
     "tr_howLearnQ": "How to learn more about Organized features?",
     "tr_howLearnA": "See our <a href='#'>How to use guide</a> for step-by-step instructions and detailed explanations. For video tutorials, check out our <a href='https://www.youtube.com/@organized-app'>YouTube channel</a>.",
     "tr_shouldUseQ": "Should the whole congregation use Organized?",
