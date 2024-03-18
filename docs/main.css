@@ -4153,6 +4153,18 @@ html {
       border-top-right-radius: 20px;
       padding-top: 50px;
     }
+
+    .lastLink {
+    color: var(--accent-dark);
+    text-decoration: inherit;
+    font-weight: 600;
+    }
+
+    .lastLink:visited {
+    color: var(--accent-dark);
+    text-decoration: inherit;
+    font-weight: 600;
+    }
   
     .footer-upper-container {
       border-radius: 21px;
