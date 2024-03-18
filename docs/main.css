@@ -345,7 +345,7 @@ html {
   }
 
   ul.dropdown {
-    max-width: 12%;
+/*     max-width: 12%; */
     background-color: #f2f5ff;
     position: absolute;
     z-index: 999;
@@ -2149,6 +2149,7 @@ html {
     justify-content: space-between;
     align-items: center;
     margin-top: 25px;
+    padding-right: 69px;
     display: flex;
     position: absolute;
   }
