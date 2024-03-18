@@ -37801,3 +37801,12 @@ document.addEventListener('click', (event) => {
 		menu.classList.remove('show');
 	}
 });
+
+const year = document.getElementById("year")
+
+function getYear () {
+	const date = new Date();
+	const currentYear = date.getFullYear();
+	return currentYear;
+}
+year.innerText = getYear();
