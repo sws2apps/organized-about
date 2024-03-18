@@ -3188,7 +3188,6 @@ html {
     flex-direction: column;
     align-items: flex-start;
     display: flex;
-    margin: 0;
   }
   
   .hero-button-container {
@@ -4757,7 +4756,8 @@ html {
     }
  
     ul.dropdown {
-      max-width: 100%; 
+      max-width: 100%;
+      transform: translate(-40px);
     }
   
     .hero-container {
@@ -5289,7 +5289,6 @@ html {
       grid-row-gap: 50px;
       align-items: center;
       margin-top: 110px;
-      margin-left: 10px;
     }
   
     .hero-button-container {
