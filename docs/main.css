@@ -2824,8 +2824,13 @@ html {
   }
 
   .faq-answer a {
-    color: #yb2f8c;
+    color: var(--accent-dark);
     text-decoration: none;
+  }
+
+    .faq-answer a:visited {
+    color: inherit;
+  text-decoration: inherit;
   }
   
   .faq-answer.w--open {
