@@ -2826,6 +2826,7 @@ html {
   .faq-answer a {
     color: var(--accent-dark);
     text-decoration: none;
+    font-weight: 600;
   }
 
     .faq-answer a:visited {
