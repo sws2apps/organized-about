@@ -4882,6 +4882,7 @@ html {
   
     .header-container {
       width: 100%;
+      padding-right: 0px;
     }
 
     ul.dropdown li a {
