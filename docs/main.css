@@ -4254,6 +4254,11 @@ html {
     ul.dropdown {
       max-width: 100%; 
     }
+
+    .header-container {
+      width: 100%;
+      padding-right: 48px;
+    }
   
     .hero-container {
       height: 41.7rem;
@@ -4506,6 +4511,11 @@ html {
   
     .body-small-regular.grey-300.centred-text {
       font-size: 12px;
+    }
+
+    .header-container {
+      width: 100%;
+      padding-right: 30px;
     }
   
     .h1-xl.bold-black {
