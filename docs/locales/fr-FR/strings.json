@@ -188,5 +188,7 @@
     "tr_tryTestMode": "Try the app in a test mode to experience its features right away! No registration required, but please note that your changes will reset after a page reload.",
     "tr_404Desc": "The page you’re looking for doesn’t exist",
     "tr_oops": "Oops",
-    "tr_backHome": "Back home"
+    "tr_backHome": "Back home",
+    "tr_someDifficulties": "Some difficulties",
+    "tr_thatOrganizedSolves": "that Organized solves"
 }
