@@ -4414,11 +4414,7 @@ html {
     }
   
     .lottie-emoji.deg-emoji-2 {
-      width: 95px;
-      position: relative;
-      left: -146px;
-      right: 141px;
-      top: -83px;
+      top: -37%;
     }
   
     .lottie-emoji.deg-emoji-4 {
@@ -5488,8 +5484,9 @@ html {
     .lottie-emoji.deg-emoji-2 {
       width: 102px;
       position: relative;
-      left: -131%;
-      right: 141%;
+      left: -148px;
+      right: 141px;
+      top: -83px;
     }
   
     .lottie-emoji.deg-emoji-4 {
