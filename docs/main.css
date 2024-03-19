@@ -368,6 +368,7 @@ html {
     text-align: left;
     font-size: 16px;
     border-radius: 12px;
+    margin-right: 3%;
   }
   
   ul li a:hover {
@@ -4918,6 +4919,7 @@ html {
  
     ul.dropdown {
       max-width: 100%; 
+      margin-right: -3%;
     }
   
     .container {
