@@ -4413,7 +4413,11 @@ html {
     }
   
     .lottie-emoji.deg-emoji-2 {
-      top: -37%;
+      width: 102px;
+      position: relative;
+      left: -148px;
+      right: 141px;
+      top: -83px;
     }
   
     .lottie-emoji.deg-emoji-4 {
@@ -4608,9 +4612,10 @@ html {
     }
   
     .some-difficulties-card.face-with-rolling-eyes.emoji-text-timed, .some-difficulties-card.face-with-rolling-eyes.emoji-text-hovered {
-      width: 282px;
-      top: -89%;
-      left: -304%;
+      width: 280px;
+      top: -332px;
+      left: -123px;
+      padding: 15px;
     }
   
     .some-difficulties-card.grimacing-face.emoji-text-timed, .some-difficulties-card.grimacing-face.emoji-text-hovered {
@@ -5090,40 +5095,46 @@ html {
     }
   
     .some-difficulties-card.crying-face.emoji-text-hovered, .some-difficulties-card.crying-face.emoji-text-timed {
-      width: 195px;
+      width: 235px;
       grid-column-gap: 3px;
       grid-row-gap: 3px;
+      top: -20px;
+      left: -120px;
+      padding: 15px;
     }
   
     .some-difficulties-card.sad-but-relieved-face.emoji-text-hovered, .some-difficulties-card.sad-but-relieved-face.emoji-text-timed {
-      width: 160px;
-      padding-left: 10px;
-      padding-right: 10px;
-      left: -140%;
+      width: 231px;
+      /* padding-left: 10px;
+      padding-right: 10px; */
+      left: -72px;
+      top: -97px;
+      padding: 15px;
     }
   
     .some-difficulties-card.fearful-face.emoji-text-timed {
-      width: 150px;
-      grid-column-gap: 3px;
-      grid-row-gap: 3px;
-      padding-left: 10px;
-      padding-right: 10px;
+      display: none;
     }
   
     .some-difficulties-card.fearful-face.emoji-text-hovered {
-      width: 150px;
-      grid-column-gap: 3px;
+      width: 278px;
+      top: 468px;
+      left: -257px;
+      padding: 15px;
+      /* grid-column-gap: 3px;
       grid-row-gap: 3px;
-      padding-left: 10px;
+      padding-left: 10px; */
     }
   
     .some-difficulties-card.pensive-face.emoji-text-timed {
-      width: 257px;
-      padding: 5px 10px;
+      display: none;
     }
   
     .some-difficulties-card.pensive-face.emoji-text-hovered {
-      width: 257px;
+      width: 232px;
+      top: -275px;
+      left: -36px;
+      padding: 15px;
     }
   
     .some-difficulties-card.face-with-rolling-eyes.emoji-text-timed {
@@ -5132,24 +5143,24 @@ html {
     }
   
     .some-difficulties-card.grimacing-face.emoji-text-timed {
-      width: 160px;
-      height: auto;
-      padding-bottom: 5px;
-      padding-left: 10px;
-      padding-right: 10px;
-      left: -150%;
+      display: none;
     }
   
     .some-difficulties-card.grimacing-face.emoji-text-hovered {
-      width: 160px;
+      width: 253px;
       height: auto;
-      padding-left: 10px;
-      padding-right: 10px;
-      left: -150%;
+      left: -229px;
+      top: 395px;
+      padding: 15px;
+      /* padding-left: 10px;
+      padding-right: 10px; */
     }
   
     .some-difficulties-card.lushed-face.emoji-text-timed, .some-difficulties-card.lushed-face.emoji-text-hovered {
-      width: 267px;
+      width: 244px;
+      top: 54px;
+      left: 2px;
+      padding: 15px;
     }
   
     .not-only-digital-section {
@@ -5438,34 +5449,38 @@ html {
     }
   
     .lottie-emoji.deg-emoji-1 {
-      top: -35px;
+      top: -57px;
+      left: 74px;
+      width: 100px;
+      height: 100px;
     }
   
     .lottie-emoji.deg-emoji-5 {
-      width: 103px;
-      top: -570%;
-      left: -283%;
-      right: 197%;
+      width: 95px;
+      top: 435px;
+      left: -39px;
+      right: 197px;
     }
   
     .lottie-emoji.deg-emoji-6 {
       width: 81px;
-      top: -630%;
-      left: -151%;
-      right: 146%;
+      top: 360px;
+      left: -48px;
+      right: 146px;
     }
   
     .lottie-emoji.deg-emoji-3 {
-      width: 100px;
-      top: -224%;
-      left: -172%;
-      right: 30%;
+      width: 80px;
+      top: -368px;
+      left: 80px;
+      right: 30px;
     }
   
     .lottie-emoji.deg-emoji-7 {
       width: 88px;
-      left: 179%;
-      right: -151%;
+      left: -64px;
+      right: -151px;
+      top: 42px;
     }
   
     .lottie-emoji.deg-emoji-2 {
@@ -5477,9 +5492,9 @@ html {
   
     .lottie-emoji.deg-emoji-4 {
       width: 87px;
-      top: 123%;
-      left: -79%;
-      right: 75%;
+      top: -239px;
+      left: -102px;
+      right: 75px;
     }
   
     .image-20 {
