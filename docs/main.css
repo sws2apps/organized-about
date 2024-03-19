@@ -352,8 +352,11 @@ html {
     transition: 0.2s;
     padding: 0;
     margin: 10px 0px 0px 0px;
+    margin-right: 3%;
     border-radius: 12px;
     list-style: none;
+    right: 0;
+    
   }
   
   ul.dropdown li {
@@ -4252,7 +4255,6 @@ html {
  
     ul.dropdown {
       max-width: 100%; 
-      margin-right: 3%;
     }
 
     .header-container {
@@ -4773,7 +4775,6 @@ html {
  
     ul.dropdown {
       max-width: 100%;
-      margin-right: 3%:
     }
   
     .hero-container {
