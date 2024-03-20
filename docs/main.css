@@ -2846,10 +2846,7 @@ html {
     width: 100%;
     margin-top: 8px;
     margin-bottom: 8px;
-  }
-
-  .faq-dropdown h4 {
-      margin-right: 10px;
+    margin-right: 10px;
   }
   
   .faq-divider {
@@ -4126,9 +4123,13 @@ html {
       font-size: 14px;
       line-height: 22px;
     }
+
+    .faq-dropdown {
+      margin-right: 35px;
+    }
   
     .faq-heading {
-      margin-right: 15px;
+      margin-right: 35px;
       font-size: 16px;
     }
   
@@ -4643,10 +4644,6 @@ html {
     .faq-dropdown-toggle {
       padding-left: 5px;
       padding-right: 5px;
-    }
-  
-    .faq-heading {
-      margin-right: 15px;
     }
   
     .grid-section {
@@ -5197,7 +5194,7 @@ html {
     }
   
     .faq-heading {
-      margin-right: 20px;
+      margin-right: 30px;
       font-size: 18px;
       line-height: 110%;
     }
