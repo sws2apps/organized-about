@@ -2261,6 +2261,7 @@ html {
     font-family: Inter, sans-serif;
     font-size: 16px;
     display: flex;
+    overflow-x: hidden;
   }
   
   .body-small-regular {
@@ -3929,8 +3930,8 @@ html {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding-left: 20px;
-      padding-right: 20px;
+      padding-left: 40px;
+      padding-right: 40px;
     }
   
     .container.tabs-padding {
@@ -4110,7 +4111,6 @@ html {
       grid-column-gap: 8px;
       grid-row-gap: 8px;
       justify-content: center;
-      margin-left: 30px;
     }
   
     .faq-cards {
@@ -4312,7 +4312,7 @@ html {
     }
   
     .title-container.margin-20 {
-      margin-left: 20px;
+      margin-left: 40px;
     }
   
     .image-container {
@@ -4358,8 +4358,8 @@ html {
     .tabs-content {
       background-color: var(--accent-100);
       margin-top: 0;
-      padding-left: 20px;
-      padding-right: 20px;
+      padding-left: 40px;
+      padding-right: 40px;
     }
   
     .image-17 {
