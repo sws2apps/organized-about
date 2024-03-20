@@ -5093,6 +5093,13 @@ html {
       left: 2%;
       right: 62%;
     }
+
+    .some-difficulties-card.face-with-rolling-eyes.emoji-text-timed, .some-difficulties-card.face-with-rolling-eyes.emoji-text-hovered {
+        width: 235px;
+        top: -335px;
+        left: -123px;
+        padding: 15px;
+    }
   
     .some-difficulties-card.crying-face.emoji-text-hovered, .some-difficulties-card.crying-face.emoji-text-timed {
       width: 235px;
