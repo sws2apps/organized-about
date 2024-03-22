@@ -37733,11 +37733,12 @@ organized.require('ix2').init({
 });
 
 const languageFiles = {
-	English: '/locales/en/strings.json',
+    English: '/locales/en/strings.json',
     Deutsch: '/locales/de-DE/strings.json',
     Français: '/locales/fr-FR/strings.json',
     Русский: '/locales/ru-RU/strings.json',
     Українська: '/locales/uk-UA/strings.json',
+    日本語: '/locales/ja-JP/strings.json',
 };
 
 const select = document.querySelector('.language-btn');
