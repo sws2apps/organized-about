@@ -37747,61 +37747,58 @@ const menu = document.querySelector('.dropdown');
 const options = document.querySelectorAll('.dropdown li a');
 
 select.addEventListener('click', () => {
-	menu.classList.toggle('show');
+    menu.classList.toggle('show');
 });
 
 options.forEach((option) => {
-	option.addEventListener('click', (event) => {
-		event.preventDefault();
+    option.addEventListener('click', (event) => {
+        event.preventDefault();
 
-		// Отримуємо вибрану мову
-		const selectedLanguage = event.target.getAttribute('data-language');
+        const selectedLanguage = event.target.getAttribute('data-language');
+        selected.textContent = selectedLanguage;
 
-		// Змінюємо текст кнопки вибору мови
-		selected.textContent = selectedLanguage;
+        const translationsPath = languageFiles[selectedLanguage];
 
-		// Отримуємо шлях до файлу з перекладом для вибраної мови
-		const translationsPath = languageFiles[selectedLanguage];
+        fetch(translationsPath)
+            .then((response) => response.json())
+            .then((translations) => {
+                document.querySelectorAll('[data-trID]').forEach((el) => {
+                    const key = el.getAttribute('data-trID');
 
-		// Завантажуємо файл з перекладом
-		fetch(translationsPath)
-			.then((response) => response.json())
-			.then((translations) => {
-				// Обходимо всі елементи з атрибутом data-tr
-				document.querySelectorAll('[data-trID]').forEach((el) => {
-					// Отримуємо ключ перекладу з атрибуту data-tr
-					const key = el.getAttribute('data-trID');
+                    if (translations[key]) {
+                        el.innerHTML = translations[key];
+                    }
+                });
+            });
 
-					// Перевіряємо, чи існує переклад для вибраної мови
-					if (translations[key]) {
-						// Якщо існує, підмінюємо текст елементу перекладом
-						el.innerHTML = translations[key];
-					}
-				});
-			});
+        menu.classList.remove('show');
+        localStorage.setItem('selectedLanguage', selectedLanguage);
 
-		// Приховуємо випадаюче меню
-		menu.classList.remove('show');
+        options.forEach((option) => {
+            option.classList.remove('active');
+        });
 
-		// Зберігаємо вибрану мову в localStorage
-		localStorage.setItem('selectedLanguage', selectedLanguage);
-
-		options.forEach((option) => {
-			option.classList.remove('active');
-		});
-
-		option.classList.add('active');
-	});
+        option.classList.add('active');
+    });
 });
 
 document.addEventListener('click', (event) => {
-	const isClickInsideMenu = menu.contains(event.target);
-	const isClickInsideSelect = select.contains(event.target);
+    const isClickInsideMenu = menu.contains(event.target);
+    const isClickInsideSelect = select.contains(event.target);
 
-	if (!isClickInsideMenu && !isClickInsideSelect) {
-		menu.classList.remove('show');
-	}
+    if (!isClickInsideMenu && !isClickInsideSelect) {
+        menu.classList.remove('show');
+    }
 });
+
+if (localStorage.getItem('selectedLanguage')) {
+    const storedLanguage = localStorage.getItem('selectedLanguage');
+    const languageOption = document.querySelector(`a[data-language="${storedLanguage}"]`);
+    languageOption.click();
+} else {
+    const defaultLanguageOption = document.querySelector('a[data-language="English"]');
+    defaultLanguageOption.click();
+}
 
 const year = document.getElementById("year")
 
