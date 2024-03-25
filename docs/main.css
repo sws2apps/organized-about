@@ -4635,11 +4635,6 @@ html {
       margin-bottom: 60px;
     }
   
-    .faq-dropdown-toggle {
-      padding-left: 5px;
-      padding-right: 5px;
-    }
-  
     .grid-section {
       padding-bottom: 80px;
     }
@@ -5528,10 +5523,6 @@ html {
       text-align: center;
       padding-left: 16px;
       padding-right: 16px;
-    }
-  
-    .heading-7 {
-      text-align: center;
     }
   
     .hiden {
