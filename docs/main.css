@@ -2846,7 +2846,6 @@ html {
     width: 100%;
     margin-top: 8px;
     margin-bottom: 8px;
-    margin-right: 10px;
   }
   
   .faq-divider {
@@ -4121,10 +4120,6 @@ html {
       padding-right: 0;
       font-size: 14px;
       line-height: 22px;
-    }
-
-    .faq-dropdown {
-      margin-right: 35px;
     }
   
     .faq-heading {
