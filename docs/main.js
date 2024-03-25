@@ -37733,12 +37733,13 @@ organized.require('ix2').init({
 });
 
 const languageFiles = {
-    English: '/locales/en/strings.json',
-    Deutsch: '/locales/de-DE/strings.json',
-    Français: '/locales/fr-FR/strings.json',
-    Русский: '/locales/ru-RU/strings.json',
-    Українська: '/locales/uk-UA/strings.json',
-    日本語: '/locales/ja-JP/strings.json',
+	English: '/locales/en/strings.json',
+	Deutsch: '/locales/de-DE/strings.json',
+	Français: '/locales/fr-FR/strings.json',
+	Malagasy: '/locales/mg-MG/strings.json',
+	Русский: '/locales/ru-RU/strings.json',
+	Українська: '/locales/uk-UA/strings.json',
+	日本語: '/locales/ja-JP/strings.json',
 };
 
 const select = document.querySelector('.language-btn');
@@ -37747,62 +37748,62 @@ const menu = document.querySelector('.dropdown');
 const options = document.querySelectorAll('.dropdown li a');
 
 select.addEventListener('click', () => {
-    menu.classList.toggle('show');
+	menu.classList.toggle('show');
 });
 
 options.forEach((option) => {
-    option.addEventListener('click', (event) => {
-        event.preventDefault();
+	option.addEventListener('click', (event) => {
+		event.preventDefault();
 
-        const selectedLanguage = event.target.getAttribute('data-language');
-        selected.textContent = selectedLanguage;
+		const selectedLanguage = event.target.getAttribute('data-language');
+		selected.textContent = selectedLanguage;
 
-        const translationsPath = languageFiles[selectedLanguage];
+		const translationsPath = languageFiles[selectedLanguage];
 
-        fetch(translationsPath)
-            .then((response) => response.json())
-            .then((translations) => {
-                document.querySelectorAll('[data-trID]').forEach((el) => {
-                    const key = el.getAttribute('data-trID');
+		fetch(translationsPath)
+			.then((response) => response.json())
+			.then((translations) => {
+				document.querySelectorAll('[data-trID]').forEach((el) => {
+					const key = el.getAttribute('data-trID');
 
-                    if (translations[key]) {
-                        el.innerHTML = translations[key];
-                    }
-                });
-            });
+					if (translations[key]) {
+						el.innerHTML = translations[key];
+					}
+				});
+			});
 
-        menu.classList.remove('show');
-        localStorage.setItem('selectedLanguage', selectedLanguage);
+		menu.classList.remove('show');
+		localStorage.setItem('selectedLanguage', selectedLanguage);
 
-        options.forEach((option) => {
-            option.classList.remove('active');
-        });
+		options.forEach((option) => {
+			option.classList.remove('active');
+		});
 
-        option.classList.add('active');
-    });
+		option.classList.add('active');
+	});
 });
 
 document.addEventListener('click', (event) => {
-    const isClickInsideMenu = menu.contains(event.target);
-    const isClickInsideSelect = select.contains(event.target);
+	const isClickInsideMenu = menu.contains(event.target);
+	const isClickInsideSelect = select.contains(event.target);
 
-    if (!isClickInsideMenu && !isClickInsideSelect) {
-        menu.classList.remove('show');
-    }
+	if (!isClickInsideMenu && !isClickInsideSelect) {
+		menu.classList.remove('show');
+	}
 });
 
 if (localStorage.getItem('selectedLanguage')) {
-    const storedLanguage = localStorage.getItem('selectedLanguage');
-    const languageOption = document.querySelector(`a[data-language="${storedLanguage}"]`);
-    languageOption.click();
+	const storedLanguage = localStorage.getItem('selectedLanguage');
+	const languageOption = document.querySelector(`a[data-language="${storedLanguage}"]`);
+	languageOption.click();
 } else {
-    const defaultLanguageOption = document.querySelector('a[data-language="English"]');
-    defaultLanguageOption.click();
+	const defaultLanguageOption = document.querySelector('a[data-language="English"]');
+	defaultLanguageOption.click();
 }
 
-const year = document.getElementById("year")
+const year = document.getElementById('year');
 
-function getYear () {
+function getYear() {
 	const date = new Date();
 	const currentYear = date.getFullYear();
 	return currentYear;
