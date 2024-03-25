@@ -3928,8 +3928,7 @@ html {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding-left: 40px;
-      padding-right: 40px;
+      padding: 0% 4%;
     }
   
     .container.tabs-padding {
@@ -4344,16 +4343,15 @@ html {
       margin-bottom: -52px;
       margin-right: -20px;
       padding-bottom: 52px;
-      padding-left: 36px;
-      padding-right: 36px;
+      padding-left: 4%;
+      padding-right: 4%;
       overflow: scroll;
     }
   
     .tabs-content {
       background-color: var(--accent-100);
       margin-top: 0;
-      padding-left: 40px;
-      padding-right: 40px;
+      padding: 0% 4%;
     }
   
     .image-17 {
