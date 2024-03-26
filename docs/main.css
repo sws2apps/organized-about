@@ -5895,3 +5895,173 @@ html {
   .noto-sans {
     font-family: 'Noto Sans', sans-serif !important;
   }
+
+   /* SECTION MEET THE APP */
+   .section-meet-the-app {
+	margin-bottom: 100px;
+	padding: 0 0 50px 0;
+	width: 100%;
+}
+.video-and-heading-box {
+	padding-top: 45px;
+	display: flex;
+	justify-content: space-between;
+}
+.video-meet-the-app {
+	border-radius: 22.77px;
+}
+.animated-heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	transition: 3s;
+}
+.animated-heading p {
+	margin: 5px 0 0 0;
+    font-weight: 800;
+    line-height: 54.46px;
+    font-size: 45px;
+    font-family: Inter;
+    color: var(--accent-100);
+    text-shadow: 
+        -1px -1px 0 #8391BD,  
+        1px -1px 0 #8391BD,
+        -1px 1px 0 #8391BD,
+        1px 1px 0 #8391BD;
+}
+.animated-heading p.animated-p-opacity100 {
+	color: var(--accent-350);
+	text-shadow: none;
+}
+.animated-heading p.animated-p-opacity30{
+	opacity: 0;
+}
+.animated-heading p.animated-p-opacity80 {
+	opacity: 0;
+}
+.animated-heading p.animated-p-opacity30:first-of-type.animate {
+	animation: slide1 2s ease forwards .3s;
+}
+.animated-heading p.animated-p-opacity80:nth-of-type(2).animate {
+	animation: slide3 2s ease forwards .3s;
+}
+.animated-heading p.animated-p-opacity80:nth-of-type(4).animate {
+	animation: slide4 2s ease forwards .3s
+}
+.animated-heading p.animated-p-opacity30:last-of-type.animate {
+	animation: slide2 2s ease forwards .3s;
+}
+.not-animate {
+	opacity: 0;
+}
+@keyframes slide1 {
+	0% {
+		color: var(--accent-350);
+		text-shadow: none;
+		opacity: 0;
+		transform: translateY(119px);
+	}
+	100% {
+		opacity: 0.3;
+		transform: translateY(0);
+		color: var(--accent-100);
+		text-shadow: 
+			-1px -1px 0 #8391BD,  
+			1px -1px 0 #8391BD,
+			-1px 1px 0 #8391BD,
+			1px 1px 0 #8391BD;
+	}
+}
+@keyframes slide2 {
+	0% {
+		opacity: 0;
+		transform: translateY(-119px);
+	}
+	100% {
+		opacity: 0.3;
+		transform: translateY(0);
+	}
+}
+@keyframes slide3 {
+	0% {
+		opacity: 0;
+		transform: translateY(59px);
+	}
+	100% {
+		opacity: 0.8;
+		transform: translateY(0);
+	}
+}
+@keyframes slide4 {
+	0% {
+		opacity: 0;
+		transform: translateY(-59px);
+	}
+	100% {
+		opacity: 0.8;
+		transform: translateY(0);
+	}
+}
+@media screen and (max-width: 991px) {
+	.section-meet-the-app {
+		margin-bottom: 50px;
+		padding: 0 0 25px 0;
+	}
+	.video-and-heading-box {
+		padding-top: 25px;
+		display: flex;
+		align-items: center;
+	}
+	.video-meet-the-app {
+		width: 50%;
+		height: 250px;
+		margin-bottom: 15px;
+	}
+	.animated-heading p {
+		line-height: 45px;
+		font-size: 36px;
+	}
+}
+@media screen and (max-width: 676px) {
+	.section-meet-the-app {
+		margin-bottom: 50px;
+		padding: 0 0 25px 0;
+	}
+	.video-and-heading-box {
+		padding-top: 25px;
+		display: flex;
+		align-items: center;
+	}
+	.video-meet-the-app {
+		width: 50%;
+		height: 250px;
+		margin-bottom: 15px;
+	}
+	.animated-heading p {
+		line-height: 45px;
+		font-size: 28px;
+	}
+}
+	
+@media screen and (max-width: 544px) {
+	.section-meet-the-app {
+		margin-bottom: 30px;
+		padding: 0 0 15px 0;
+	}
+	.video-and-heading-box {
+		padding-top: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.video-meet-the-app {
+		width: 100%;
+		height: 200px;
+		margin-bottom: 15px;
+	}
+	.animated-heading p {
+		line-height: 30px;
+		font-size: 28px;
+	}
+}

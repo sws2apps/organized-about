@@ -37818,3 +37818,47 @@ function getYear() {
 	return currentYear;
 }
 year.innerText = getYear();
+
+// SECTION MEET THE APP
+document.addEventListener("DOMContentLoaded", function() {
+	const animatedHeading = document.querySelector('.animated-p-opacity100');
+	const windowHeight = window.innerHeight;
+
+	let isAnimated = false;
+
+	function checkAnimation() {
+		const rect = animatedHeading.getBoundingClientRect();
+		const distanceFromTop = rect.top - windowHeight;
+		const distanceFromBottom = windowHeight - rect.bottom;
+		if (distanceFromTop <= windowHeight && distanceFromBottom <= windowHeight && distanceFromTop <= 0 ) {
+			startAnimation();
+		}
+		else {
+			resetAnimation();
+		}
+	}
+
+	function startAnimation() {
+		const paragraphs = document.querySelectorAll('.animated-heading p');
+		if (!isAnimated) {
+			paragraphs.forEach((p) => {
+				p.classList.add('animate');
+				p.classList.remove('not-animate');
+			});
+			isAnimated = true;
+		}
+	}
+
+	function resetAnimation() {
+		const paragraphs = document.querySelectorAll('.animated-heading p');
+		if (isAnimated) {
+			paragraphs.forEach((p) => {
+				p.classList.remove('animate');
+				p.classList.add('not-animate');
+			});
+			isAnimated = false;
+		}
+	}
+
+	window.addEventListener('scroll', checkAnimation);
+});
