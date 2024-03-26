@@ -37732,6 +37732,8 @@ organized.require('ix2').init({
 	},
 });
 
+const notoSansLanguages = ['日本語', 'Malagasy'];
+
 const languageFiles = {
 	English: '/locales/en/strings.json',
 	Deutsch: '/locales/de-DE/strings.json',
@@ -37746,59 +37748,66 @@ const select = document.querySelector('.language-btn');
 const selected = document.querySelector('.language-name');
 const menu = document.querySelector('.dropdown');
 const options = document.querySelectorAll('.dropdown li a');
+const body = document.querySelector('body');
 
 select.addEventListener('click', () => {
-	menu.classList.toggle('show');
+  menu.classList.toggle('show');
 });
 
 options.forEach((option) => {
-	option.addEventListener('click', (event) => {
-		event.preventDefault();
+  option.addEventListener('click', (event) => {
+    event.preventDefault();
 
-		const selectedLanguage = event.target.getAttribute('data-language');
-		selected.textContent = selectedLanguage;
+    const selectedLanguage = event.target.getAttribute('data-language');
+    selected.textContent = selectedLanguage;
 
-		const translationsPath = languageFiles[selectedLanguage];
+    const translationsPath = languageFiles[selectedLanguage];
 
-		fetch(translationsPath)
-			.then((response) => response.json())
-			.then((translations) => {
-				document.querySelectorAll('[data-trID]').forEach((el) => {
-					const key = el.getAttribute('data-trID');
+    if (notoSansLanguages.includes(selectedLanguage)) {
+      body.classList.add('noto-sans');
+    } else {
+      body.classList.remove('noto-sans');
+    }
 
-					if (translations[key]) {
-						el.innerHTML = translations[key];
-					}
-				});
-			});
+    fetch(translationsPath)
+      .then((response) => response.json())
+      .then((translations) => {
+        document.querySelectorAll('[data-trID]').forEach((el) => {
+          const key = el.getAttribute('data-trID');
 
-		menu.classList.remove('show');
-		localStorage.setItem('selectedLanguage', selectedLanguage);
+          if (translations[key]) {
+            el.innerHTML = translations[key];
+          }
+        });
+      });
 
-		options.forEach((option) => {
-			option.classList.remove('active');
-		});
+    menu.classList.remove('show');
+    localStorage.setItem('selectedLanguage', selectedLanguage);
 
-		option.classList.add('active');
-	});
+    options.forEach((option) => {
+      option.classList.remove('active');
+    });
+
+    option.classList.add('active');
+  });
 });
 
 document.addEventListener('click', (event) => {
-	const isClickInsideMenu = menu.contains(event.target);
-	const isClickInsideSelect = select.contains(event.target);
+  const isClickInsideMenu = menu.contains(event.target);
+  const isClickInsideSelect = select.contains(event.target);
 
-	if (!isClickInsideMenu && !isClickInsideSelect) {
-		menu.classList.remove('show');
-	}
+  if (!isClickInsideMenu && !isClickInsideSelect) {
+    menu.classList.remove('show');
+  }
 });
 
 if (localStorage.getItem('selectedLanguage')) {
-	const storedLanguage = localStorage.getItem('selectedLanguage');
-	const languageOption = document.querySelector(`a[data-language="${storedLanguage}"]`);
-	languageOption.click();
+  const storedLanguage = localStorage.getItem('selectedLanguage');
+  const languageOption = document.querySelector(`a[data-language="${storedLanguage}"]`);
+  languageOption.click();
 } else {
-	const defaultLanguageOption = document.querySelector('a[data-language="English"]');
-	defaultLanguageOption.click();
+  const defaultLanguageOption = document.querySelector('a[data-language="English"]');
+  defaultLanguageOption.click();
 }
 
 const year = document.getElementById('year');
