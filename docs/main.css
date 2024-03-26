@@ -740,7 +740,7 @@ html {
     display: none !important;
   }
   
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1050px) {
     .w-container {
       max-width: 728px;
     }
@@ -1907,7 +1907,7 @@ html {
     position: static;
   }
   
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1050px) {
     .w-nav[data-collapse="medium"] .w-nav-menu {
       display: none;
     }
@@ -3908,7 +3908,7 @@ html {
     position: relative;
   }
   
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1050px) {
     .body-regular {
       font-size: 14px;
       line-height: 18px;
@@ -5631,7 +5631,7 @@ html {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
   
-  @media screen and (max-width: 991px) {
+  @media screen and (max-width: 1050px) {
     #w-node-efcc8280-215d-8335-7bb4-6494b57d9ec0-45a7fbb8 {
       grid-area: span 1 / span 2 / span 1 / span 2;
     }
