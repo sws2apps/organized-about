@@ -4304,10 +4304,6 @@ html {
       grid-row-gap: 3px;
     }
   
-    .title-container.margin-20 {
-      margin-left: 40px;
-    }
-  
     .image-container {
       flex-direction: column;
       justify-content: center;
