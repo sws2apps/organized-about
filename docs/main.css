@@ -4105,7 +4105,7 @@ html {
     }
   
     .faq-section {
-      grid-column-gap: 8px;
+      grid-column-gap: 35px;
       grid-row-gap: 8px;
       justify-content: center;
     }
