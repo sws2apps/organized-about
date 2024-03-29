@@ -4303,7 +4303,6 @@ html {
     .title-container {
       grid-column-gap: 3px;
       grid-row-gap: 3px;
-      padding: 0% 4%;
     }
   
     .image-container {
