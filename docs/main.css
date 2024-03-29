@@ -4181,6 +4181,7 @@ html {
     .footer-image-container {
       display: block;
       width: 30px;
+      height: auto;
       margin: -5px 0px;
     }
   
@@ -4694,12 +4695,6 @@ html {
       grid-row-gap: 12px;
     }
   
-    .footer-image-container {
-      display: block;
-      width: 30px;
-      margin: -5px 0px;
-    }
-  
     .emoji-card-heading {
       font-size: 13px;
     }
@@ -5093,8 +5088,6 @@ html {
   
     .some-difficulties-card.sad-but-relieved-face.emoji-text-hovered, .some-difficulties-card.sad-but-relieved-face.emoji-text-timed {
       width: 231px;
-      /* padding-left: 10px;
-      padding-right: 10px; */
       left: -72px;
       top: -97px;
       padding: 15px;
@@ -5109,9 +5102,6 @@ html {
       top: 468px;
       left: -257px;
       padding: 15px;
-      /* grid-column-gap: 3px;
-      grid-row-gap: 3px;
-      padding-left: 10px; */
     }
   
     .some-difficulties-card.pensive-face.emoji-text-timed {
@@ -5140,8 +5130,6 @@ html {
       left: -229px;
       top: 395px;
       padding: 15px;
-      /* padding-left: 10px;
-      padding-right: 10px; */
     }
   
     .some-difficulties-card.lushed-face.emoji-text-timed, .some-difficulties-card.lushed-face.emoji-text-hovered {
@@ -5194,7 +5182,7 @@ html {
     }
   
     .footer-upper-container {
-      border-radius: 8px;
+      border-radius: 10px;
       position: relative;
     }
   
@@ -5247,9 +5235,7 @@ html {
     }
   
     .footer-image-container {
-      display: block;
-      width: 30px;
-      margin: -5px 0px;
+      width: 25px;
     }
   
     .features-grid {
@@ -5277,10 +5263,6 @@ html {
     .features-card-grid-container.flex-vertical {
       border-radius: 8px;
       padding: 0 5px;
-    }
-  
-    .footer-title-contaner {
-      flex-direction: column;
     }
   
     .footer-heading-interaction-container {
