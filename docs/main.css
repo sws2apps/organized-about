@@ -2373,7 +2373,7 @@ html {
     background-color: var(--accent-main);
     border-radius: 40px;
     flex-direction: column;
-    padding: 120px 40px;
+    padding: 120px 0px;
     display: flex;
     position: relative;
   }
