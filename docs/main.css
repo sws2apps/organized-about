@@ -2856,14 +2856,9 @@ html {
   .faq-dropdown-toggle {
     white-space: pre-wrap;
     justify-content: space-between;
-    padding: 16px 16px 16px 0;
+    padding: 16px 30px 16px 0;
     display: flex;
   }
-  
-/*   .faq-link {
-    color: var(--accent-dark);
-    text-decoration: none;
-  } */
   
   .grid-section {
     z-index: 5;
