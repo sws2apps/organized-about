@@ -4081,7 +4081,7 @@ html {
     .faq-section {
       grid-column-gap: 35px;
       grid-row-gap: 8px;
-      justify-content: center;
+/*       justify-content: center; */
     }
   
     .faq-cards {
@@ -4127,6 +4127,7 @@ html {
     .footer-upper-container {
       border-radius: 21px;
       padding: 15px;
+      justify-content: center;
     }
   
     .footer-container {
