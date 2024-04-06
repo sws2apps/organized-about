@@ -4278,7 +4278,6 @@ html {
     .title-container {
       grid-column-gap: 3px;
       grid-row-gap: 3px;
-      padding: 0 4%;
     }
   
     .image-container {
@@ -4299,6 +4298,7 @@ html {
   
     .features-section {
       width: 100%;
+      padding: 0 4%;
     }
   
     .tab-link-style {
@@ -4316,15 +4316,12 @@ html {
       margin-bottom: -52px;
       margin-right: -20px;
       padding-bottom: 52px;
-      padding-left: 4%;
-      padding-right: 4%;
       overflow: scroll;
     }
   
     .tabs-content {
       background-color: var(--accent-100);
       margin-top: 0;
-      padding: 0% 4%;
     }
   
     .image-17 {
