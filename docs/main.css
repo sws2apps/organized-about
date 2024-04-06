@@ -4251,12 +4251,14 @@ html {
     .section-advantages {
       align-items: flex-start;
       margin-bottom: 100px;
+      width: 100%;
     }
   
     .advanteges-grid {
       grid-template-rows: auto auto;
       grid-template-columns: 1fr 1fr;
       overflow: hidden;
+      width: 100%;
     }
   
     .image-8 {
