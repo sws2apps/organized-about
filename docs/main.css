@@ -2745,6 +2745,7 @@ html {
     justify-content: space-between;
     align-items: flex-start;
     display: flex;
+    width: 100%;
   }
   
   .digital-heading-container {
