@@ -3850,6 +3850,7 @@ html {
     height: 100vh;
     display: flex;
     position: relative;
+    touch-action: no-action;
   }
   
   ._404-button-container {
