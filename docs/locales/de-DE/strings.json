@@ -184,8 +184,6 @@
     "tr_faqDesc": "Häufig gestellte Fragen",
     "tr_tryTestMode": "Probier die App im Testmodus aus, um die Funktionen sofort zu erleben! Keine Registrierung erforderlich, aber beachte bitte, dass deine Änderungen nach einem Seitenneuladen zurückgesetzt werden.",
     "tr_404Desc": "Die von dir gesuchte Seite existiert nicht",
-    "tr_oops": "Hoppla",
-    "tr_backHome": "Zurück zur Startseite",
     "tr_someDifficulties": "Einige Schwierigkeiten",
     "tr_thatOrganizedSolves": "die Organized löst",
     "tr_isApprovedByBethelA": "Sure! Here's the translation of the given text in German, using the informal Du-form, with all the tags kept:\n\n<p>Unsere Software ist nicht verpflichtend zu nutzen, aber sie entspricht allen aktuellen Richtlinien der Leitenden Körperschaft. Bethel erstellt keine Liste von genehmigter oder verbotener Software, ähnlich wie das Prinzip, das in unserer Organisation zur Haltung gegenüber Unterhaltungsmöglichkeiten dargelegt ist: <a href='https://www.jw.org/en/jehovahs-witnesses/faq/do-jehovahs-witnesses-ban-certain-entertainment/'>Unsere Organisation überprüft keine spezifischen Filme, Bücher oder Lieder, um zu bestimmen, was Einzelpersonen vermeiden sollten</a>.</p><p>Die Nutzung inoffizieller theokratischer Apps, die von Zeugen Jehovas für Zeugen Jehovas entwickelt wurden, unterliegt der Entscheidung des Ältestenkörpers jeder einzelnen Versammlung, unter Berücksichtigung der örtlichen Gegebenheiten und der organisatorischen Richtlinien. Daher ist es unwahrscheinlich, dass die Organized App offiziell von der Organisation der Zeugen Jehovas genehmigt wird, da es keine offizielle Liste von theokratischen Apps gibt, die von Bethel genehmigt wurden.</p><p>Die Nutzung von Organized ist jedoch nicht verboten. Wir stellen immer sicher, dass die Anwendung, ihre Sicherheit und Anwendungsfälle mit allen aktuellen Richtlinien des Treuen und Verständigen Sklaven übereinstimmen. Darüber hinaus sind viele Verkündiger, die sowohl vor Ort als auch aus der Ferne für verschiedene Bethels weltweit tätig sind, direkt an der Entwicklung der Organized-Anwendung beteiligt.</p><p>Wenn du weitere Fragen oder Bedenken hast, zögere nicht, mehr über die Anwendung auf unserer <a href='https://github.com/sws2apps/organized-app'>GitHub Repository</a> zu erfahren oder die ausführliche Anleitung <a href='https://guide.organized-app.com'>Wie benutze ich</a> zu lesen. Der Code der App ist Open Source, was eine vollständige Transparenz aller Hintergrundvorgänge gewährleistet. Jeder kann den Code überprüfen, um Transparenz sicherzustellen. Alle Informationen zu Versammlungen und Benutzern bleiben jedoch immer privat und sicher.</p>",
@@ -193,5 +191,7 @@
     "tr_tr_reliableaAsistant": "Dein zuverlässiger theokratischer Assistent",
     "tr_textGuide": "Textanleitung",
     "tr_reportsAboutPage": "Berichte",
-    "tr_appointedBrothersAboutPage": "Appointed brothers"
+    "tr_appointedBrothersAboutPage": "Appointed brothers",
+    "tr_404oops": "Hoppla",
+    "tr_backHome404": "Zurück zur Startseite"
 }
