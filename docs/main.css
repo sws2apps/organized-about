@@ -5510,9 +5510,10 @@ html {
   
     ._404-bg {
       background-image: url("img/bg-image-normal.svg");
-/*       background-position: 76% 23%; */
       background-attachment: scroll;
       top: 10px;
+      background-size: 310%;
+      background-repeat: no-repeat;
     }
   
     ._404-main-content {
