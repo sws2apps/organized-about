@@ -127,7 +127,6 @@
     "tr_viewEverything": "Consultez les attributions de réunion, les différents horaires et participez aux activités de l'assemblée.",
     "tr_pioneers": "Pionniers",
     "tr_trackMinistryTime": "Suivez le temps de prédication et les études bibliques. Soumettez des rapports de service et consultez les statistiques.",
-    "tr_appointedBrothers": "Frères nommés",
     "tr_createSchedules": "Créez des programmes, des événements, collaborez avec d'autres, générez et soumettez des rapports.",
     "tr_midweekStudents": "Élèves de la réunion de semaine",
     "tr_viewMeetingAssignments": "Consultez les programmes et vos attributions pour la réunion 'Vie chrétienne et ministère'.",
@@ -143,7 +142,6 @@
     "tr_forAllPioneers": "Pour les pionniers auxiliaires, permanents et spéciaux",
     "tr_autoImport": "Importation automatique",
     "tr_directFromEPUB": "Directement à partir du fichier .epub ou du site web jw.org",
-    "tr_reports": "Rapports",
     "tr_serviceAttendanceCongregation": "Service, assistance, assemblée, etc.",
     "tr_strongSecurity": "Sécurité renforcée",
     "tr_allDataEncrypted": "Toutes les données sont cryptées, personne ne peut y accéder sans votre autorisation.",
@@ -186,12 +184,14 @@
     "tr_faqDesc": "Foire aux questions",
     "tr_tryTestMode": "Essayez l'application de démonstration pour découvrir ses fonctionnalités immédiatement ! Aucune inscription n'est requise, mais veuillez noter que vos modifications seront perdues après avoir rechargé la page.",
     "tr_404Desc": "La page que vous recherchez n'existe pas",
-    "tr_oops": "Oups",
-    "tr_backHome": "Retour à l'accueil",
     "tr_someDifficulties": "Quelques difficultés",
     "tr_thatOrganizedSolves": "que Organized résout",
     "tr_isApprovedByBethelA": "<p>Notre logiciel n'est pas une directive à respecter, mais il est conforme à toutes les directives en vigueur des autorités dirigeantes. De la même manière que le Béthel ne prend pas parti pour les divertissements : <a href='https://www.jw.org/en/jehovahs-witnesses/faq/do-jehovahs-witnesses-ban-certain-entertainment/'>Y a-t-il des films, des livres ou des chansons qui sont interdits aux Témoins de Jéhovah ?</a>, le Béthel ne crée pas de liste de logiciels approuvés ou interdits.</p><p>L'utilisation des applications théocratiques non officielles développées par les Témoins de Jéhovah pour les Témoins de Jéhovah est soumise au choix du collège des anciens de chaque assemblée, en tenant compte des circonstances locales et des directives organisationnelles. Par conséquent, étant donné qu'il n'existe pas de liste officielle d'applications théocratiques approuvées par Bethel, il est peu probable que l'application Organized soit officiellement autorisée par l'organisation des Témoins de Jéhovah.</p><p>Cependant, l'utilisation de Organized n'est pas interdite. Nous nous assurons toujours d'aligner l'application, sa sécurité et ses cas d'utilisation avec toutes les dernières directives de l'Esclave Fidèle et Avisé. De plus, de nombreux éditeurs béthélites ou télévolontaire du monde entier sont directement impliqués dans le développement de l'application Organized.</p><p>Si vous avez d'autres questions ou préoccupations, n'hésitez pas à chercher à en apprendre plus via notre <a href='https://github.com/sws2apps/organized-app'>dépôt GitHub</a> ou sur notre <a href='https://guide.organized-app.com'>Guide d'utilisation</a>. Le code de l'application est open source, garantissant une transparence totale de toutes ses opérations en arrière-plan. Tout le monde peut examiner le code afin de s'assurer de sa transparence. Cependant, toutes les informations de l'assemblée et de l'utilisateur restent toujours privées et sécurisées.</p>",
     "tr_meetTheApp": "Découvrez l'application Organized",
     "tr_tr_reliableaAsistant": "Votre assistant théocratique fiable",
-    "tr_textGuide": "Guide d'utilisation"
+    "tr_textGuide": "Guide d'utilisation",
+    "tr_reportsAboutPage": "Rapports",
+    "tr_appointedBrothersAboutPage": "Frères nommés",
+    "tr_404oops": "Oups",
+    "tr_backHome404": "Retour à l'accueil"
 }

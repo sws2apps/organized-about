@@ -127,7 +127,6 @@
     "tr_viewEverything": "Просматривай назначения на собрание, разные графики и участвуй в событиях собрания.",
     "tr_pioneers": "Пионеры",
     "tr_trackMinistryTime": "Отслеживай время служения и библейские изучения. Предоставляй отчеты и просматривай статистику.",
-    "tr_appointedBrothers": "Назначенные братья",
     "tr_createSchedules": "Создавай графики, события, сотрудничай с другими, генерируй и предоставляй отчеты.",
     "tr_midweekStudents": "Ученики собрания в будни",
     "tr_viewMeetingAssignments": "Смотри свои задания на собрание «Наша жизнь и служение».",
@@ -143,7 +142,6 @@
     "tr_forAllPioneers": "Для вспомогательных, общих и специальных пионеров",
     "tr_autoImport": "Автоимпорт",
     "tr_directFromEPUB": "Напрямую из файла .epub или сайта jw.org",
-    "tr_reports": "Отчёты",
     "tr_serviceAttendanceCongregation": "Служение, посещаемость, собрание и т.д.",
     "tr_strongSecurity": "Надёжная защита",
     "tr_allDataEncrypted": "Все данные зашифрованы, никто не получит к ним доступ без твоего разрешения.",
@@ -186,12 +184,14 @@
     "tr_faqDesc": "Часто задаваемые вопросы",
     "tr_tryTestMode": "Попробуйте приложение в тестовом режиме, чтобы попробовать его функции прямо сейчас! Регистрация не требуется, но обрати внимание, что твои изменения будут сброшены после перезагрузки страницы.",
     "tr_404Desc": "Страницы, которую ты ищешь, не существует",
-    "tr_oops": "Ой-ой",
-    "tr_backHome": "Назад на главную",
     "tr_someDifficulties": "Некоторые трудности,",
     "tr_thatOrganizedSolves": "которые решает Organized",
     "tr_isApprovedByBethelA": "<p>Our software is not mandatory to use, but it complies with all up-to-date Governing Body directions. Bethel doesn't create a list of approved or forbidden software, similar to the principle outlined in our organization's stance on entertainment choices: <a href='https://www.jw.org/en/jehovahs-witnesses/faq/do-jehovahs-witnesses-ban-certain-entertainment/'>Our organization doesn’t review specific movies, books, or songs so as to rule on what individuals should avoid '</a>.</p><p>The usage of unofficial theocratic apps developed by Jehovah's Witnesses for Jehovah's Witnesses is subject to the choice of the body of elders of each congregation, considering local circumstances and organizational guidelines. Therefore, since there is no such thing as an official list of theocratic apps approved by Bethel, the Organized app is unlikely to be officially authorized by the organization of Jehovah's Witnesses.</p><p>However, using Organized is not forbidden. We always make sure to align the application, its security, and use cases with all the latest directions from the Faithful and Discreet Slave. Moreover, many publishers serving both onsite and remotely for different Bethels worldwide are directly involved into development of the Organized application.</p><p>If you have any further questions or concerns, don't hesitate to learn more about the application on our <a href='https://github.com/sws2apps/organized-app'>GitHub repository</a> or detailed  text <a href='https://guide.organized-app.com'>How to use guide</a>. The app's code is open source, ensuring full transparency of all its background operations. Anyone can review the code to ensure transparency. However, all congregation and user information always remains private and secure.</p>",
     "tr_meetTheApp": "Meet the Organized app",
     "tr_tr_reliableaAsistant": "Your reliable theocratic assistant",
-    "tr_textGuide": "Text guide"
+    "tr_textGuide": "Text guide",
+    "tr_reportsAboutPage": "Отчёты",
+    "tr_appointedBrothersAboutPage": "Назначенные братья",
+    "tr_404oops": "Ой-ой",
+    "tr_backHome404": "Назад на главную"
 }
