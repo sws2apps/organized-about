@@ -37732,15 +37732,22 @@ organized.require('ix2').init({
 	},
 });
 
-const notoSansLanguages = ['日本語', 'Malagasy'];
+const notoSansLanguages = ['日本語', 'Malagasy', 'հայերեն', 'नेपाली'];
 
 const languageFiles = {
-	English: '/locales/en/strings.json',
+	հայերեն: '/locales/hy-AM/strings.json',
 	Deutsch: '/locales/de-DE/strings.json',
+	English: '/locales/en/strings.json',
 	Français: '/locales/fr-FR/strings.json',
+	Magyar: '/locales/hu-HU/strings.json',
+	Italiano: '/locales/it-IT/strings.json',
 	Malagasy: '/locales/mg-MG/strings.json',
+	Polski: '/locales/pl-PL/strings.json',
+	PortuguêsBrasil: '/locales/pt-BR/strings.json',
 	Русский: '/locales/ru-RU/strings.json',
+	Türkçe: '/locales/tr-TR/strings.json',
 	Українська: '/locales/uk-UA/strings.json',
+	नेपाली: '/locales/ne-NP/strings.json',
 	日本語: '/locales/ja-JP/strings.json',
 };
 
