@@ -193,5 +193,6 @@
     "tr_reportsAboutPage": "Звіти",
     "tr_appointedBrothersAboutPage": "Призначені брати",
     "tr_404oops": "Отакої",
-    "tr_backHome404": "На головну"
+    "tr_backHome404": "На головну",
+    "tr_404PageName": "Page not found"
 }

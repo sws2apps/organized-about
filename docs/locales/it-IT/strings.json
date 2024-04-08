@@ -193,5 +193,6 @@
     "tr_reportsAboutPage": "Reports",
     "tr_appointedBrothersAboutPage": "Appointed brothers",
     "tr_404oops": "Oops",
-    "tr_backHome404": "Back home"
+    "tr_backHome404": "Back home",
+    "tr_404PageName": "Page not found"
 }
