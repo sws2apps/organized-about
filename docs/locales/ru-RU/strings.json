@@ -193,5 +193,6 @@
     "tr_reportsAboutPage": "Отчёты",
     "tr_appointedBrothersAboutPage": "Назначенные братья",
     "tr_404oops": "Ой-ой",
-    "tr_backHome404": "Назад на главную"
+    "tr_backHome404": "Назад на главную",
+    "tr_404PageName": "Page not found"
 }
