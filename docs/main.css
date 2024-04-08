@@ -356,7 +356,6 @@ html {
     border-radius: 12px;
     list-style: none;
     right: 0;
-    
   }
   
   ul.dropdown li {
@@ -380,6 +379,18 @@ html {
   .dropdown.show {
     display: block;
     opacity: 1;
+    max-height: 425px;
+    overflow-y: auto;
+  }
+
+  .dropdown.show::-webkit-scrollbar {
+    width: 5px;
+    height: 0;
+  }
+
+  .dropdown.show::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 5px; 
   }
   
   ul, ol {
