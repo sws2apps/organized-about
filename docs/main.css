@@ -750,7 +750,15 @@ html {
   .w-hidden-main {
     display: none !important;
   }
-  
+
+  .last-link {
+    text-decoration: none;
+  }
+
+  .last-link:link, .last-link:visited {
+    var(--grey-350)
+  }
+
   @media screen and (max-width: 1050px) {
     .w-container {
       max-width: 728px;
