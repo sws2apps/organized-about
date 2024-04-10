@@ -756,7 +756,7 @@ html {
   }
 
   .last-link:link, .last-link:visited {
-    var(--grey-350)
+    color: var(--grey-350);
   }
 
   @media screen and (max-width: 1050px) {
