@@ -58,7 +58,7 @@
     "tr_allInOne": "Tout en une seule application",
     "tr_oneAppForEveryone": "Une application pour les frères nommés et les proclamateurs. Chacun a sa boîte à outils.",
     "tr_stayUpdated": "Restez informé",
-    "tr_viewAll": "Voir tout les programmes, participations.",
+    "tr_viewAll": "Voir tous les programmes, devoirs, rapports, mises à jour et bien plus encore.",
     "tr_trulyUseful": "Une application vraiment utile",
     "tr_forEveryoneInTheCongregation": "pour tous les membres de l'assemblée",
     "tr_forAppointedBrothers": "Pour les frères nommés",
@@ -194,5 +194,6 @@
     "tr_appointedBrothersAboutPage": "Frères nommés",
     "tr_404oops": "Oups",
     "tr_backHome404": "Retour à l'accueil",
-    "tr_404PageName": "Page not found"
+    "tr_404PageName": "Page introuvable",
+    "tr_telegramGroup": "Groupe Telegram"
 }
