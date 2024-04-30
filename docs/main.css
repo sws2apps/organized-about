@@ -4570,7 +4570,23 @@ html {
     }
   
     .some-difficulties-section {
-      height: 61em;
+      padding-left: 20px;
+      padding-right: 20px;
+      overflow: hidden;
+      height: 1300px;
+    }
+
+    .emoji {
+      position: static;
+    }
+
+    .emoji.crying-face {
+      width: 100%;
+      position: relative;
+      bottom: 7%;
+      top: auto;
+      right: auto;
+      left: auto;
     }
   
     .emoji.grimacing-face {
@@ -4580,48 +4596,145 @@ html {
     }
   
     .emoji.pensive-face {
-      top: 86%;
-      bottom: 6%;
+      width: 100%;
+      position: relative;
+      top: auto;
+      bottom: 37%;
+      left: auto;
+      right: auto;
     }
   
     .emoji.sad-but-relieved-face {
-      top: 35%;
-      left: 26%;
-      right: 57%;
+      position: relative;
+      top: auto;
+      bottom: 17%;
+      left: auto;
+      right: auto;
+    }
+
+    .emoji.face-with-rolling-eyes {
+      width: 100%;
+      position: relative;
+      top: auto;
+      bottom: 27%;
+      left: auto;
+      right: auto;
+    }
+
+    .lottie-emoji.deg-emoji-1 {
+      position: relative;
+      left: 80%;
+      right: auto;
+      top: 34px;
+      bottom: auto;
+    }
+
+    .emoji.fearful-face {
+      width: 100%;
+      position: relative;
+      top: auto;
+      bottom: 47%;
+      left: auto;
+      right: auto;
+    }
+
+    .emoji.grimacing-face {
+      position: relative;
+      top: auto;
+      bottom: 57%;
+      left: auto;
+      right: auto;
+    }
+
+    .emoji.lushed-face {
+      width: 100%;
+      position: relative;
+      top: auto;
+      bottom: 67%;
+      left: auto;
+      right: auto;
     }
   
-    .some-difficulties-card.crying-face.emoji-text-hovered, .some-difficulties-card.crying-face.emoji-text-timed {
-      left: -217%;
+    .some-difficulties-card.crying-face.emoji-text-hovered {
+      width: 100%;
+      position: static;
+    }
+
+    .some-difficulties-card.crying-face.emoji-text-timed {
+      display: none;
     }
   
-    .some-difficulties-card.sad-but-relieved-face.emoji-text-hovered, .some-difficulties-card.sad-but-relieved-face.emoji-text-timed {
-      left: -130%;
+    .some-difficulties-card.sad-but-relieved-face.emoji-text-hovered {
+      width: 100%;
+      position: static;
+    }
+
+    .some-difficulties-card.sad-but-relieved-face.emoji-text-timed {
+      display: none;
+    }
+
+    .some-difficulties-card.fearful-face.emoji-text-hovered {
+      width: 100%;
+      position: relative;
+      top: auto;
+      left: auto;
     }
   
-    .some-difficulties-card.fearful-face.emoji-text-timed, .some-difficulties-card.fearful-face.emoji-text-hovered {
-      width: 248px;
-      left: -168px;
+    .some-difficulties-card.fearful-face.emoji-text-timed {
+      display: none;
+    }
+
+    .some-difficulties-card.face-with-rolling-eyes.emoji-text-hovered {
+      width: 100%;
+      position: relative;
+      top: auto;
+      left: auto;
     }
   
-    .some-difficulties-card.face-with-rolling-eyes.emoji-text-timed, .some-difficulties-card.face-with-rolling-eyes.emoji-text-hovered {
-      width: 223px;
-      top: -144px;
-      left: -174px;
-      padding: 15px;
+    .some-difficulties-card.face-with-rolling-eyes.emoji-text-timed {
+      display: none;
+    }
+
+    .some-difficulties-card.pensive-face.emoji-text-hovered {
+      position: relative;
+      width: 100%;
+      top: auto;
+      left: auto;
+    }
+
+    .some-difficulties-card.pensive-face.emoji-text-timed {
+      display: none;
+    }
+
+    .some-difficulties-card.grimacing-face.emoji-text-hovered {
+      width: 100%;
+      height: auto;
+      position: relative;
+      top: auto;
+      left: auto;
     }
   
-    .some-difficulties-card.grimacing-face.emoji-text-timed, .some-difficulties-card.grimacing-face.emoji-text-hovered {
-      width: 222px;
-      height: 125px;
+    .some-difficulties-card.grimacing-face.emoji-text-timed {
+      display: none;
+    }
+
+    .some-difficulties-card.lushed-face.emoji-text-hovered {
+      width: 100%;
+      position: relative;
+      top: auto;
+      left: auto;
     }
   
-    .some-difficulties-card.lushed-face.emoji-text-timed, .some-difficulties-card.lushed-face.emoji-text-hovered {
-      width: 217px;
-      left: 10%;
+    .some-difficulties-card.lushed-face.emoji-text-timed {
+      display: none;
     }
   
     .relative-container {
-      height: 100em;
+      grid-column-gap: 40px;
+      grid-row-gap: 55px;
+      flex-flow: column;
+      display: flex;
+      position: static;
     }
   
     .not-only-digital-section {
@@ -4822,22 +4935,42 @@ html {
     .sub-heading.text-accent-150 {
       font-size: 16px;
     }
+
+    .lottie-emoji.deg-emoji-3, .lottie-emoji.deg-emoji-7 {
+      width: 100px;
+      position: relative;
+      top: 25%;
+      left: 80%;
+      right: auto;
+    }
   
     .lottie-emoji.deg-emoji-5 {
-      left: -11%;
-      right: -37%;
+      width: 100px;
+      position: relative;
+      top: 28%;
+      left: 80%;
+      right: auto;
     }
   
     .lottie-emoji.deg-emoji-6 {
-      top: -267%;
+      width: 100px;
+      position: relative;
+      top: 30%;
+      left: 60%;
     }
   
     .lottie-emoji.deg-emoji-2 {
-      top: -93%;
+      width: 100px;
+      position: relative;
+      top: 25%;
+      left: 60%;
     }
   
     .lottie-emoji.deg-emoji-4 {
-      top: -49%;
+      width: 100px;
+      position: relative;
+      top: 25%;
+      left: 60%;
     }
   
     .image-23 {
@@ -5033,7 +5166,7 @@ html {
       font-size: 5.3vw;
     }
   
-    .some-difficulties-section {
+    /* .some-difficulties-section {
       height: 86.3em;
       padding-bottom: 200px;
       overflow: hidden;
@@ -5146,7 +5279,7 @@ html {
       top: 54px;
       left: 19px;
       padding: 15px;
-    }
+    } */
   
     .not-only-digital-section {
       grid-column-gap: 50px;
@@ -5427,7 +5560,7 @@ html {
       font-size: 18px;
     }
   
-    .lottie-emoji.deg-emoji-1 {
+    /* .lottie-emoji.deg-emoji-1 {
       top: -57px;
       left: 74px;
       width: 100px;
@@ -5475,7 +5608,7 @@ html {
       top: -239px;
       left: -102px;
       right: 75px;
-    }
+    } */
   
     .image-20 {
       width: 32px;
