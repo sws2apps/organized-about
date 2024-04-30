@@ -37746,6 +37746,7 @@ const languageFiles = {
 	PortuguêsBrasil: '/locales/pt-BR/strings.json',
 	Русский: '/locales/ru-RU/strings.json',
 	Türkçe: '/locales/tr-TR/strings.json',
+	Tagalog: '/locales/tl-PH/strings.json',
 	Українська: '/locales/uk-UA/strings.json',
 	नेपाली: '/locales/ne-NP/strings.json',
 	日本語: '/locales/ja-JP/strings.json',
