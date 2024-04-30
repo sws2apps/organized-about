@@ -37743,6 +37743,7 @@ const languageFiles = {
 	Italiano: '/locales/it-IT/strings.json',
 	Malagasy: '/locales/mg-MG/strings.json',
 	Polski: '/locales/pl-PL/strings.json',
+	Português: '/locales/pt-PT/strings.json',
 	PortuguêsBrasil: '/locales/pt-BR/strings.json',
 	Русский: '/locales/ru-RU/strings.json',
 	Türkçe: '/locales/tr-TR/strings.json',
