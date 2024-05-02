@@ -32,7 +32,7 @@
     "tr_autoAssignQ": "A aplicação tem capacidade de designação automática?",
     "tr_autoAssignA": "Sim, pode agendar partes de uma reunião automaticamente, com base no histórico e qualificações de designações anteriores do publicador. Isto é chamado “Autofill”. Após usá-lo, ainda é possível editar ou criar manualmente as designações.",
     "tr_congregationDataQ": "Os dados da congregação podem ser exportados?",
-    "tr_congregationDataA": "Of course! You can export schedules, reports, assignment form, etc. to printed PDF templates (either official ones like S-13, S-140, S-89 or custom-designed templates)",
+    "tr_congregationDataA": "Claro! Pode exportar agendas, relatórios, formulário de designação, etc. para modelos PDF impressos (sejam modelos oficiais como S-13, S-140, S-89 ou modelos personalizados).",
     "tr_testAppQ": "Posso testar a aplicação sem me registar?",
     "tr_testAppA": "Claro! Explore os recursos da aplicação usando o <a href='#'>Ambiente de Teste</a> e veja as capacidades com informações imaginárias de uma congregação preenchidas. Sinta-se à vontade para conferir, mas lembre-se de que qualquer informação inserida será apagada após uma atualização da página.",
     "tr_whichLangsQ": "Em que idiomas o Organized está disponível?",
