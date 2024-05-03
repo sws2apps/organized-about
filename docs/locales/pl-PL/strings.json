@@ -194,5 +194,10 @@
     "tr_404oops": "Uups",
     "tr_backHome404": "Back home",
     "tr_404PageName": "Nie znaleziono strony",
-    "tr_telegramGroup": "Grupa Telegram"
+    "tr_telegramGroup": "Grupa Telegram",
+    "tr_aboutCardAssignments": "My assignments",
+    "tr_aboutCardSchedules": "Meeting schedules",
+    "tr_aboutCardMidweek": "Midweek Meeting",
+    "tr_aboutCardWeekend": "Weekend Meeting",
+    "tr_aboutCardRefresh": "Refresh schedules"
 }
