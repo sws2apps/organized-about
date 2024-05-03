@@ -194,5 +194,10 @@
     "tr_404oops": "Oups",
     "tr_backHome404": "Retour à l'accueil",
     "tr_404PageName": "Page introuvable",
-    "tr_telegramGroup": "Groupe Telegram"
+    "tr_telegramGroup": "Groupe Telegram",
+    "tr_aboutCardAssignments": "My assignments",
+    "tr_aboutCardSchedules": "Meeting schedules",
+    "tr_aboutCardMidweek": "Midweek Meeting",
+    "tr_aboutCardWeekend": "Weekend Meeting",
+    "tr_aboutCardRefresh": "Refresh schedules"
 }
