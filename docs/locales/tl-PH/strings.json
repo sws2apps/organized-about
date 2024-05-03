@@ -194,5 +194,10 @@
     "tr_404oops": "Oops",
     "tr_backHome404": "Bumalik sa home",
     "tr_404PageName": "Page not found",
-    "tr_telegramGroup": "Telegram group"
+    "tr_telegramGroup": "Telegram group",
+    "tr_aboutCardAssignments": "My assignments",
+    "tr_aboutCardSchedules": "Meeting schedules",
+    "tr_aboutCardMidweek": "Midweek Meeting",
+    "tr_aboutCardWeekend": "Weekend Meeting",
+    "tr_aboutCardRefresh": "Refresh schedules"
 }
