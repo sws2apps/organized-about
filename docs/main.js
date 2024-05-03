@@ -37871,3 +37871,25 @@ document.addEventListener("DOMContentLoaded", function() {
 
 	window.addEventListener('scroll', checkAnimation);
 });
+
+
+
+// Rotation animation for top card
+
+const card = document.querySelector('.card');
+card.style.transform = 'perspective(800px) rotateZ(10deg)';
+
+card.addEventListener('mousemove', (e) => {
+const cardRect = card.getBoundingClientRect();
+const x = (e.clientX - cardRect.left - cardRect.width / 2) * -1;
+const y = e.clientY - cardRect.top - cardRect.height / 2;
+
+const rotateX = (y / cardRect.height) * 30;
+const rotateY = (x / cardRect.width) * 30;
+
+card.style.transform = `rotateZ(10deg) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+});
+
+card.addEventListener('mouseleave', () => {
+card.style.transform = 'perspective(800px) rotateZ(10deg) rotateX(0deg) rotateY(0deg)';
+});
