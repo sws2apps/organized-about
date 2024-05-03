@@ -3275,7 +3275,7 @@ html {
       margin: 0px 8px;
   }
 
-  .card {
+   .card {
     border: 1px solid #D5DFFD;
     border-radius: 16px;
     background-color: #FEFEFE;
@@ -3285,9 +3285,9 @@ html {
     user-select: none;
     width: 415px;
     height: 365px;
-    perspective: 800px; /* Додано перспективу */
-    transform-style: preserve-3d; /* Додано стиль трансформації */
-    transition: transform 2s ease-out; /* Додано транзишн */
+    perspective: 800px;
+    transform-style: preserve-3d;
+    transition: transform 2s ease-out;
     position: relative;
     left: -8.5%;
     top: -6.5%;
@@ -3311,10 +3311,35 @@ html {
     border-bottom: 1px solid rgba(28, 28, 28, 0.15);
   }
 
+  .menuPart:hover {
+    display: flex;
+    align-items: center;
+    padding: 11px 11px 11px 20px;
+    border-bottom: 1px solid rgba(28, 28, 28, 0.15);
+    background-color:  rgba(	242, 245, 255, 1);
+  }
+
+  .menuPart:hover .smallNumberOnCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 14px;
+    background-color: #D5DFFD;
+    border-radius: 16px;
+    margin-left: auto;
+  }
+
   .menuPartLast {
     display: flex;
     align-items: center;
     padding: 11px 11px 11px 20px;
+  }
+
+  .menuPartLast:hover {
+    display: flex;
+    align-items: center;
+    padding: 11px 11px 11px 20px;
+    background-color:  rgba(	242, 245, 255, 1);
   }
 
   .menuPart p.regularFont, .menuPartLast p.regularFont {
