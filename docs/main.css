@@ -3240,7 +3240,97 @@ html {
     align-items: center;
     display: flex;
   }
-  
+
+  .info {
+    padding: 0px 8px;
+  }
+
+  .head h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #3B4CA3;
+  }
+
+  .info h1, .info .h1, .info h2, .info .h2, .info h3, .info .h3, .info h4, .info .h4, .info h5, .info .h5, .info .regularFont, .info .smallFont {
+    margin: 0;
+  }
+
+  .info hr {
+    color: black;
+  }
+
+  .info p.regularFont {
+      font-size: 19px;
+      font-weight: 500;
+  }
+
+  .info p.smallFont {
+      font-size: 17px;
+      font-weight: 600;
+      color: #5968b2;
+  }
+
+  .info hr.solid {
+      border-top: 1px solid #D5DFFD;
+      margin: 0px 8px;
+  }
+
+  .card {
+    border: 1px solid #D5DFFD;
+    border-radius: 16px;
+    background-color: #FEFEFE;
+    box-shadow: 
+    10px 20px 60px rgba(28, 28, 28, 0.2),
+    10px 20px 60px rgba(28, 28, 28, 0.2);
+    user-select: none;
+    width: 415px;
+    height: 365px;
+    perspective: 800px; /* Додано перспективу */
+    transform-style: preserve-3d; /* Додано стиль трансформації */
+    transition: transform 2s ease-out; /* Додано транзишн */
+    position: relative;
+    left: -8.5%;
+    top: -6.5%;
+  } 
+
+  .head {
+      width: auto;
+      height: 67px;
+      border-radius: 8px;
+      background-color: #D5DFFD;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 8px 8px 12px 8px;
+  }
+
+  .menuPart {
+    display: flex;
+    align-items: center;
+    padding: 11px 11px 11px 20px;
+    border-bottom: 1px solid rgba(28, 28, 28, 0.15);
+  }
+
+  .menuPartLast {
+    display: flex;
+    align-items: center;
+    padding: 11px 11px 11px 20px;
+  }
+
+  .menuPart p.regularFont, .menuPartLast p.regularFont {
+    margin-left: 18px;
+  }
+
+  .smallNumberOnCard {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4px 14px;
+      background-color: #F2F5FF;
+      border-radius: 16px;
+      margin-left: auto;
+  }
+
   .pre-footer-button-container {
     grid-column-gap: 16px;
     grid-row-gap: 16px;
