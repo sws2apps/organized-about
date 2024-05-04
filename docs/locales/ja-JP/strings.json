@@ -194,5 +194,10 @@
     "tr_404oops": "おっと",
     "tr_backHome404": "ホームに戻る",
     "tr_404PageName": "ページが見つかりません",
-    "tr_telegramGroup": "Telegram グループ"
+    "tr_telegramGroup": "Telegram グループ",
+    "tr_aboutCardAssignments": "My assignments",
+    "tr_aboutCardSchedules": "Meeting schedules",
+    "tr_aboutCardMidweek": "Midweek Meeting",
+    "tr_aboutCardWeekend": "Weekend Meeting",
+    "tr_aboutCardRefresh": "Refresh schedules"
 }

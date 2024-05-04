@@ -194,5 +194,10 @@
     "tr_404oops": "Отакої",
     "tr_backHome404": "На головну",
     "tr_404PageName": "Сторінку не знайдено",
-    "tr_telegramGroup": "Telegram група"
+    "tr_telegramGroup": "Telegram група",
+    "tr_aboutCardAssignments": "Мої завдання",
+    "tr_aboutCardSchedules": "Графіки зібрань",
+    "tr_aboutCardMidweek": "Зібрання серед тижня",
+    "tr_aboutCardWeekend": "Зібрання на вихідних",
+    "tr_aboutCardRefresh": "Оновити графіки"
 }
