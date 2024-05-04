@@ -193,11 +193,12 @@
     "tr_appointedBrothersAboutPage": "Appointed brothers",
     "tr_404oops": "Hoppla",
     "tr_backHome404": "Zurück zur Startseite",
-    "tr_404PageName": "Page not found",
-    "tr_telegramGroup": "Telegram group",
-    "tr_aboutCardAssignments": "My assignments",
-    "tr_aboutCardSchedules": "Meeting schedules",
-    "tr_aboutCardMidweek": "Midweek Meeting",
-    "tr_aboutCardWeekend": "Weekend Meeting",
-    "tr_aboutCardRefresh": "Refresh schedules"
+    "tr_404PageName": "Seite nicht gefunden",
+    "tr_telegramGroup": "Telegram Gruppe",
+    "tr_aboutCardAssignments": "Meine Aufgaben",
+    "tr_aboutCardSchedules": "Zusammenkunftspläne",
+    "tr_aboutCardMidweek": "Zusammenkunft unter der Woche",
+    "tr_aboutCardWeekend": "Zusammenkunft am Wochenende",
+    "tr_aboutCardRefresh": "Aktualisiere die Pläne",
+    "tr_aboutCardMeetingstr_aboutCardMeetings": "Zusammenkünfte"
 }

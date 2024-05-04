@@ -199,5 +199,6 @@
     "tr_aboutCardSchedules": "Meeting schedules",
     "tr_aboutCardMidweek": "Midweek Meeting",
     "tr_aboutCardWeekend": "Weekend Meeting",
-    "tr_aboutCardRefresh": "Refresh schedules"
+    "tr_aboutCardRefresh": "Refresh schedules",
+    "tr_aboutCardMeetingstr_aboutCardMeetings": "Meetings"
 }
