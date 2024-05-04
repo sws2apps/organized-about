@@ -195,10 +195,10 @@
     "tr_backHome404": "Back home",
     "tr_404PageName": "Nie znaleziono strony",
     "tr_telegramGroup": "Grupa Telegram",
-    "tr_aboutCardAssignments": "My assignments",
-    "tr_aboutCardSchedules": "Meeting schedules",
-    "tr_aboutCardMidweek": "Midweek Meeting",
-    "tr_aboutCardWeekend": "Weekend Meeting",
-    "tr_aboutCardRefresh": "Refresh schedules",
-    "tr_aboutCardMeetingstr_aboutCardMeetings": "Meetings"
+    "tr_aboutCardAssignments": "Moje zadania",
+    "tr_aboutCardSchedules": "Harmonogramy spotkań",
+    "tr_aboutCardMidweek": "Zebrania w tygodniu",
+    "tr_aboutCardWeekend": "Zebranie w weekend",
+    "tr_aboutCardRefresh": "Odśwież harmonogramy",
+    "tr_aboutCardMeetings": "Zebrania"
 }
