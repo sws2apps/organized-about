@@ -3284,7 +3284,7 @@ html {
     10px 20px 60px rgba(28, 28, 28, 0.2);
     user-select: none;
     width: 415px;
-    height: 365px;
+    height: 385px;
     perspective: 800px;
     transform-style: preserve-3d;
     transition: transform 2s ease-out;
@@ -3305,18 +3305,20 @@ html {
   }
 
   .menuPart {
-    display: flex;
-    align-items: center;
-    padding: 11px 11px 11px 20px;
+    padding: 6px 0px;
     border-bottom: 1px solid rgba(28, 28, 28, 0.15);
   }
 
-  .menuPart:hover {
+  .hoverOnCard {
     display: flex;
     align-items: center;
-    padding: 11px 11px 11px 20px;
-    border-bottom: 1px solid rgba(28, 28, 28, 0.15);
+    padding: 8px 11px 8px 20px;
+  }
+
+  .menuPart:hover .hoverOnCard {
     background-color:  rgba(	242, 245, 255, 1);
+    border-radius: 6px;
+    color: #3B4CA3;;
   }
 
   .menuPart:hover .smallNumberOnCard {
@@ -3329,17 +3331,24 @@ html {
     margin-left: auto;
   }
 
-  .menuPartLast {
-    display: flex;
-    align-items: center;
-    padding: 11px 11px 11px 20px;
+  .menuPart:hover svg path {
+    fill: #3B4CA3;
   }
 
-  .menuPartLast:hover {
-    display: flex;
-    align-items: center;
-    padding: 11px 11px 11px 20px;
+  .menuPartLast {
+    padding: 6px 0px;
+    border-bottom: 1px solid rgba(28, 28, 28, 0.15);
+    border-bottom: none;
+  }
+
+  .menuPartLast:hover .hoverOnCard {
     background-color:  rgba(	242, 245, 255, 1);
+    border-radius: 6px;
+    color: #3B4CA3;;
+  }
+
+  .menuPartLast:hover svg path {
+    fill: #3B4CA3;
   }
 
   .menuPart p.regularFont, .menuPartLast p.regularFont {
