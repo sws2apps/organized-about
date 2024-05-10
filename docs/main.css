@@ -3241,7 +3241,7 @@ html {
     display: flex;
   }
 
-  .info {
+  .menuPart, .menuPartLast {
     padding: 0px 8px;
   }
 
@@ -3251,31 +3251,33 @@ html {
     color: #3B4CA3;
   }
 
-  .info h1, .info .h1, .info h2, .info .h2, .info h3, .info .h3, .info h4, .info .h4, .info h5, .info .h5, .info .regularFont, .info .smallFont {
+  .menuPart h1, .menuPart .h1, .menuPart h2, .menuPart .h2, .menuPart h3, .menuPart .h3, .menuPart h4, .menuPart .h4, .menuPart h5, .menuPart .h5, .menuPart .regularFont, .menuPart .smallFont {
     margin: 0;
   }
 
-  .info hr {
+  .menuPart hr, .menuPartLast hr {
     color: black;
   }
 
-  .info p.regularFont {
+  .menuPart p.regularFont, .menuPartLast p.regularFont {
       font-size: 19px;
       font-weight: 400;
+      margin-bottom: 0;
   }
 
-  .info p.smallFont {
+  .menuPart p.smallFont, .menuPartLast p.smallFont {
       font-size: 17px;
       font-weight: 600;
       color: #5968b2;
   }
 
-  .info hr.solid {
+  .menuPart hr.solid, .menuPartLast hr.solid {
       border-top: 1px solid #D5DFFD;
       margin: 0px 8px;
   }
 
-   .card {
+
+  .cardContent {
     border: 1px solid #D5DFFD;
     border-radius: 16px;
     background-color: #FEFEFE;
@@ -3286,27 +3288,41 @@ html {
     width: 415px;
     height: 385px;
     perspective: 800px;
-    transform-style: preserve-3d;
     transition: transform 2s ease-out;
     position: relative;
-    left: -8.5%;
-    top: -6.5%;
+    top: -4vh;
+    left: -26.5%;
+    transform-style: preserve-3d;
+    transform: rotate(9.85deg);
   } 
 
   .head {
-      width: auto;
-      height: 67px;
-      border-radius: 8px;
-      background-color: #D5DFFD;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 8px 8px 12px 8px;
+    width: auto;
+    height: 67px;
+    border-radius: 8px;
+    background-color: #D5DFFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 8px 12px 8px;
+    transform: translateZ(6px);
+    transition: 0.3s;
+  }
+
+  .devider {
+    height: 1px;
+    background-color: #D5DFFD;
+    margin: 0 12px;
   }
 
   .menuPart {
     padding: 6px 0px;
-    border-bottom: 1px solid rgba(213, 223, 253);
+    margin: 0px 12px;
+  }  
+
+  .menuPart:hover {
+    transform: translateZ(6px);
+    transition: 0.3s;
   }
 
   .hoverOnCard {
@@ -3318,7 +3334,7 @@ html {
   .menuPart:hover .hoverOnCard {
     background-color:  rgba(	242, 245, 255, 1);
     border-radius: 6px;
-    color: #3B4CA3;;
+    color: #3B4CA3; 
   }
 
   .menuPart:hover .smallNumberOnCard {
@@ -3337,14 +3353,18 @@ html {
 
   .menuPartLast {
     padding: 6px 0px;
-    border-bottom: 1px solid rgba(28, 28, 28, 0.15);
-    border-bottom: none;
+    margin: 0px 12px;
+  }
+
+  .menuPartLast:hover {
+    transform: translateZ(6px);
+    transition: 0.6s ease-out;
   }
 
   .menuPartLast:hover .hoverOnCard {
     background-color:  rgba(	242, 245, 255, 1);
     border-radius: 6px;
-    color: #3B4CA3;;
+    color: #3B4CA3;
   }
 
   .menuPartLast:hover svg path {
@@ -3356,13 +3376,13 @@ html {
   }
 
   .smallNumberOnCard {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 4px 14px;
-      background-color: #F2F5FF;
-      border-radius: 16px;
-      margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 14px;
+    background-color: #F2F5FF;
+    border-radius: 16px;
+    margin-left: auto;
   }
 
   .pre-footer-button-container {
