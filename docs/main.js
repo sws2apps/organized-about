@@ -37874,22 +37874,60 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-// Rotation animation for top card
+/*************************************
+ 
+ *  Rotation animation for top card  *
+ 
+**************************************/
 
-const card = document.querySelector('.card');
-card.style.transform = 'perspective(800px) rotateZ(10deg)';
 
-card.addEventListener('mousemove', (e) => {
-const cardRect = card.getBoundingClientRect();
-const x = (e.clientX - cardRect.left - cardRect.width / 2) * -1;
-const y = e.clientY - cardRect.top - cardRect.height / 2;
+function mapNumberRange(n, a, b, c, d) {
+	return ((n - a) * (d - c)) / (b - a) + c
+  }
+  
+  
+  function setup() {
+	Array.from(document.querySelectorAll('.card')).map((cardEl) =>
+	  initCard(cardEl)
+	)
+  }
+  
+  
+  function initCard(card) {
+	const cardContent = card.querySelector('.cardContent')
+    
+	card.addEventListener('mousemove', (e) => {
+	  const pointerX = e.clientX
+	  const pointerY = e.clientY
+  
+	  const cardRect = card.getBoundingClientRect()
+  
+	  const halfWidth = cardRect.width / 2
+	  const halfHeight = cardRect.height / 2
+  
+	  const cardCenterX = cardRect.left + halfWidth
+	  const cardCenterY = cardRect.top + halfHeight
+  
+	  const deltaX = pointerX - cardCenterX
+	  const deltaY = pointerY - cardCenterY
+  
+	  const distanceToCenter = Math.sqrt(deltaX * deltaX + deltaY * deltaY)
+  
+	  const maxDistance = Math.max(halfWidth, halfHeight)
+  
+	  const degree = mapNumberRange(distanceToCenter, 0, maxDistance, 0, 10)
 
-const rotateX = (y / cardRect.height) * 30;
-const rotateY = (x / cardRect.width) * 30;
+    const rx = mapNumberRange(deltaY, 0, halfWidth, 0, 1)
+    const ry = mapNumberRange(deltaX, 0, halfHeight, 0, 1)
 
-card.style.transform = `rotateZ(10deg) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
-});
-
-card.addEventListener('mouseleave', () => {
-card.style.transform = 'perspective(800px) rotateZ(10deg) rotateX(0deg) rotateY(0deg)';
-});
+    cardContent.style.transform = `rotateZ(10deg) perspective(400px) rotate3d(${-rx}, ${ry}, 0, ${degree}deg)`
+	  
+  
+	})
+  
+	card.addEventListener('mouseleave', () => {
+	  cardContent.style = null
+	})
+  }
+  
+  setup()
