@@ -3285,10 +3285,9 @@ html {
     10px 20px 60px rgba(28, 28, 28, 0.2),
     10px 20px 60px rgba(28, 28, 28, 0.2);
     user-select: none;
-    width: 415px;
+    width: 435px;
     height: 385px;
-    perspective: 800px;
-    transition: transform 2s ease-out;
+    transition: transform 2.7s ease-out;
     position: relative;
     top: -4vh;
     left: -26.5%;
