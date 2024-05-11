@@ -200,5 +200,12 @@
     "tr_aboutCardMidweek": "Встреча в будние дни",
     "tr_aboutCardWeekend": "Встреча на выходных",
     "tr_aboutCardRefresh": "Обновить расписания",
-    "tr_aboutCardMeetings": "Встречи"
+    "tr_aboutCardMeetings": "Встречи",
+    "tr_aboutCardMinistry": "Ministry",
+    "tr_aboutCardTime": "Time",
+    "tr_aboutCardStart": "Start",
+    "tr_aboutCardReport": "Report",
+    "tr_aboutCardServicetr_aboutCardServiceYearYear": "Service year",
+    "tr_aboutCardPublicWitnessing": "Public witnessing",
+    "tr_aboutCardAuxiliaryApplication": "Auxiliary pioneer application"
 }
