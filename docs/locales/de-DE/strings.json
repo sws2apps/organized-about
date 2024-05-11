@@ -200,5 +200,12 @@
     "tr_aboutCardMidweek": "Zusammenkunft unter der Woche",
     "tr_aboutCardWeekend": "Zusammenkunft am Wochenende",
     "tr_aboutCardRefresh": "Aktualisiere die Pläne",
-    "tr_aboutCardMeetings": "Zusammenkünfte"
+    "tr_aboutCardMeetings": "Zusammenkünfte",
+    "tr_aboutCardMinistry": "Ministry",
+    "tr_aboutCardTime": "Time",
+    "tr_aboutCardStart": "Start",
+    "tr_aboutCardReport": "Report",
+    "tr_aboutCardServicetr_aboutCardServiceYearYear": "Service year",
+    "tr_aboutCardPublicWitnessing": "Public witnessing",
+    "tr_aboutCardAuxiliaryApplication": "Auxiliary pioneer application"
 }
