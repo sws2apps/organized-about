@@ -5926,6 +5926,151 @@ html {
       margin-right: auto;
       display: flex;
     }
+
+    .menuPart, .menuPartLast {
+    padding: 0px 4px;
+  }
+  
+  .head h2 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #3B4CA3;
+  }
+  
+  .menuPart h1, .menuPart .h1, .menuPart h2, .menuPart .h2, .menuPart h3, .menuPart .h3, .menuPart h4, .menuPart .h4, .menuPart h5, .menuPart .h5, .menuPart .regularFont, .menuPart .smallFont {
+    margin: 0;
+  }
+  
+  .menuPart p.regularFont {
+      font-size: 9px;
+      font-weight: 500;
+      margin-bottom: 0;
+  }
+  
+  .menuPart p.smallFont{
+      font-size: 8px;
+      font-weight: 500;
+      color: #5968b2;
+  }
+
+  .timer span {
+    font-size: 12px;
+  }
+  
+  .menuPart svg, .timer svg{
+    height: 15px;
+    width: 15px;
+  }
+  
+  .card {
+    width: 203px;
+    height: 207px;
+    min-width: 200px;
+    position: relative;
+    right: 60px
+  }
+
+  .card2 {
+    width: 203px;
+    height: 207px;
+    min-width: 200px;
+    position: relative;
+    left: 50px
+  }
+  
+  .cardContent {
+    border: 1px solid #D5DFFD;
+    border-radius: 6px;
+    background-color: #FEFEFE;
+    box-shadow: 
+    10px 20px 60px rgba(28, 28, 28, 0.2),
+    10px 20px 60px rgba(28, 28, 28, 0.2);
+    user-select: none;
+    transition: none;
+    position: block;
+    top: 0;
+    left: 0;
+    transform-style: none;
+    transform: none;
+    height: 100%;
+  } 
+  
+  .head {
+    width: auto;
+    height: 35px;
+    min-height: 0px;
+    border-radius: 4px;
+    background-color: #D5DFFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 3px 6px 3px;
+    transform: none;
+    transition: none;
+  }
+
+  .timer {
+    display: flex;
+    margin: 0px 8px 6px 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  .time {
+    font-size: 14px;
+    font-weight: 600;
+    color: #3B4CA3;
+    margin: 0 10px;
+  }
+
+  .btn {
+      height: 35px;
+      width: 103px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4px;
+      background-color: #F2F5FF;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #3B4CA3;
+      cursor: pointer;
+      user-select: none;
+  }
+  
+  .devider {
+    height: 1px;
+    border-bottom: 1px solid #D5DFFD;
+    margin: 0 10px;
+  }
+  
+  .menuPart {
+    padding: 0px 0px;
+    margin: 0px 2px;
+  }  
+  
+  .hoverOnCard {
+    display: flex;
+    align-items: center;
+    padding: 4px 9px 4px 9px;
+  }
+  
+  .menuPart p.regularFont, .menuPartLast p.regularFont {
+    margin-left: 10px;
+  }
+  
+  .smallNumberOnCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12%;
+    height: auto;
+    aspect-ratio: 1.2 / 0.6;
+    background-color: #F2F5FF;
+    border-radius: 16px;
+    margin-left: auto;
+  }
   
     .sub-heading.text-grey-400 {
       text-align: center;
