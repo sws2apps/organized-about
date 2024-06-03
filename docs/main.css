@@ -4951,10 +4951,10 @@ html {
     }
   
     .some-difficulties-section {
-      padding-left: 20px;
-      padding-right: 20px;
-      overflow: hidden;
-      height: 1300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+    height: 100%;
     }
 
     .emoji {
@@ -5112,7 +5112,7 @@ html {
   
     .relative-container {
       grid-column-gap: 40px;
-      grid-row-gap: 55px;
+/*       grid-row-gap: 55px; */
       flex-flow: column;
       display: flex;
       position: static;
