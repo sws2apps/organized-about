@@ -37895,7 +37895,12 @@ function mapNumberRange(n, a, b, c, d) {
   
   function initCard(card) {
 	const cardContent = card.querySelector('.cardContent')
-    
+
+        if (window.innerWidth < 1050) {
+		cardContent.style.transform = null
+		return
+	  }
+	  
 	card.addEventListener('mousemove', (e) => {
 	  const pointerX = e.clientX
 	  const pointerY = e.clientY
