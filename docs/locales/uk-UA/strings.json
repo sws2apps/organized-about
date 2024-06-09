@@ -205,8 +205,8 @@
     "tr_aboutCardTime": "Час",
     "tr_aboutCardStart": "Старт",
     "tr_aboutCardReport": "Звіт",
-    "tr_aboutCardServicetr_aboutCardServiceYearYear": "Службовий рік",
     "tr_aboutCardPublicWitnessing": "Служіння в громадських місцях",
     "tr_aboutCardAuxiliaryApplication": "Заява на допоміжного піонера",
-    "tr_timerLabelStart": "Старт"
+    "tr_aboutCardServiceYear": "Службовий рік",
+    "tr_aboutCardAllTerritories": "Всі території"
 }
