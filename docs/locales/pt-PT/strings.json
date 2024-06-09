@@ -205,8 +205,8 @@
     "tr_aboutCardTime": "Tempo",
     "tr_aboutCardStart": "Iniciar",
     "tr_aboutCardReport": "Relatório",
-    "tr_aboutCardServicetr_aboutCardServiceYearYear": "Ano de serviço",
     "tr_aboutCardPublicWitnessing": "Testemunho público",
     "tr_aboutCardAuxiliaryApplication": "Petição de pioneiro auxiliar",
-    "tr_timerLabelStart": "Iniciar"
+    "tr_aboutCardServiceYear": "Ano de serviço",
+    "tr_aboutCardAllTerritories": "Todos os territórios"
 }
