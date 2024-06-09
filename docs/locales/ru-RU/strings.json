@@ -205,8 +205,8 @@
     "tr_aboutCardTime": "Время",
     "tr_aboutCardStart": "Старт",
     "tr_aboutCardReport": "Отчёт",
-    "tr_aboutCardServicetr_aboutCardServiceYearYear": "Служебный год",
     "tr_aboutCardPublicWitnessing": "Public witnessing",
     "tr_aboutCardAuxiliaryApplication": "Заявление на подсобного пионера",
-    "tr_timerLabelStart": "Старт"
+    "tr_aboutCardServiceYear": "Служебный год",
+    "tr_aboutCardAllTerritories": "Все участки"
 }
