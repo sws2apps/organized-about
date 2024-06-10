@@ -2377,6 +2377,7 @@ html {
   .h1-xxl {
     font-size: 86px;
     line-height: 105%;
+    text-shadow: 0px 2px 35px rgb(69, 81, 140)
   }
   
   .h1-xxl.white {
