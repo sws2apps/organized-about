@@ -186,7 +186,6 @@
     "tr_thatOrganizedSolves": "que Organized résout",
     "tr_isApprovedByBethelA": "<p>Notre logiciel n'est pas une directive à respecter, mais il est conforme à toutes les directives en vigueur des autorités dirigeantes. De la même manière que le Béthel ne prend pas parti pour les divertissements : <a href='https://www.jw.org/en/jehovahs-witnesses/faq/do-jehovahs-witnesses-ban-certain-entertainment/'>Y a-t-il des films, des livres ou des chansons qui sont interdits aux Témoins de Jéhovah ?</a>, le Béthel ne crée pas de liste de logiciels approuvés ou interdits.</p><p>L'utilisation des applications théocratiques non officielles développées par les Témoins de Jéhovah pour les Témoins de Jéhovah est soumise au choix du collège des anciens de chaque assemblée, en tenant compte des circonstances locales et des directives organisationnelles. Par conséquent, étant donné qu'il n'existe pas de liste officielle d'applications théocratiques approuvées par Bethel, il est peu probable que l'application Organized soit officiellement autorisée par l'organisation des Témoins de Jéhovah.</p><p>Cependant, l'utilisation de Organized n'est pas interdite. Nous nous assurons toujours d'aligner l'application, sa sécurité et ses cas d'utilisation avec toutes les dernières directives de l'Esclave Fidèle et Avisé. De plus, de nombreux éditeurs béthélites ou télévolontaire du monde entier sont directement impliqués dans le développement de l'application Organized.</p><p>Si vous avez d'autres questions ou préoccupations, n'hésitez pas à chercher à en apprendre plus via notre <a href='https://github.com/sws2apps/organized-app'>dépôt GitHub</a> ou sur notre <a href='https://guide.organized-app.com'>Guide d'utilisation</a>. Le code de l'application est open source, garantissant une transparence totale de toutes ses opérations en arrière-plan. Tout le monde peut examiner le code afin de s'assurer de sa transparence. Cependant, toutes les informations de l'assemblée et de l'utilisateur restent toujours privées et sécurisées.</p>",
     "tr_meetTheApp": "Découvrez l'application Organized",
-    "tr_tr_reliableaAsistant": "Votre assistant théocratique fiable",
     "tr_textGuide": "Guide d'utilisation",
     "tr_reportsAboutPage": "Reports",
     "tr_appointedBrothersAboutPage": "Frères nommés",
@@ -207,5 +206,6 @@
     "tr_aboutCardPublicWitnessing": "Public witnessing",
     "tr_aboutCardAuxiliaryApplication": "Auxiliary pioneer application",
     "tr_aboutCardServiceYear": "Service year",
-    "tr_aboutCardAllTerritories": "Tous les territoires"
+    "tr_aboutCardAllTerritories": "Tous les territoires",
+    "tr_reliableaAsistant": "Votre assistant théocratique fiable"
 }
