@@ -187,7 +187,6 @@
     "tr_meetTheApp": "Lerne die Organized App kennen",
     "tr_textGuide": "Textanleitung",
     "tr_reportsAboutPage": "Reports",
-    "tr_appointedBrothersAboutPage": "Appointed brothers",
     "tr_404oops": "Hoppla",
     "tr_backHome404": "Zurück zur Startseite",
     "tr_404PageName": "Seite nicht gefunden",
@@ -206,5 +205,6 @@
     "tr_aboutCardAuxiliaryApplication": "Auxiliary pioneer application",
     "tr_aboutCardServiceYear": "Service year",
     "tr_aboutCardAllTerritories": "Alle Gebiete",
-    "tr_reliableaAsistant": "Dein zuverlässiger theokratischer Assistent"
+    "tr_reliableaAsistant": "Dein zuverlässiger theokratischer Assistent",
+    "tr_appointedBrothersAboutPage": "Appointed brothers"
 }
