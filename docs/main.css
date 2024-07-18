@@ -2915,13 +2915,18 @@ html {
     font-size: 28px;
     line-height: 32px;
   }
-  
+
   .h1-x.accent-150 {
     color: var(--accent-150);
   }
   
   .h1-x.white-text.medium-text {
     font-size: 27px;
+    font-weight: 500;
+  }
+
+  .h1-x.white-text.medium-text.small {
+    font-size: 25px;
     font-weight: 500;
   }
   

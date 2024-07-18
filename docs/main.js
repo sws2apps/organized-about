@@ -37759,6 +37759,8 @@ const h1xxlElement = document.querySelector('.h1-xxl');
 const menu = document.querySelector('.dropdown');
 const options = document.querySelectorAll('.dropdown li a');
 const body = document.querySelector('body');
+const topText = document.getElementById('topText')
+const h1xElement = document.querySelector('.h1-x.white-text.medium-text')
 
 select.addEventListener('click', () => {
     menu.classList.toggle('show');
@@ -37783,7 +37785,12 @@ function handleLanguageSelection(event) {
         body.classList.remove('noto-sans');
     }
 
-	
+	if (['Français'].includes(selectedLanguage)) {
+        h1xElement.classList.add('small');
+    } else {
+        h1xElement.classList.remove('small');
+    }
+
     if (['Türkçe', 'Українська', 'Русский'].includes(selectedLanguage)) {
         h1xxlElement.classList.add('small-text');
     } else {
