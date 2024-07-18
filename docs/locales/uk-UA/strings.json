@@ -187,7 +187,6 @@
     "tr_meetTheApp": "Познайомся з додатком Organized",
     "tr_textGuide": "Текстовий посібник",
     "tr_reportsAboutPage": "Звіти",
-    "tr_appointedBrothersAboutPage": "Призначені брати",
     "tr_404oops": "Отакої",
     "tr_backHome404": "На головну",
     "tr_404PageName": "Сторінку не знайдено",
@@ -206,5 +205,6 @@
     "tr_aboutCardAuxiliaryApplication": "Заява на допоміжного піонера",
     "tr_aboutCardServiceYear": "Службовий рік",
     "tr_aboutCardAllTerritories": "Всі території",
-    "tr_reliableaAsistant": "Твоїм надійним теократичним помічником"
+    "tr_reliableaAsistant": "Твоїм надійним теократичним помічником",
+    "tr_appointedBrothersAboutPage": "Призначені брати"
 }
