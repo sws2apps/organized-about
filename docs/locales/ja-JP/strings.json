@@ -187,7 +187,6 @@
     "tr_meetTheApp": "Organizedの紹介",
     "tr_textGuide": "ガイド",
     "tr_reportsAboutPage": "報告",
-    "tr_appointedBrothersAboutPage": "任命された兄弟達",
     "tr_404oops": "おっと",
     "tr_backHome404": "ホームに戻る",
     "tr_404PageName": "ページが見つかりません",
@@ -206,5 +205,6 @@
     "tr_aboutCardAuxiliaryApplication": "補助開拓奉仕申込書",
     "tr_aboutCardServiceYear": "奉仕年度",
     "tr_aboutCardAllTerritories": "すべての区域",
-    "tr_reliableaAsistant": "神権的な奉仕のための役立つツール"
+    "tr_reliableaAsistant": "神権的な奉仕のための役立つツール",
+    "tr_appointedBrothersAboutPage": "任命された兄弟達"
 }
