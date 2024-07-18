@@ -187,7 +187,6 @@
     "tr_meetTheApp": "Heto na ang Organized app",
     "tr_textGuide": "Text guide",
     "tr_reportsAboutPage": "Mga Ulat",
-    "tr_appointedBrothersAboutPage": "Mga inatasan",
     "tr_404oops": "Oops",
     "tr_backHome404": "Bumalik sa home",
     "tr_404PageName": "Page not found",
@@ -206,5 +205,6 @@
     "tr_aboutCardAuxiliaryApplication": "Auxiliary pioneer application",
     "tr_aboutCardServiceYear": "Service year",
     "tr_aboutCardAllTerritories": "Lahat ng Teritoryo",
-    "tr_reliableaAsistant": "Ang maaasahang theocratic assistant"
+    "tr_reliableaAsistant": "Ang maaasahang theocratic assistant",
+    "tr_appointedBrothersAboutPage": "Mga inatasan"
 }
