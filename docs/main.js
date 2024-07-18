@@ -37735,89 +37735,120 @@ organized.require('ix2').init({
 const notoSansLanguages = ['日本語', 'Malagasy', 'հայերեն', 'नेपाली'];
 
 const languageFiles = {
-	հայերեն: '/locales/hy-AM/strings.json',
-	Deutsch: '/locales/de-DE/strings.json',
-	English: '/locales/en/strings.json',
-	Français: '/locales/fr-FR/strings.json',
-	Magyar: '/locales/hu-HU/strings.json',
-	Italiano: '/locales/it-IT/strings.json',
-	Malagasy: '/locales/mg-MG/strings.json',
-	Polski: '/locales/pl-PL/strings.json',
-	Português: '/locales/pt-PT/strings.json',
-	'Português-BR': '/locales/pt-BR/strings.json',
-	Русский: '/locales/ru-RU/strings.json',
-	Türkçe: '/locales/tr-TR/strings.json',
-	Tagalog: '/locales/tl-PH/strings.json',
-	Українська: '/locales/uk-UA/strings.json',
-	नेपाली: '/locales/ne-NP/strings.json',
-	日本語: '/locales/ja-JP/strings.json',
+    հայերեն: 'locales/hy-AM/strings.json',
+    Deutsch: 'locales/de-DE/strings.json',
+    English: 'locales/en/strings.json',
+    Français: 'locales/fr-FR/strings.json',
+    Magyar: 'locales/hu-HU/strings.json',
+    Italiano: 'locales/it-IT/strings.json',
+    Malagasy: 'locales/mg-MG/strings.json',
+    Polski: 'locales/pl-PL/strings.json',
+    Português: 'locales/pt-PT/strings.json',
+    'Português-BR': 'locales/pt-BR/strings.json',
+    Русский: 'locales/ru-RU/strings.json',
+    Türkçe: 'locales/tr-TR/strings.json',
+    Tagalog: 'locales/tl-PH/strings.json',
+    Українська: 'locales/uk-UA/strings.json',
+    नेपाली: 'locales/ne-NP/strings.json',
+    日本語: 'locales/ja-JP/strings.json',
 };
 
 const select = document.querySelector('.language-btn');
 const selected = document.querySelector('.language-name');
+const h1xxlElement = document.querySelector('.h1-xxl');
 const menu = document.querySelector('.dropdown');
 const options = document.querySelectorAll('.dropdown li a');
 const body = document.querySelector('body');
 
 select.addEventListener('click', () => {
-  menu.classList.toggle('show');
+    menu.classList.toggle('show');
 });
 
 options.forEach((option) => {
-  option.addEventListener('click', (event) => {
-    event.preventDefault();
+    option.addEventListener('click', (event) => {
+        event.preventDefault();
+        handleLanguageSelection(event);
+    });
+});
 
+function handleLanguageSelection(event) {
     const selectedLanguage = event.target.getAttribute('data-language');
     selected.textContent = selectedLanguage;
 
     const translationsPath = languageFiles[selectedLanguage];
 
     if (notoSansLanguages.includes(selectedLanguage)) {
-      body.classList.add('noto-sans');
+        body.classList.add('noto-sans');
     } else {
-      body.classList.remove('noto-sans');
+        body.classList.remove('noto-sans');
     }
 
-    fetch(translationsPath)
-      .then((response) => response.json())
-      .then((translations) => {
-        document.querySelectorAll('[data-trID]').forEach((el) => {
-          const key = el.getAttribute('data-trID');
+	
+    if (['Türkçe', 'Українська', 'Русский'].includes(selectedLanguage)) {
+        h1xxlElement.classList.add('small-text');
+    } else {
+        h1xxlElement.classList.remove('small-text');
+    }
 
-          if (translations[key]) {
-            el.innerHTML = translations[key];
-          }
-        });
-      });
+    fetchTranslations(translationsPath);
 
     menu.classList.remove('show');
     localStorage.setItem('selectedLanguage', selectedLanguage);
 
-    options.forEach((option) => {
-      option.classList.remove('active');
-    });
+    updateActiveClass(event.target);
+}
 
-    option.classList.add('active');
-  });
-});
+function fetchTranslations(translationsPath) {
+    fetch(translationsPath)
+        .then((response) => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then((translations) => {
+            document.querySelectorAll('[data-trID]').forEach((el) => {
+                const key = el.getAttribute('data-trID');
+                if (translations[key]) {
+                    el.innerHTML = translations[key];
+                }
+            });
+        })
+        .catch((error) => {
+            console.error('Error fetching translations:', error);
+        });
+}
+
+function updateActiveClass(selectedOption) {
+    options.forEach((option) => {
+        option.classList.remove('active');
+    });
+    selectedOption.classList.add('active');
+}
 
 document.addEventListener('click', (event) => {
-  const isClickInsideMenu = menu.contains(event.target);
-  const isClickInsideSelect = select.contains(event.target);
+    const isClickInsideMenu = menu.contains(event.target);
+    const isClickInsideSelect = select.contains(event.target);
 
-  if (!isClickInsideMenu && !isClickInsideSelect) {
-    menu.classList.remove('show');
-  }
+    if (!isClickInsideMenu && !isClickInsideSelect) {
+        menu.classList.remove('show');
+    }
 });
 
-if (localStorage.getItem('selectedLanguage')) {
-  const storedLanguage = localStorage.getItem('selectedLanguage');
-  const languageOption = document.querySelector(`a[data-language="${storedLanguage}"]`);
-  languageOption.click();
-} else {
-  const defaultLanguageOption = document.querySelector('a[data-language="English"]');
-  defaultLanguageOption.click();
-}
+window.addEventListener('load', () => {
+    const storedLanguage = localStorage.getItem('selectedLanguage');
+    if (storedLanguage) {
+        const languageOption = document.querySelector(`a[data-language="${storedLanguage}"]`);
+        if (languageOption) {
+            languageOption.click();
+        }
+    } else {
+        const defaultLanguageOption = document.querySelector('a[data-language="English"]');
+        if (defaultLanguageOption) {
+            defaultLanguageOption.click();
+        }
+    }
+});
 
 const year = document.getElementById('year');
 

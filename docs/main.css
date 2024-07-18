@@ -2380,6 +2380,12 @@ html {
     text-shadow: 0px 2px 35px rgb(69, 81, 140)
   }
   
+  .h1-xxl.small-text {
+    font-size: 66px;
+    line-height: 105%;
+    text-shadow: 0px 2px 35px rgb(69, 81, 140)
+}
+
   .h1-xxl.white {
     color: var(--white);
     letter-spacing: .01em;
