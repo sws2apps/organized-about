@@ -187,7 +187,6 @@
     "tr_meetTheApp": "Meet the Organized app",
     "tr_textGuide": "Text guide",
     "tr_reportsAboutPage": "Reports",
-    "tr_appointedBrothersAboutPage": "नियुक्त भाइहरू",
     "tr_404oops": "Oops",
     "tr_backHome404": "Back home",
     "tr_404PageName": "Page not found",
@@ -206,5 +205,6 @@
     "tr_aboutCardAuxiliaryApplication": "Auxiliary pioneer application",
     "tr_aboutCardServiceYear": "Service year",
     "tr_aboutCardAllTerritories": "सबै इलाका",
-    "tr_reliableaAsistant": "Your reliable theocratic assistant"
+    "tr_reliableaAsistant": "Your reliable theocratic assistant",
+    "tr_appointedBrothersAboutPage": "नियुक्त भाइहरू"
 }
