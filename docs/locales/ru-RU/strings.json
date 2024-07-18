@@ -15,7 +15,6 @@
     "tr_howTouse": "Уроки",
     "tr_videoTutorials": "Видеоуроки",
     "tr_appOverview": "Обзор приложения",
-    "tr_createAcongregation": "Создать собрание",
     "tr_invitePersons": "Пригласить людей",
     "tr_createdBysw2apps": "Создано sws2apps",
     "tr_howSupportQ": "Как я могу поддержать приложение?",
@@ -188,7 +187,6 @@
     "tr_meetTheApp": "Познакомься с Organized",
     "tr_textGuide": "Текстовое руководство",
     "tr_reportsAboutPage": "Reports",
-    "tr_appointedBrothersAboutPage": "Назначенные братья",
     "tr_404oops": "Ой-ой",
     "tr_backHome404": "Назад на главную",
     "tr_404PageName": "Страница не найдена",
@@ -207,5 +205,6 @@
     "tr_aboutCardAuxiliaryApplication": "Заявление на подсобного пионера",
     "tr_aboutCardServiceYear": "Служебный год",
     "tr_aboutCardAllTerritories": "Все участки",
-    "tr_reliableaAsistant": "Твой надёжный теократический помощник"
+    "tr_reliableaAsistant": "Твой надёжный теократический помощник",
+    "tr_appointedBrothersAboutPage": "Назначенные братья"
 }

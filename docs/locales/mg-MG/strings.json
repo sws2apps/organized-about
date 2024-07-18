@@ -15,7 +15,6 @@
     "tr_howTouse": "Fanampiana",
     "tr_videoTutorials": "Video",
     "tr_appOverview": "App overview",
-    "tr_createAcongregation": "Hamorona kaontin’ny fiangonana",
     "tr_invitePersons": "Invite persons",
     "tr_createdBysw2apps": "Namboarin’ny sws2apps",
     "tr_howSupportQ": "Inona no azoko atao hanampiana ny fanamboarana ity programa ity?",
@@ -188,7 +187,6 @@
     "tr_meetTheApp": "Meet the Organized app",
     "tr_textGuide": "Text guide",
     "tr_reportsAboutPage": "Reports",
-    "tr_appointedBrothersAboutPage": "Appointed brothers",
     "tr_404oops": "Oops",
     "tr_backHome404": "Back home",
     "tr_404PageName": "Page not found",
@@ -207,5 +205,6 @@
     "tr_aboutCardAuxiliaryApplication": "Auxiliary pioneer application",
     "tr_aboutCardServiceYear": "Service year",
     "tr_aboutCardAllTerritories": "All territories",
-    "tr_reliableaAsistant": "Your reliable theocratic assistant"
+    "tr_reliableaAsistant": "Your reliable theocratic assistant",
+    "tr_appointedBrothersAboutPage": "Appointed brothers"
 }

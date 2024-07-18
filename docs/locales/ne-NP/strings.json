@@ -15,7 +15,6 @@
     "tr_howTouse": "Tutorials",
     "tr_videoTutorials": "Video tutorials",
     "tr_appOverview": "App overview",
-    "tr_createAcongregation": "Create a congregation",
     "tr_invitePersons": "Invite persons",
     "tr_createdBysw2apps": "Created by sws2apps",
     "tr_howSupportQ": "How can I support the app?",
@@ -188,7 +187,6 @@
     "tr_meetTheApp": "Meet the Organized app",
     "tr_textGuide": "Text guide",
     "tr_reportsAboutPage": "Reports",
-    "tr_appointedBrothersAboutPage": "नियुक्त भाइहरू",
     "tr_404oops": "Oops",
     "tr_backHome404": "Back home",
     "tr_404PageName": "Page not found",
@@ -207,5 +205,6 @@
     "tr_aboutCardAuxiliaryApplication": "Auxiliary pioneer application",
     "tr_aboutCardServiceYear": "Service year",
     "tr_aboutCardAllTerritories": "सबै इलाका",
-    "tr_reliableaAsistant": "Your reliable theocratic assistant"
+    "tr_reliableaAsistant": "Your reliable theocratic assistant",
+    "tr_appointedBrothersAboutPage": "नियुक्त भाइहरू"
 }

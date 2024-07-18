@@ -15,7 +15,6 @@
     "tr_howTouse": "Tutoriais",
     "tr_videoTutorials": "Tutoriais em vídeo",
     "tr_appOverview": "Visão geral da aplicação",
-    "tr_createAcongregation": "Criar uma congregação",
     "tr_invitePersons": "Convide pessoas",
     "tr_createdBysw2apps": "Criado por sws2apps",
     "tr_howSupportQ": "Como posso apoiar a aplicação?",
@@ -188,7 +187,6 @@
     "tr_meetTheApp": "Meet the Organized app",
     "tr_textGuide": "Guia em texto",
     "tr_reportsAboutPage": "Relatórios",
-    "tr_appointedBrothersAboutPage": "Irmãos designados",
     "tr_404oops": "Oops",
     "tr_backHome404": "Voltar para a página inicial",
     "tr_404PageName": "Página não encontrada",
@@ -207,5 +205,6 @@
     "tr_aboutCardAuxiliaryApplication": "Auxiliary pioneer application",
     "tr_aboutCardServiceYear": "Service year",
     "tr_aboutCardAllTerritories": "Todos os territórios",
-    "tr_reliableaAsistant": "Your reliable theocratic assistant"
+    "tr_reliableaAsistant": "Your reliable theocratic assistant",
+    "tr_appointedBrothersAboutPage": "Irmãos designados"
 }

@@ -15,7 +15,6 @@
     "tr_howTouse": "Tutoriels",
     "tr_videoTutorials": "Tutoriels vidéo",
     "tr_appOverview": "Aperçu de l'application",
-    "tr_createAcongregation": "Créer une assemblée",
     "tr_invitePersons": "Inviter une personne",
     "tr_createdBysw2apps": "Créé par sws2apps",
     "tr_howSupportQ": "Comment je peux supporter l'application ?",
@@ -188,7 +187,6 @@
     "tr_meetTheApp": "Découvrez l'application Organized",
     "tr_textGuide": "Guide d'utilisation",
     "tr_reportsAboutPage": "Reports",
-    "tr_appointedBrothersAboutPage": "Frères nommés",
     "tr_404oops": "Oups",
     "tr_backHome404": "Retour à l'accueil",
     "tr_404PageName": "Page introuvable",
@@ -207,5 +205,6 @@
     "tr_aboutCardAuxiliaryApplication": "Auxiliary pioneer application",
     "tr_aboutCardServiceYear": "Service year",
     "tr_aboutCardAllTerritories": "Tous les territoires",
-    "tr_reliableaAsistant": "Votre assistant théocratique fiable"
+    "tr_reliableaAsistant": "Votre assistant théocratique fiable",
+    "tr_appointedBrothersAboutPage": "Frères nommés"
 }
