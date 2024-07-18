@@ -187,7 +187,6 @@
     "tr_meetTheApp": "Meet the Organized app",
     "tr_textGuide": "Text guide",
     "tr_reportsAboutPage": "Reports",
-    "tr_appointedBrothersAboutPage": "Các anh được giao nhiệm vụ",
     "tr_404oops": "Oops",
     "tr_backHome404": "Back home",
     "tr_404PageName": "Page not found",
@@ -206,5 +205,6 @@
     "tr_aboutCardAuxiliaryApplication": "Đơn đăng ký Tiên phong phụ trợ",
     "tr_aboutCardServiceYear": "Năm công tác",
     "tr_aboutCardAllTerritories": "Tất cả vùng",
-    "tr_reliableaAsistant": "Your reliable theocratic assistant"
+    "tr_reliableaAsistant": "Your reliable theocratic assistant",
+    "tr_appointedBrothersAboutPage": "Các anh được giao nhiệm vụ"
 }
