@@ -187,7 +187,6 @@
     "tr_meetTheApp": "Découvrez l'application Organized",
     "tr_textGuide": "Guide d'utilisation",
     "tr_reportsAboutPage": "Reports",
-    "tr_appointedBrothersAboutPage": "Frères nommés",
     "tr_404oops": "Oups",
     "tr_backHome404": "Retour à l'accueil",
     "tr_404PageName": "Page introuvable",
@@ -206,5 +205,6 @@
     "tr_aboutCardAuxiliaryApplication": "Auxiliary pioneer application",
     "tr_aboutCardServiceYear": "Service year",
     "tr_aboutCardAllTerritories": "Tous les territoires",
-    "tr_reliableaAsistant": "Votre assistant théocratique fiable"
+    "tr_reliableaAsistant": "Votre assistant théocratique fiable",
+    "tr_appointedBrothersAboutPage": "Frères nommés"
 }
