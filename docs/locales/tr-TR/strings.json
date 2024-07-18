@@ -187,7 +187,6 @@
     "tr_meetTheApp": "Organized uygulamasını keşfedin",
     "tr_textGuide": "Yazılı rehber",
     "tr_reportsAboutPage": "Raporlar",
-    "tr_appointedBrothersAboutPage": "Tayin edilmiş biraderler",
     "tr_404oops": "Üzgünüz",
     "tr_backHome404": "Ana sayfaya dön",
     "tr_404PageName": "Sayfa bulunamadı",
@@ -206,5 +205,6 @@
     "tr_aboutCardAuxiliaryApplication": "Öncü yardımcılığı başvurusu",
     "tr_aboutCardServiceYear": "Hizmet yılı",
     "tr_aboutCardAllTerritories": "All territories",
-    "tr_reliableaAsistant": "Güvenilir teokratik asistanınız"
+    "tr_reliableaAsistant": "Güvenilir teokratik asistanınız",
+    "tr_appointedBrothersAboutPage": "Tayin edilmiş biraderler"
 }
