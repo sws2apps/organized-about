@@ -187,7 +187,6 @@
     "tr_meetTheApp": "Conoce Organized App",
     "tr_textGuide": "Guía de texto",
     "tr_reportsAboutPage": "Reports",
-    "tr_appointedBrothersAboutPage": "Appointed brothers",
     "tr_404oops": "Oops",
     "tr_backHome404": "Back home",
     "tr_404PageName": "Página no encontrada",
@@ -206,5 +205,6 @@
     "tr_aboutCardAuxiliaryApplication": "Solicitud de precursor auxiliar",
     "tr_aboutCardServiceYear": "Año de servicio",
     "tr_aboutCardAllTerritories": "All territories",
-    "tr_reliableaAsistant": "Tu asistente teocrático confiable"
+    "tr_reliableaAsistant": "Tu asistente teocrático confiable",
+    "tr_appointedBrothersAboutPage": "Appointed brothers"
 }
