@@ -28,7 +28,7 @@
     "tr_manuallyEnterQ": "Muss ich Informationen aus dem Versammlungsbuch manuell eingeben?",
     "tr_manuallyEnterA": "Nein, das musst du nicht. Organized kann alle Teile des Treffens, öffentliche Vorträge und andere benötigte Informationen automatisch direkt von jw.org oder der .epub-Datei abrufen. Dadurch hast du immer die neuesten Programmpunkte für das Treffen bereit und musst keine Stunden damit verbringen, die Treffenteile abzuschreiben und manuell ihre Dauer zu berechnen.",
     "tr_autoAssignQ": "Hat die App eine automatische Zuweisungsfunktion?",
-    "tr_autoAssignA": "Ja, du kannst Teile eines Treffens automatisch planen, abhängig von den vorherigen Zuweisungshistorien und Qualifikationen des Verkündigers. Es wird als „Autofill“ bezeichnet. Nachdem du es verwendet hast, kannst du Zuweisungen immer noch manuell bearbeiten oder erstellen.",
+    "tr_autoAssignA": "Ja, du kannst Teile einer Zusammenkunft automatisch planen, abhängig vom vorherigen Aufgabenverlauf und den Qualifikationen des Verkündigers. Dies wird als „Autoausfüllen“ bezeichnet. Nachdem du es verwendet hast, kannst du die Aufgaben weiterhin manuell bearbeiten oder erstellen.",
     "tr_congregationDataQ": "Können die Versammlungsdaten exportiert werden?",
     "tr_congregationDataA": "Natürlich! Du kannst Zeitpläne, Berichte, Zuweisungsformulare usw. in gedruckte PDF-Vorlagen exportieren (entweder offizielle wie S-13, S-140, S-89 oder individuell gestaltete Vorlagen)",
     "tr_testAppQ": "Kann ich die App testen, ohne mich zu registrieren?",
