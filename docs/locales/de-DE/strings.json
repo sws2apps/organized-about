@@ -190,7 +190,6 @@
     "tr_404oops": "Hoppla",
     "tr_backHome404": "Zurück zur Startseite",
     "tr_404PageName": "Seite nicht gefunden",
-    "tr_telegramGroup": "Telegram Gruppe",
     "tr_aboutCardAssignments": "Meine Aufgaben",
     "tr_aboutCardSchedules": "Zusammenkunftspläne",
     "tr_aboutCardMidweek": "Zusammenkunft unter der Woche",
@@ -206,5 +205,6 @@
     "tr_aboutCardServiceYear": "Dienstjahr",
     "tr_aboutCardAllTerritories": "Alle Gebiete",
     "tr_reliableaAsistant": "Dein zuverlässiger theokratischer Assistent",
-    "tr_appointedBrothersAboutPage": "Älteste und Dienstamtgehilfen"
+    "tr_appointedBrothersAboutPage": "Älteste und Dienstamtgehilfen",
+    "tr_telegramChannel": "Telegram-Kanal"
 }
