@@ -190,7 +190,6 @@
     "tr_404oops": "おっと",
     "tr_backHome404": "ホームに戻る",
     "tr_404PageName": "ページが見つかりません",
-    "tr_telegramGroup": "Telegram グループ",
     "tr_aboutCardAssignments": "私の割り当て",
     "tr_aboutCardSchedules": "集会の予定",
     "tr_aboutCardMidweek": "週日の集会",
@@ -206,5 +205,6 @@
     "tr_aboutCardServiceYear": "奉仕年度",
     "tr_aboutCardAllTerritories": "すべての区域",
     "tr_reliableaAsistant": "神権的な奉仕のための役立つツール",
-    "tr_appointedBrothersAboutPage": "任命された兄弟達"
+    "tr_appointedBrothersAboutPage": "任命された兄弟達",
+    "tr_telegramChannel": "Telegram channel"
 }
