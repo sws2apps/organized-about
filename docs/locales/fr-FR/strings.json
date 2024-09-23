@@ -190,7 +190,6 @@
     "tr_404oops": "Oups",
     "tr_backHome404": "Retour à l'accueil",
     "tr_404PageName": "Page introuvable",
-    "tr_telegramGroup": "Groupe Telegram",
     "tr_aboutCardAssignments": "Mes attributions",
     "tr_aboutCardSchedules": "Réunion programmée",
     "tr_aboutCardMidweek": "Réunion de la semaine",
@@ -206,5 +205,6 @@
     "tr_aboutCardServiceYear": "Année de service",
     "tr_aboutCardAllTerritories": "Tous les territoires",
     "tr_reliableaAsistant": "Votre assistant théocratique fiable",
-    "tr_appointedBrothersAboutPage": "Frères nommés"
+    "tr_appointedBrothersAboutPage": "Frères nommés",
+    "tr_telegramChannel": "Telegram channel"
 }
