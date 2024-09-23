@@ -190,7 +190,6 @@
     "tr_404oops": "Oops",
     "tr_backHome404": "Bumalik sa home",
     "tr_404PageName": "Page not found",
-    "tr_telegramGroup": "Telegram group",
     "tr_aboutCardAssignments": "My assignments",
     "tr_aboutCardSchedules": "Iskedyul ng mga pulong",
     "tr_aboutCardMidweek": "Pulong sa Gitnang Sanlinggo",
@@ -206,5 +205,6 @@
     "tr_aboutCardServiceYear": "Service year",
     "tr_aboutCardAllTerritories": "Lahat ng Teritoryo",
     "tr_reliableaAsistant": "Ang maaasahang theocratic assistant",
-    "tr_appointedBrothersAboutPage": "Mga inatasan"
+    "tr_appointedBrothersAboutPage": "Mga inatasan",
+    "tr_telegramChannel": "Telegram channel"
 }
