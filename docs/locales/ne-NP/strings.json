@@ -190,7 +190,6 @@
     "tr_404oops": "Oops",
     "tr_backHome404": "गृहपृष्‍ठमा फर्कने",
     "tr_404PageName": "पृष्ठ फेला परेन",
-    "tr_telegramGroup": "टेलिग्राम समूह",
     "tr_aboutCardAssignments": "मेरो असाइनमेन्ट",
     "tr_aboutCardSchedules": "सभाको तालिका",
     "tr_aboutCardMidweek": "मध्यहप्ताको सभा",
@@ -206,5 +205,6 @@
     "tr_aboutCardServiceYear": "सेवा वर्ष",
     "tr_aboutCardAllTerritories": "सबै इलाका",
     "tr_reliableaAsistant": "तपाईंको विश्वासिलो ईश्वरतान्त्रिक सहयोगी",
-    "tr_appointedBrothersAboutPage": "नियुक्त भाइहरू"
+    "tr_appointedBrothersAboutPage": "नियुक्त भाइहरू",
+    "tr_telegramChannel": "Telegram channel"
 }
