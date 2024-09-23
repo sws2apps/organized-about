@@ -190,7 +190,6 @@
     "tr_404oops": "Uups",
     "tr_backHome404": "Back home",
     "tr_404PageName": "Nie znaleziono strony",
-    "tr_telegramGroup": "Grupa Telegram",
     "tr_aboutCardAssignments": "Moje zadania",
     "tr_aboutCardSchedules": "Harmonogramy spotkań",
     "tr_aboutCardMidweek": "Zebrania w tygodniu",
@@ -206,5 +205,6 @@
     "tr_aboutCardServiceYear": "Service year",
     "tr_aboutCardAllTerritories": "All territories",
     "tr_reliableaAsistant": "Twój niezawodny teokratyczny asystent",
-    "tr_appointedBrothersAboutPage": "Appointed brothers"
+    "tr_appointedBrothersAboutPage": "Appointed brothers",
+    "tr_telegramChannel": "Telegram channel"
 }
