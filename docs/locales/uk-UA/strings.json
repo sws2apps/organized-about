@@ -190,7 +190,6 @@
     "tr_404oops": "Отакої",
     "tr_backHome404": "На головну",
     "tr_404PageName": "Сторінку не знайдено",
-    "tr_telegramGroup": "Telegram група",
     "tr_aboutCardAssignments": "Мої завдання",
     "tr_aboutCardSchedules": "Розклади зібрань",
     "tr_aboutCardMidweek": "Зібрання серед тижня",
@@ -206,5 +205,6 @@
     "tr_aboutCardServiceYear": "Службовий рік",
     "tr_aboutCardAllTerritories": "Всі території",
     "tr_reliableaAsistant": "Твоїм надійним теократичним помічником",
-    "tr_appointedBrothersAboutPage": "Призначені брати"
+    "tr_appointedBrothersAboutPage": "Призначені брати",
+    "tr_telegramChannel": "Telegram канал"
 }
