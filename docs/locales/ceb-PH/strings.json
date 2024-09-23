@@ -190,7 +190,6 @@
     "tr_404oops": "Oops",
     "tr_backHome404": "Back home",
     "tr_404PageName": "Page not found",
-    "tr_telegramGroup": "Telegram group",
     "tr_aboutCardAssignments": "My assignments",
     "tr_aboutCardSchedules": "Meeting schedules",
     "tr_aboutCardMidweek": "Midweek Meeting",
@@ -206,5 +205,6 @@
     "tr_aboutCardServiceYear": "Service year",
     "tr_aboutCardAllTerritories": "All territories",
     "tr_reliableaAsistant": "Your reliable theocratic assistant",
-    "tr_appointedBrothersAboutPage": "Appointed brothers"
+    "tr_appointedBrothersAboutPage": "Appointed brothers",
+    "tr_telegramChannel": "Telegram channel"
 }
