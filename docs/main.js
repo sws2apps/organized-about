@@ -37751,6 +37751,8 @@ const languageFiles = {
     Українська: 'locales/uk-UA/strings.json',
     नेपाली: 'locales/ne-NP/strings.json',
     日本語: 'locales/ja-JP/strings.json',
+	Suomi: 'locales/fi-FI/strings.json',
+	Svenska: 'locales/sv-SE/strings.json'
 };
 
 const select = document.querySelector('.language-btn');
