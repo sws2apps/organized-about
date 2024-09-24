@@ -37,6 +37,38 @@
 	);
 	var __toCommonJS = (mod2) => __copyProps(__defProp({}, '__esModule', { value: true }), mod2);
 
+	
+		// Define the dynamic value for languagesCount
+	const replacementValues = {
+		congregationCount: 393,  // Last updated congregation count
+		languagesCount: 28,      // Last updated languages count
+		countriesCount: 39		// Last updated countries count, where congregations are using Organized
+		usersCount: 305			// Last updated users count
+	};
+
+	// Function to replace placeholders
+	function replacePlaceholders(message, replacements) {
+		return message.replace(/{(\w+)}/g, function(match, key) {
+			return replacements[key] !== undefined ? replacements[key] : match;
+		});
+	}
+
+	// Once the DOM is fully loaded, replace the placeholder in the specific element
+	document.addEventListener('DOMContentLoaded', function() {
+		// Select the element using the data-trID attribute
+		const languagesDescElement = document.querySelector('[data-trID="tr_languagesDesc"]');
+
+		// Get the original text with the placeholder
+		let originalText = languagesDescElement.textContent;
+
+		// Replace the {languagesCount} placeholder with the actual value
+		let updatedText = replacePlaceholders(originalText, replacementValues);
+
+		// Update the element with the replaced text
+		languagesDescElement.textContent = updatedText;
+	});
+	
+
 	// packages/shared/render/plugins/BaseSiteModules/tram-min.js
 	var require_tram_min = __commonJS({
 		'packages/shared/render/plugins/BaseSiteModules/tram-min.js'() {
