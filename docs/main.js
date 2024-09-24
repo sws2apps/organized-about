@@ -38,12 +38,12 @@
 	var __toCommonJS = (mod2) => __copyProps(__defProp({}, '__esModule', { value: true }), mod2);
 
 	
-		// Define the dynamic value for languagesCount
+	// Define the dynamic values for replacements
 	const replacementValues = {
 		congregationCount: 393,  // Last updated congregation count
 		languagesCount: 28,      // Last updated languages count
-		countriesCount: 39		// Last updated countries count, where congregations are using Organized
-		usersCount: 305			// Last updated users count
+		countriesCount: 39,      // Last updated countries count, where congregations are using Organized
+		usersCount: 305          // Last updated users count
 	};
 
 	// Function to replace placeholders
@@ -53,20 +53,28 @@
 		});
 	}
 
-	// Once the DOM is fully loaded, replace the placeholder in the specific element
+	// Once the DOM is fully loaded, replace the placeholders in specific elements
 	document.addEventListener('DOMContentLoaded', function() {
-		// Select the element using the data-trID attribute
-		const languagesDescElement = document.querySelector('[data-trID="tr_languagesDesc"]');
+		// Array of trIDs to update
+		const trIDs = ['tr_languagesDesc', 'tr_whichLangsA'];
 
-		// Get the original text with the placeholder
-		let originalText = languagesDescElement.textContent;
-
-		// Replace the {languagesCount} placeholder with the actual value
-		let updatedText = replacePlaceholders(originalText, replacementValues);
-
-		// Update the element with the replaced text
-		languagesDescElement.textContent = updatedText;
+		trIDs.forEach(trID => {
+			// Select the element using the data-trID attribute
+			const element = document.querySelector(`[data-trID="${trID}"]`);
+			
+			if (element) { // Check if the element exists
+				// Get the original text with the placeholder
+				let originalText = element.textContent;
+				
+				// Replace placeholders with the actual values
+				let updatedText = replacePlaceholders(originalText, replacementValues);
+				
+				// Update the element with the replaced text
+				element.textContent = updatedText;
+			}
+		});
 	});
+
 	
 
 	// packages/shared/render/plugins/BaseSiteModules/tram-min.js
