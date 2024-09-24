@@ -34,7 +34,7 @@
     "tr_testAppQ": "登録せずにアプリをテストできますか？",
     "tr_testAppA": "もちろんです! <a href='#'>デモ版</a> で試用し、サンプル会衆の集会の情報で機能を確認してください。 自由に編集することができますが、入力された情報は保存されません。",
     "tr_whichLangsQ": "Organizedはどの言語で利用可能ですか？",
-    "tr_whichLangsA": "<p>現在、Organizedは全部、または一部を25以上の言語でサポートしています。これには、英語、スペイン語、ポルトガル語、ドイツ語、イタリア語、フランス語、日本語など、兄弟姉妹の間で広く使用されている言語が含まれます。さらに、ポーランド語、ウクライナ語、マダガスカル語、ロシア語、ルーマニア語など、他の多くの言語をサポートしています。</p><p>Organizedを自分の言語に翻訳したい場合は、<a href='#'>翻訳ガイド</a>を参照してください。</p>",
+    "tr_whichLangsA": "<p>Currently, Organized supports more than 25 languages, either fully and partially. This includes widely used languages within our theocratic world such as English, Spanish, Portuguese, German, Italian, French, and Japanese. Additionally, the app already supports many other languages like Polish, Ukrainian, Malagasy, Russian, Romanian, and more.</p><p>If you want to translate the app into your language, it's easy – open our <a href='translate.organized-app.com'>translation project</a> and start translating.</p>",
     "tr_whatSystemsQ": "私のデバイスで利用できますか？",
     "tr_whatSystemsA": "ほとんどのオペレーティングシステム（Android、iOS、MacOS、Windows、ChromeOS、Linuxなど）で利用できます。OrganizedはPWAアプリとして主要なブラウザで動作します。 複数のデスクトップまたはモバイルデバイスで同時にアカウントを使用することができます。",
     "tr_pwaMeaningQ": "OrganizedはPWAアプリです。どういう意味ですか？",
