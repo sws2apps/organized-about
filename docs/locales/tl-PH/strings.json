@@ -34,7 +34,7 @@
     "tr_testAppQ": "Maaari ko bang subukan ang app kahit hindi ako naka-register?",
     "tr_testAppA": "Mismo! Kilalanin ang mga feature ng app gamit ang <a href='#'>Test environment</a> at masubukan ito gamit ang isang imaginary na kongregasyon na may kasamang kaunting impormasyon. Malaya kang magsuri, ngunit alalahanin na ang anumang impormasyon na iyong i-encode ay mawawala matapos i-refresh ang page.",
     "tr_whichLangsQ": "Sa anong mga wika available ang Organized?",
-    "tr_whichLangsA": "<p>Sa ngayon, sinusuportahan ng Organized ang higit sa 25 wika, buo o parte lamang nito. Kabilang dito ang mga wikang madami ang gumagamit sa teokratiko tulad ng English, Spanish, Portuguese, German, Italian, French, at Japanese. Available din ang app sa iba pang mga wika tulad ng Polish, Ukrainian, Malagasy, Russian, Romanian, atbp.</p><p>Kung gusto mong isalin ang app sa iyong wika, madali lang ito – tingnan ang aming <a href='#'>translation guide</a>.</p>",
+    "tr_whichLangsA": "<p>Currently, Organized supports more than 25 languages, either fully and partially. This includes widely used languages within our theocratic world such as English, Spanish, Portuguese, German, Italian, French, and Japanese. Additionally, the app already supports many other languages like Polish, Ukrainian, Malagasy, Russian, Romanian, and more.</p><p>If you want to translate the app into your language, it's easy – open our <a href='translate.organized-app.com'>translation project</a> and start translating.</p>",
     "tr_whatSystemsQ": "Anong operation systems ang pupuwede?",
     "tr_whatSystemsA": "Puwede lahat ng modernong systems – Android, iOS, MacOS, Windows, ChromeOS at Linux. Ang Organized ay isang PWA app na nagagamit nang maayos sa alinmang browser. I-enjoy ang flexibility gamit ang iyong account sa iba't ibang desktop o mobile devices sabay-sabay.",
     "tr_pwaMeaningQ": "Ang Organized ay isang PWA. Anong ibig sabihin nito?",
@@ -190,7 +190,6 @@
     "tr_404oops": "Oops",
     "tr_backHome404": "Bumalik sa home",
     "tr_404PageName": "Page not found",
-    "tr_telegramGroup": "Telegram group",
     "tr_aboutCardAssignments": "My assignments",
     "tr_aboutCardSchedules": "Iskedyul ng mga pulong",
     "tr_aboutCardMidweek": "Pulong sa Gitnang Sanlinggo",
@@ -206,5 +205,6 @@
     "tr_aboutCardServiceYear": "Service year",
     "tr_aboutCardAllTerritories": "Lahat ng Teritoryo",
     "tr_reliableaAsistant": "Ang maaasahang theocratic assistant",
-    "tr_appointedBrothersAboutPage": "Mga inatasan"
+    "tr_appointedBrothersAboutPage": "Mga inatasan",
+    "tr_telegramChannel": "Telegram channel"
 }

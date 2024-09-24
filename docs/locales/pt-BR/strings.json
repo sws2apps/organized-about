@@ -34,7 +34,7 @@
     "tr_testAppQ": "Posso testar o aplicativo sem me registrar?",
     "tr_testAppA": "Claro! Explore os recursos do aplicativo usando o <a href='#'>Ambiente de Teste</a> e veja suas capacidades com informações imaginárias de uma congregação preenchidas. Sinta-se à vontade para conferir, mas lembre-se de que qualquer informação inserida será apagada após uma atualização da página.",
     "tr_whichLangsQ": "Em quais idiomas o Organized está disponível?",
-    "tr_whichLangsA": "<p>Atualmente, o Organized suporta mais de 25 idiomas, total ou parcialmente. Isso inclui idiomas amplamente usados em nosso mundo teocrático, como inglês, espanhol, português, alemão, italiano, francês e japonês. Além disso, o aplicativo já suporta muitos outros idiomas, como polonês, ucraniano, malgaxe, russo, romeno e muito mais.</p><p>Se você quiser traduzir o aplicativo para o seu idioma, é fácil – consulte nosso <a href='#'>guia de tradução</a>.</p>",
+    "tr_whichLangsA": "<p>Currently, Organized supports more than 25 languages, either fully and partially. This includes widely used languages within our theocratic world such as English, Spanish, Portuguese, German, Italian, French, and Japanese. Additionally, the app already supports many other languages like Polish, Ukrainian, Malagasy, Russian, Romanian, and more.</p><p>If you want to translate the app into your language, it's easy – open our <a href='translate.organized-app.com'>translation project</a> and start translating.</p>",
     "tr_whatSystemsQ": "Quais sistemas operacionais são suportados?",
     "tr_whatSystemsA": "Todos os sistemas modernos são suportados – Android, iOS, MacOS, Windows, ChromeOS e Linux. O Organized é um aplicativo PWA que funciona perfeitamente com um navegador moderno como principal requisito. Aproveite a flexibilidade de usar sua conta em vários dispositivos desktop ou móveis simultaneamente.",
     "tr_pwaMeaningQ": "O Organized é um PWA. O que isso significa?",
@@ -190,7 +190,6 @@
     "tr_404oops": "Oops",
     "tr_backHome404": "Voltar para a página inicial",
     "tr_404PageName": "Página não encontrada",
-    "tr_telegramGroup": "Grupo do Telegram",
     "tr_aboutCardAssignments": "Minhas designações",
     "tr_aboutCardSchedules": "Programações da reunião",
     "tr_aboutCardMidweek": "Reunião do meio de semana",
@@ -206,5 +205,6 @@
     "tr_aboutCardServiceYear": "Ano de serviço",
     "tr_aboutCardAllTerritories": "Todos os territórios",
     "tr_reliableaAsistant": "O seu assistente teocrático confiável",
-    "tr_appointedBrothersAboutPage": "Irmãos designados"
+    "tr_appointedBrothersAboutPage": "Irmãos designados",
+    "tr_telegramChannel": "Telegram channel"
 }

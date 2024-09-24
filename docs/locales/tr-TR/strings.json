@@ -34,7 +34,7 @@
     "tr_testAppQ": "Kaydolmadan uygulamayı test edebilir miyim?",
     "tr_testAppA": "Tabii ki! <a href='#'>Test ortamını</a> kullanarak uygulamanın özelliklerini keşfedin ve hayali bir cemaatin bilgileriyle doldurulmuş olarak görün. Lütfen istediğiniz kadar inceleyin, ancak sayfanın yenilenmesi sonrasında girilen tüm bilgilerinin silineceğini unutmayın.",
     "tr_whichLangsQ": "Organized hangi dillerde kullanılabilir?",
-    "tr_whichLangsA": "<p>Şu anda, Organized, tamamen veya kısmen olarak 25'den fazla dilde destekleniyor. Bu, Dünya genelindeki ruhi ailemizde yaygın olarak kullanılan dilleri içerir: İngilizce, İspanyolca, Portekizce, Almanca, İtalyanca, Fransızca ve Japonca. Ayrıca, uygulama Çekçe, Ukraynaca, Malgaşça, Rusça, Romence ve daha birçok dilde destekleniyor.</p><p>Uygulamayı kendi dilinize çevirmek istiyorsanız, bu çok kolay - <a href='#'>çeviri kılavumuzu</a> göz gezdirin.</p>",
+    "tr_whichLangsA": "<p>Currently, Organized supports more than 25 languages, either fully and partially. This includes widely used languages within our theocratic world such as English, Spanish, Portuguese, German, Italian, French, and Japanese. Additionally, the app already supports many other languages like Polish, Ukrainian, Malagasy, Russian, Romanian, and more.</p><p>If you want to translate the app into your language, it's easy – open our <a href='translate.organized-app.com'>translation project</a> and start translating.</p>",
     "tr_whatSystemsQ": "Desteklenen işletim sistemleri hangileridir?",
     "tr_whatSystemsA": "Tüm modern sistemler destekleniyor - Android, iOS, MacOS, Windows, ChromeOS ve Linux. Organized, modern bir tarayıcıda temel gereksinim olarak çalışan bir PWA uygulamasıdır. Masaüstü veya mobil cihazlarda birden çok hesap kullanmanın esnekliğini çıkarın.",
     "tr_pwaMeaningQ": "Organized bir PWA. Bu ne anlama geliyor?",
@@ -190,7 +190,6 @@
     "tr_404oops": "Üzgünüz",
     "tr_backHome404": "Ana sayfaya dön",
     "tr_404PageName": "Sayfa bulunamadı",
-    "tr_telegramGroup": "Telegram grubu",
     "tr_aboutCardAssignments": "Görevlerim",
     "tr_aboutCardSchedules": "İbadet programları",
     "tr_aboutCardMidweek": "Hafta içi cemaat ibadeti",
@@ -206,5 +205,6 @@
     "tr_aboutCardServiceYear": "Hizmet yılı",
     "tr_aboutCardAllTerritories": "Tüm sahalar",
     "tr_reliableaAsistant": "Güvenilir teokratik asistanınız",
-    "tr_appointedBrothersAboutPage": "Tayin edilmiş biraderler"
+    "tr_appointedBrothersAboutPage": "Tayin edilmiş biraderler",
+    "tr_telegramChannel": "Telegram channel"
 }

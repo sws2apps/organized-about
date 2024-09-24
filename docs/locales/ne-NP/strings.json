@@ -34,7 +34,7 @@
     "tr_testAppQ": "Can I test the app without registering?",
     "tr_testAppA": "Absolutely! Explore the app's features using the <a href='#'>Test environment</a> and see its capabilities with an imaginary congregation information filled out. Feel free to check it out, but keep in mind that any entered information will be cleared after a page refresh.",
     "tr_whichLangsQ": "In which languages is Organized available?",
-    "tr_whichLangsA": "<p>Currently, Organized supports more than 25 languages, either fully and partially. This includes widely used languages within our theocratic world such as English, Spanish, Portuguese, German, Italian, French, and Japanese. Additionally, the app already supports many other languages like Polish, Ukrainian, Malagasy, Russian, Romanian, and more.</p><p>If you want to translate the app into your language, it's easy – see our <a href='#'>translation guide</a>.</p>",
+    "tr_whichLangsA": "<p>Currently, Organized supports more than 25 languages, either fully and partially. This includes widely used languages within our theocratic world such as English, Spanish, Portuguese, German, Italian, French, and Japanese. Additionally, the app already supports many other languages like Polish, Ukrainian, Malagasy, Russian, Romanian, and more.</p><p>If you want to translate the app into your language, it's easy – open our <a href='translate.organized-app.com'>translation project</a> and start translating.</p>",
     "tr_whatSystemsQ": "What operation systems are supported?",
     "tr_whatSystemsA": "All modern systems are supported – Android, iOS, MacOS, Windows, ChromeOS and Linux. Organized is a PWA app that operates seamlessly with a modern browser as its primary requirement. Enjoy the flexibility of using your account on multiple desktop or mobile devices simultaneously.",
     "tr_pwaMeaningQ": "Organized is a PWA. What does that mean?",
@@ -190,7 +190,6 @@
     "tr_404oops": "Oops",
     "tr_backHome404": "गृहपृष्‍ठमा फर्कने",
     "tr_404PageName": "पृष्ठ फेला परेन",
-    "tr_telegramGroup": "टेलिग्राम समूह",
     "tr_aboutCardAssignments": "मेरो असाइनमेन्ट",
     "tr_aboutCardSchedules": "सभाको तालिका",
     "tr_aboutCardMidweek": "मध्यहप्ताको सभा",
@@ -206,5 +205,6 @@
     "tr_aboutCardServiceYear": "सेवा वर्ष",
     "tr_aboutCardAllTerritories": "सबै इलाका",
     "tr_reliableaAsistant": "तपाईंको विश्वासिलो ईश्वरतान्त्रिक सहयोगी",
-    "tr_appointedBrothersAboutPage": "नियुक्त भाइहरू"
+    "tr_appointedBrothersAboutPage": "नियुक्त भाइहरू",
+    "tr_telegramChannel": "Telegram channel"
 }
