@@ -42,8 +42,8 @@
 	const replacementValues = {
 		congregationCount: 393,  // Last updated congregation count
 		languagesCount: 28,      // Last updated languages count
-		countriesCount: 39,      // Last updated countries count, where congregations are using Organized
-		usersCount: 305          // Last updated users count
+		countriesCount: 49,      // Last updated countries count, where congregations are using Organized
+		usersCount: 500          // Last updated users count
 	};
 
 	// Function to replace placeholders
