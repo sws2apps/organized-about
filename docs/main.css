@@ -372,6 +372,11 @@ ul.dropdown li a {
   border-radius: 12px;
 }
 
+ul.dropdown li a.active {
+  color: var(--accent-main);
+  font-weight: 600;
+}
+
 ul li a:hover {
   background-color: #D5DFFD;
 }
