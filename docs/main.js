@@ -75,6 +75,8 @@
 		});
 	});
 
+	setInterval(replacePlaceholders, 1000);
+
 	
 
 	// packages/shared/render/plugins/BaseSiteModules/tram-min.js
