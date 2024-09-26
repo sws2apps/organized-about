@@ -41,7 +41,7 @@
 	// Define the dynamic values for replacements
 	const replacementValues = {
 		congregationCount: 393,  // Last updated congregation count
-		languagesCount: 28,      // Last updated languages count
+		languagesCount: 28+,      // Last updated languages count
 		countriesCount: 49,      // Last updated countries count, where congregations are using Organized
 		usersCount: 500          // Last updated users count
 	};
