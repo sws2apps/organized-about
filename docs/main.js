@@ -37885,38 +37885,38 @@ document.addEventListener('click', (event) => {
     }
 });
 
-window.addEventListener('load', () => {
-    const storedLanguage = localStorage.getItem('selectedLanguage');
-    if (storedLanguage) {
-        // Шукаємо елемент списку мов на основі англійської назви (storedLanguage)
-        const languageOption = document.querySelector(`a[data-language="${storedLanguage}"]`);
-        if (languageOption) {
-            // Емітуємо клік для застосування мови
-            languageOption.click();
-        }
-    } else {
-        // Якщо мова не збережена, використовуємо за замовчуванням англійську мову
-        const defaultLanguageOption = document.querySelector('a[data-language="english"]');
-        if (defaultLanguageOption) {
-            defaultLanguageOption.click();
-        }
-    }
-}); 
-
 // window.addEventListener('load', () => {
 //     const storedLanguage = localStorage.getItem('selectedLanguage');
 //     if (storedLanguage) {
+//         // Шукаємо елемент списку мов на основі англійської назви (storedLanguage)
 //         const languageOption = document.querySelector(`a[data-language="${storedLanguage}"]`);
 //         if (languageOption) {
+//             // Емітуємо клік для застосування мови
 //             languageOption.click();
 //         }
 //     } else {
-//         const defaultLanguageOption = document.querySelector('a[data-language="English"]');
+//         // Якщо мова не збережена, використовуємо за замовчуванням англійську мову
+//         const defaultLanguageOption = document.querySelector('a[data-language="english"]');
 //         if (defaultLanguageOption) {
 //             defaultLanguageOption.click();
 //         }
 //     }
-// });
+// }); 
+
+window.addEventListener('load', () => {
+    const storedLanguage = localStorage.getItem('selectedLanguage');
+    if (storedLanguage) {
+        const languageOption = document.querySelector(`a[data-language="${storedLanguage}"]`);
+        if (languageOption) {
+            languageOption.click();
+        }
+    } else {
+        const defaultLanguageOption = document.querySelector('a[data-language="English"]');
+        if (defaultLanguageOption) {
+            defaultLanguageOption.click();
+        }
+    }
+});
 
 const year = document.getElementById('year');
 
