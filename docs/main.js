@@ -37,44 +37,6 @@
 	);
 	var __toCommonJS = (mod2) => __copyProps(__defProp({}, '__esModule', { value: true }), mod2);
 
-	
-	// // Define the dynamic values for replacements
-	// const replacementValues = {
-	// 	congregationCount: 393,  // Last updated congregation count
-	// 	languagesCount: 28,      // Last updated languages count
-	// 	countriesCount: 49,      // Last updated countries count, where congregations are using Organized
-	// 	usersCount: 500          // Last updated users count
-	// };
-
-	// // Function to replace placeholders
-	// function replacePlaceholders(message, replacements) {
-	// 	return message.replace(/{(\w+)}/g, function(match, key) {
-	// 		return replacements[key] !== undefined ? replacements[key] : match;
-	// 	});
-	// }
-
-	// // Once the DOM is fully loaded, replace the placeholders in specific elements
-	// document.addEventListener('DOMContentLoaded', function() {
-	// 	// Array of trIDs to update
-	// 	const trIDs = ['tr_languagesDesc', 'tr_whichLangsA'];
-
-	// 	trIDs.forEach(trID => {
-	// 		// Select the element using the data-trID attribute
-	// 		const element = document.querySelector(`[data-trID="${trID}"]`);
-			
-	// 		if (element) { // Check if the element exists
-	// 			// Get the original text with the placeholder
-	// 			let originalText = element.textContent;
-				
-	// 			// Replace placeholders with the actual values
-	// 			let updatedText = replacePlaceholders(originalText, replacementValues);
-				
-	// 			// Update the element with the replaced text
-	// 			element.textContent = updatedText;
-	// 		}
-	// 	});
-	// });
-
 
 
 	// Define the dynamic values for replacements
@@ -122,8 +84,6 @@
 		// Then, call the function every second to update the values
 		setInterval(updateElements, 1000);
 	});
-
-	
 
 	
 
