@@ -40,9 +40,9 @@
 	
 	// Define the dynamic values for replacements
 	const replacementValues = {
-		congregationCount: 400,  // Last updated congregation count
+		congregationCount: 393,  // Last updated congregation count
 		languagesCount: 28+,      // Last updated languages count
-		countriesCount: 50,      // Last updated countries count, where congregations are using Organized
+		countriesCount: 49,      // Last updated countries count, where congregations are using Organized
 		usersCount: 500          // Last updated users count
 	};
 
@@ -53,41 +53,26 @@
 		});
 	}
 
-	// Function to update elements with placeholders
-	function updateElementsWithPlaceholders(trIDs) {
-		trIDs.forEach(trID => {
-			// Select the element using the data-trID attribute
-			const element = document.querySelector(`[data-trID="${trID}"]`);
-
-			if (element) { // Check if the element exists
-				console.log(`Found element with trID: ${trID}`, element);
-
-				// Get the original text with the placeholder
-				let originalText = element.innerHTML;  // Use innerHTML to handle elements with HTML inside
-
-				console.log(`Original text in element [${trID}]: ${originalText}`);
-
-				// Replace placeholders with the actual values
-				let updatedText = replacePlaceholders(originalText, replacementValues);
-
-				console.log(`Updated text in element [${trID}]: ${updatedText}`);
-
-				// Update the element with the replaced text
-				element.innerHTML = updatedText;  // Use innerHTML to update content safely
-
-			} else {
-				console.warn(`Element with trID: ${trID} not found`);
-			}
-		});
-	}
-
 	// Once the DOM is fully loaded, replace the placeholders in specific elements
 	document.addEventListener('DOMContentLoaded', function() {
 		// Array of trIDs to update
 		const trIDs = ['tr_languagesDesc', 'tr_whichLangsA'];
 
-		// Update elements with placeholders
-		updateElementsWithPlaceholders(trIDs);
+		trIDs.forEach(trID => {
+			// Select the element using the data-trID attribute
+			const element = document.querySelector(`[data-trID="${trID}"]`);
+			
+			if (element) { // Check if the element exists
+				// Get the original text with the placeholder
+				let originalText = element.textContent;
+				
+				// Replace placeholders with the actual values
+				let updatedText = replacePlaceholders(originalText, replacementValues);
+				
+				// Update the element with the replaced text
+				element.textContent = updatedText;
+			}
+		});
 	});
 
 	
