@@ -37772,27 +37772,27 @@ organized.require('ix2').init({
 	},
 });
 
-const notoSansLanguages = ['日本語', 'Malagasy', 'հայերեն', 'नेपाली'];
+const notoSansLanguages = ['japanese', 'malagasy', 'armenian', 'nepali'];
 
 const languageFiles = {
-    հայերեն: 'locales/hy-AM/strings.json',
-    Deutsch: 'locales/de-DE/strings.json',
-    English: 'locales/en/strings.json',
-    Français: 'locales/fr-FR/strings.json',
-    Magyar: 'locales/hu-HU/strings.json',
-    Italiano: 'locales/it-IT/strings.json',
-    Malagasy: 'locales/mg-MG/strings.json',
-    Polski: 'locales/pl-PL/strings.json',
-    Português: 'locales/pt-PT/strings.json',
-    'Português-BR': 'locales/pt-BR/strings.json',
-    Русский: 'locales/ru-RU/strings.json',
-    Türkçe: 'locales/tr-TR/strings.json',
-    Tagalog: 'locales/tl-PH/strings.json',
-    Українська: 'locales/uk-UA/strings.json',
-    नेपाली: 'locales/ne-NP/strings.json',
-    日本語: 'locales/ja-JP/strings.json',
-	Suomi: 'locales/fi-FI/strings.json',
-	Svenska: 'locales/sv-SE/strings.json'
+    armenian: 'locales/hy-AM/strings.json',
+    german: 'locales/de-DE/strings.json',
+    english: 'locales/en/strings.json',
+    french: 'locales/fr-FR/strings.json',
+    hungarian: 'locales/hu-HU/strings.json',
+    italian: 'locales/it-IT/strings.json',
+    malagasy: 'locales/mg-MG/strings.json',
+    polish: 'locales/pl-PL/strings.json',
+    portuguese: 'locales/pt-PT/strings.json',
+    'portuguese-br': 'locales/pt-BR/strings.json',
+    russian: 'locales/ru-RU/strings.json',
+    turkish: 'locales/tr-TR/strings.json',
+    tagalog: 'locales/tl-PH/strings.json',
+    ukrainian: 'locales/uk-UA/strings.json',
+    nepali: 'locales/ne-NP/strings.json',
+    japanese: 'locales/ja-JP/strings.json',
+    finnish: 'locales/fi-FI/strings.json',
+    swedish: 'locales/sv-SE/strings.json'
 };
 
 const select = document.querySelector('.language-btn');
@@ -37817,23 +37817,24 @@ options.forEach((option) => {
 
 function handleLanguageSelection(event) {
     const selectedLanguage = event.target.textContent.trim();
+	const selectedLanguageData = event.target.getAttribute('data-language');
     selected.textContent = selectedLanguage;
 
-    const translationsPath = languageFiles[selectedLanguage];
+    const translationsPath = languageFiles[selectedLanguageData];
 
-    if (notoSansLanguages.includes(selectedLanguage)) {
+    if (notoSansLanguages.includes(selectedLanguageData)) {
         body.classList.add('noto-sans');
     } else {
         body.classList.remove('noto-sans');
     }
 
-	if (['Français'].includes(selectedLanguage)) {
+	if (['Français'].includes(selectedLanguageData)) {
         h1xElement.classList.add('small');
     } else {
         h1xElement.classList.remove('small');
     }
 
-    if (['Türkçe', 'Українська', 'Русский'].includes(selectedLanguage)) {
+    if (['Türkçe', 'Українська', 'Русский'].includes(selectedLanguageData)) {
         h1xxlElement.classList.add('small-text');
     } else {
         h1xxlElement.classList.remove('small-text');
@@ -37842,7 +37843,7 @@ function handleLanguageSelection(event) {
     fetchTranslations(translationsPath);
 
     menu.classList.remove('show');
-    localStorage.setItem('selectedLanguage', selectedLanguage);
+    localStorage.setItem('selectedLanguage', selectedLanguageData);
 
     updateActiveClass(event.target);
 }
@@ -37887,17 +37888,35 @@ document.addEventListener('click', (event) => {
 window.addEventListener('load', () => {
     const storedLanguage = localStorage.getItem('selectedLanguage');
     if (storedLanguage) {
+        // Шукаємо елемент списку мов на основі англійської назви (storedLanguage)
         const languageOption = document.querySelector(`a[data-language="${storedLanguage}"]`);
         if (languageOption) {
+            // Емітуємо клік для застосування мови
             languageOption.click();
         }
     } else {
-        const defaultLanguageOption = document.querySelector('a[data-language="English"]');
+        // Якщо мова не збережена, використовуємо за замовчуванням англійську мову
+        const defaultLanguageOption = document.querySelector('a[data-language="english"]');
         if (defaultLanguageOption) {
             defaultLanguageOption.click();
         }
     }
-});
+}); 
+
+// window.addEventListener('load', () => {
+//     const storedLanguage = localStorage.getItem('selectedLanguage');
+//     if (storedLanguage) {
+//         const languageOption = document.querySelector(`a[data-language="${storedLanguage}"]`);
+//         if (languageOption) {
+//             languageOption.click();
+//         }
+//     } else {
+//         const defaultLanguageOption = document.querySelector('a[data-language="English"]');
+//         if (defaultLanguageOption) {
+//             defaultLanguageOption.click();
+//         }
+//     }
+// });
 
 const year = document.getElementById('year');
 
