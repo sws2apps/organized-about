@@ -37816,7 +37816,7 @@ options.forEach((option) => {
 });
 
 function handleLanguageSelection(event) {
-    const selectedLanguage = event.target.getAttribute('data-language');
+    const selectedLanguage = event.target.textContent.trim();
     selected.textContent = selectedLanguage;
 
     const translationsPath = languageFiles[selectedLanguage];
@@ -37907,6 +37907,7 @@ function getYear() {
 	return currentYear;
 }
 year.innerText = getYear();
+
 
 // SECTION MEET THE APP
 document.addEventListener("DOMContentLoaded", function() {
