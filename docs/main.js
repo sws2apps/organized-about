@@ -38047,3 +38047,23 @@ function mapNumberRange(n, a, b, c, d) {
   }
   
   setup()
+
+
+/***************************************
+ 
+ *  Features and advantages grid anim  *
+ 
+****************************************/
+
+const cardsContainer = document.querySelector('.features-grid')
+const cards = document.querySelectorAll('.features-grid .features-card-grid-container')
+
+cardsContainer.addEventListener('mousemove', (e) => requestAnimationFrame(() => handleCardsMove(e)))
+
+function handleCardsMove(e) {
+  cards.forEach((card) => {
+    const rect = card.getBoundingClientRect()
+    card.parentElement.style.setProperty('--x', e.clientX - rect.left + 'px')
+    card.parentElement.style.setProperty('--y', e.clientY - rect.top + 'px')
+  })
+}

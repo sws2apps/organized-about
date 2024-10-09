@@ -6739,3 +6739,46 @@ width: 100%;
   font-size: 28px;
 }
 }
+
+/***************************************
+ 
+ *  Features and advantages grid anim  *
+ 
+****************************************/
+
+.features-card-grid-container::before, .features-card-grid-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  -webkit-transition: opacity 350ms;
+  transition: opacity 350ms;
+  border-radius: 12px;
+  opacity: 0;
+  background: radial-gradient(700px circle at var(--x) var(--y), rgba(255, 255, 255, var(--transparency)), transparent 40%);
+}
+
+.features-grid:hover .features-card-grid-wrapper::before {
+  opacity: 1;
+}
+
+.features-card-grid-wrapper {
+  padding: 1px;
+  position: relative;
+}
+.features-card-grid-wrapper::before {
+  --transparency: 0.3;
+}
+.features-card-grid-wrapper > * {
+  height: 100%;
+}
+
+.features-card-grid-container {
+  overflow: hidden;
+}
+.features-card-grid-container:hover::before {
+  opacity: 1;
+}
+.features-card-grid-container::before {
+  --transparency: 0.05;
+}
