@@ -130,7 +130,7 @@
     "tr_viewMeetingAssignments": "Visualize as suas designações e agendas da reunião 'A Nossa Vida e Ministério Cristãos'.",
     "tr_featuresAndAdvantages": "Recursos e vantagens",
     "tr_differentLanguages": "Idiomas diferentes",
-    "tr_languagesDesc": "App is available fully or partially in {languagesCount} languages and more to come!",
+    "tr_languagesDesc": "A aplicação está disponível total ou parcialmente nos idiomas do {languagesCount} e muitas mais virão!",
     "tr_openSource": "Código aberto",
     "tr_fullTransparency": "Transparência total nas operações da aplicação em segundo plano.",
     "tr_tryOrganized": "Experimente o Organized agora mesmo!",
@@ -206,6 +206,6 @@
     "tr_aboutCardAllTerritories": "Todos os territórios",
     "tr_reliableaAsistant": "O seu assistente teocrático confiável",
     "tr_appointedBrothersAboutPage": "Irmãos designados",
-    "tr_telegramChannel": "Telegram channel",
-    "viewAllQ": "View all questions"
+    "tr_telegramChannel": "Canal do Telegram",
+    "viewAllQ": "Ver todas as perguntas"
 }
