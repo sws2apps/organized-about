@@ -37845,10 +37845,16 @@ function handleLanguageSelection(event) {
         h1xElement.classList.remove('small');
     }
 
-    if (['Türkçe', 'Українська', 'Русский'].includes(selectedLanguageData)) {
+    if (['Українська', 'Русский'].includes(selectedLanguageData)) {
         h1xxlElement.classList.add('small-text');
     } else {
         h1xxlElement.classList.remove('small-text');
+    }
+
+	if (['Türkçe'].includes(selectedLanguageData)) {
+		h1xxl.whiteElement.classList.add('small-text');
+    } else {
+        h1xxl.whiteElement.classList.remove('small-text');
     }
 
     fetchTranslations(translationsPath);
@@ -37896,24 +37902,6 @@ document.addEventListener('click', (event) => {
     }
 });
 
-// window.addEventListener('load', () => {
-//     const storedLanguage = localStorage.getItem('selectedLanguage');
-//     if (storedLanguage) {
-//         // Шукаємо елемент списку мов на основі англійської назви (storedLanguage)
-//         const languageOption = document.querySelector(`a[data-language="${storedLanguage}"]`);
-//         if (languageOption) {
-//             // Емітуємо клік для застосування мови
-//             languageOption.click();
-//         }
-//     } else {
-//         // Якщо мова не збережена, використовуємо за замовчуванням англійську мову
-//         const defaultLanguageOption = document.querySelector('a[data-language="english"]');
-//         if (defaultLanguageOption) {
-//             defaultLanguageOption.click();
-//         }
-//     }
-// }); 
-
 window.addEventListener('load', () => {
     const storedLanguage = localStorage.getItem('selectedLanguage');
     if (storedLanguage) {
@@ -37939,7 +37927,13 @@ function getYear() {
 year.innerText = getYear();
 
 
-// SECTION MEET THE APP
+
+/**************************
+ 
+ *  SECTION MEET THE APP  *
+ 
+***************************/
+
 document.addEventListener("DOMContentLoaded", function() {
 	const animatedHeading = document.querySelector('.animated-p-opacity100');
 	const windowHeight = window.innerHeight;
