@@ -32,7 +32,7 @@
     "tr_congregationDataQ": "Можно ли экспортировать данные о собрании?",
     "tr_congregationDataA": "Конечно! Ты можешь экспортировать расписания, отчеты, бланки заданий и т.д. в шаблоны PDF, готовые к печати (например, S-13, S-140, S-89 или шаблоны с альтернативным дизайном).",
     "tr_testAppQ": "Можно ли протестировать приложение без регистрации?",
-    "tr_testAppA": "Конечно! Ознакомься с функциями приложения, используя <a href='#'>тестовое окружение</a> и увидишь его возможности с заполненной информацией о воображаемом собрании. Попробуй этот режим, но помни, что после обновления страницы введенная информация будет стерта.",
+    "tr_testAppA": "Absolutely! Explore the app's features using the <a href='https://test.organized-app.com/'>Test environment</a>, where you can see how it works with pre-filled imaginary congregation data. Feel free to check it out, but keep in mind that any entered information will be cleared after a page refresh.",
     "tr_whichLangsQ": "На каких языках доступно Organized?",
     "tr_whichLangsA": "<p>Currently, Organized supports more than {languagesCount} languages, either fully and partially. This includes widely used languages within our theocratic world such as English, Spanish, Portuguese, German, Italian, French, and Japanese. Additionally, the app already supports many other languages like Polish, Ukrainian, Malagasy, Russian, Romanian, and more.</p><p>If you want to translate the app into your language, it's easy – open our <a href='https://translate.organized-app.com/'>translation project</a> and start translating.</p>",
     "tr_whatSystemsQ": "Какие операционные системы поддерживаются?",
