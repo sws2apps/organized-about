@@ -32,7 +32,7 @@
     "tr_congregationDataQ": "Kan församlingsdata exporteras?",
     "tr_congregationDataA": "Självklart! Du kan exportera scheman, rapporter, tilldelningsformulär, etc. till utskrivna PDF-mallar (antingen officiella som S-13, S-140, S-89 eller anpassade mallar)",
     "tr_testAppQ": "Kan jag testa appen utan att registrera mig?",
-    "tr_testAppA": "Absolut! Utforska appens funktioner med hjälp av vår <a href='#'>Testmiljö</a> och se dess kapacitet med påhittad församlingsinformation ifylld. Känn gärna fritt att titta på det, men tänk på att all inmatad information kommer att rensas uppdatering av sidan.",
+    "tr_testAppA": "Absolutely! Explore the app's features using the <a href='https://test.organized-app.com/'>Test environment</a>, where you can see how it works with pre-filled imaginary congregation data. Feel free to check it out, but keep in mind that any entered information will be cleared after a page refresh.",
     "tr_whichLangsQ": "På vilka språk finns Organized?",
     "tr_whichLangsA": "<p>För närvarande stöder Organized mer än {languagesCount} språk, antingen fullt eller delvis. Detta inkluderar språk inom vår teokratiska värld, som engelska, spanska, portugisiska, tyska, italienska, franska och japanska. Dessutom stöder appen redan många andra språk, som polska, ukrainska, malagasiska, ryska, rumänska och många mer.</p><p>Om du vill översätta appen till ditt språk är det enkelt – se vår <a href='https://translate.organized-app.com/'>översättningsguide</a> och börja översätta.</p>",
     "tr_whatSystemsQ": "Vilka operativsystem stöds?",
