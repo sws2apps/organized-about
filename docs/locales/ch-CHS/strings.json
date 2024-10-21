@@ -32,7 +32,7 @@
     "tr_congregationDataQ": "会众数据可以导出吗？",
     "tr_congregationDataA": "当然！你可以将安排、报告、委派表等导出为 PDF 模板（可以是官方模板，如 S-13, S-140, S-89 或自定义模板）。",
     "tr_testAppQ": "我可以在不注册的情况下测试该应用吗？",
-    "tr_testAppA": "Absolutely! Explore the app's features using the <a href='https://test.organized-app.com/'>Test environment</a>, where you can see how it works with pre-filled imaginary congregation data. Feel free to check it out, but keep in mind that any entered information will be cleared after a page refresh.",
+    "tr_testAppA": "当然！您可以在<a href='https://test.organized-app.com/'>测试环境</a>中探索该应用程序的功能，查看它如何与预填充的虚拟聚会数据一起工作。欢迎查看，但请注意，任何输入的信息在刷新页面后将被清除。",
     "tr_whichLangsQ": "Organized 支持哪些语言？",
     "tr_whichLangsA": "<p>目前，Organized 支持超过 {languagesCount} 种语言，部分或完全支持。这包括我们在传道工作中常用的语言，如英语、西班牙语、葡萄牙语、德语、意大利语、法语和日语。此外，应用程序还支持许多其他语言，如波兰语、乌克兰语、马达加斯加语、俄语、罗马尼亚语等。</p><p>如果你希望将应用程序翻译成你的语言，这很简单——打开我们的 <a href='https://translate.organized-app.com/'>翻译项目</a>，开始翻译。</p>",
     "tr_whatSystemsQ": "支持哪些操作系统？",
