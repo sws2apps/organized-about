@@ -32,7 +32,7 @@
     "tr_congregationDataQ": "会衆のデータを提出用に書き出しできますか？",
     "tr_congregationDataA": "もちろんです！予定、奉仕報告、割り当てなどをPDF形式でエクスポートできます。(S-13・S-140・S-89などの組織の用紙、カスタムデザインのテンプレートなどのテンプレート)",
     "tr_testAppQ": "登録せずにアプリをテストできますか？",
-    "tr_testAppA": "もちろんです! <a href='#'>デモ版</a> で試用し、サンプル会衆の集会の情報で機能を確認してください。 自由に編集することができますが、入力された情報は保存されません。",
+    "tr_testAppA": "Absolutely! Explore the app's features using the <a href='https://test.organized-app.com/'>Test environment</a>, where you can see how it works with pre-filled imaginary congregation data. Feel free to check it out, but keep in mind that any entered information will be cleared after a page refresh.",
     "tr_whichLangsQ": "Organizedはどの言語で利用可能ですか？",
     "tr_whichLangsA": "<p>Currently, Organized supports more than {languagesCount} languages, either fully and partially. This includes widely used languages within our theocratic world such as English, Spanish, Portuguese, German, Italian, French, and Japanese. Additionally, the app already supports many other languages like Polish, Ukrainian, Malagasy, Russian, Romanian, and more.</p><p>If you want to translate the app into your language, it's easy – open our <a href='https://translate.organized-app.com/'>translation project</a> and start translating.</p>",
     "tr_whatSystemsQ": "私のデバイスで利用できますか？",
