@@ -32,7 +32,7 @@
     "tr_congregationDataQ": "Können die Versammlungsdaten exportiert werden?",
     "tr_congregationDataA": "Natürlich! Du kannst Zeitpläne, Berichte, Zuweisungsformulare usw. in gedruckte PDF-Vorlagen exportieren (entweder offizielle wie S-13, S-140, S-89 oder individuell gestaltete Vorlagen)",
     "tr_testAppQ": "Kann ich die App testen, ohne mich zu registrieren?",
-    "tr_testAppA": "Absolut! Erkunde die Funktionen der App mit der <a href='#'>Testumgebung</a> und sieh dir ihre Möglichkeiten mit einer imaginären Versammlungsinformationen an. Sieh dir das ruhig an, aber beachte, dass alle eingegebenen Informationen nach einem Seitenrefresh gelöscht werden.",
+    "tr_testAppA": "Absolutely! Explore the app's features using the <a href='https://test.organized-app.com/'>Test environment</a>, where you can see how it works with pre-filled imaginary congregation data. Feel free to check it out, but keep in mind that any entered information will be cleared after a page refresh.",
     "tr_whichLangsQ": "In welchen Sprachen ist Organized verfügbar?",
     "tr_whichLangsA": "<p>Derzeit unterstützt Organized mehr als {languagesCount} Sprachen, entweder vollständig oder teilweise. Dazu gehören weit verbreitete Sprachen in unserer theokratischen Welt wie Englisch, Spanisch, Portugiesisch, Deutsch, Italienisch, Französisch und Japanisch. Außerdem unterstützt die App bereits viele andere Sprachen wie Polnisch, Ukrainisch, Malagasy, Russisch, Rumänisch und mehr.</p><p>Wenn du die App in deine Sprache übersetzen möchtest, ist das einfach – sieh dir unsere <a href='#'>Übersetzungsanleitung</a> an.</p>",
     "tr_whatSystemsQ": "Welche Betriebssysteme werden unterstützt?",
