@@ -32,7 +32,7 @@
     "tr_congregationDataQ": "Voidaanko seurakunnan tiedot viedä?",
     "tr_congregationDataA": "Tietysti! Voit viedä aikatauluja, raportteja, tehtävälomakkeita jne. tulostettaviin PDF-malleihin (virallisiin kuten S-13, S-140, S-89 tai mukautettuihin malleihin)",
     "tr_testAppQ": "Voinko testata sovellusta ilman rekisteröitymistä?",
-    "tr_testAppA": "Absolutely! Explore the app's features using the <a href='https://test.organized-app.com/'>Test environment</a>, where you can see how it works with pre-filled imaginary congregation data. Feel free to check it out, but keep in mind that any entered information will be cleared after a page refresh.",
+    "tr_testAppA": "Ehdottomasti! Tutustu sovelluksen ominaisuuksiin <a href='https://test.organized-app.com/'>Testitilassa</a> ja näe sen toiminnot kuvitteellisella seurakuntatiedolla täytettynä. Käy rohkeasti katsomassa, mutta muista, että syöttämäsi tiedot poistetaan sivun päivityksen jälkeen.",
     "tr_whichLangsQ": "Millä kielillä Organized on saatavilla?",
     "tr_whichLangsA": "<p>Tällä hetkellä Organized tukee yli {languagesCount} kieltä, joko täysin tai osittain. Näihin kuuluvat laajalti käytetyt kielet teokraattisessa maailmassamme, kuten englanti, espanja, portugali, saksa, italia, ranska ja japani. Lisäksi sovellus tukee jo monia muita kieliä, kuten puolaa, ukrainaa, malagassia, venäjää, romaniaa ja monta muita.</p><p>Jos haluat kääntää sovelluksen omalle kiellellesi, se on helppoa – katso <a href='https://translate.organized-app.com/'>käännösohjeemme</a>.</p>",
     "tr_whatSystemsQ": "Mitä käyttöjärjestelmiä sovellus tukee?",
