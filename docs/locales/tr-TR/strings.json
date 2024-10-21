@@ -32,7 +32,7 @@
     "tr_congregationDataQ": "Cemaat verileri dışarı aktarılabilir mi?",
     "tr_congregationDataA": "Elbette! Programları, raporları, ibadet programını vs. yazdırılabilir PDF şablonlarıyla (S-13, S-140, S-89 gibi resmi şablonlar veya özel tasarımlı şablonlar dahil) dışa aktarabilirsiniz",
     "tr_testAppQ": "Kaydolmadan uygulamayı test edebilir miyim?",
-    "tr_testAppA": "Tabii ki! <a href='#'>Test ortamını</a> kullanarak uygulamanın özelliklerini keşfedin ve hayali bir cemaatin bilgileriyle doldurulmuş olarak görün. Lütfen istediğiniz kadar inceleyin, ancak sayfanın yenilenmesi sonrasında girilen tüm bilgilerinin silineceğini unutmayın.",
+    "tr_testAppA": "Absolutely! Explore the app's features using the <a href='https://test.organized-app.com/'>Test environment</a>, where you can see how it works with pre-filled imaginary congregation data. Feel free to check it out, but keep in mind that any entered information will be cleared after a page refresh.",
     "tr_whichLangsQ": "Organized hangi dillerde kullanılabilir?",
     "tr_whichLangsA": "<p>Currently, Organized supports more than {languagesCount} languages, either fully and partially. This includes widely used languages within our theocratic world such as English, Spanish, Portuguese, German, Italian, French, and Japanese. Additionally, the app already supports many other languages like Polish, Ukrainian, Malagasy, Russian, Romanian, and more.</p><p>If you want to translate the app into your language, it's easy – open our <a href='https://translate.organized-app.com/'>translation project</a> and start translating.</p>",
     "tr_whatSystemsQ": "Desteklenen işletim sistemleri hangileridir?",
