@@ -32,7 +32,7 @@
     "tr_congregationDataQ": "Can the congregation data be exported?",
     "tr_congregationDataA": "Of course! You can export schedules, reports, assignment form, etc. to printed PDF templates (either official ones like S-13, S-140, S-89 or custom-designed templates)",
     "tr_testAppQ": "Can I test the app without registering?",
-    "tr_testAppA": "Absolutely! Explore the app's features using the <a href='#'>Test environment</a> and see its capabilities with an imaginary congregation information filled out. Feel free to check it out, but keep in mind that any entered information will be cleared after a page refresh.",
+    "tr_testAppA": "Absolutely! Explore the app's features using the <a href='https://test.organized-app.com/'>Test environment</a>, where you can see how it works with pre-filled imaginary congregation data. Feel free to check it out, but keep in mind that any entered information will be cleared after a page refresh.",
     "tr_whichLangsQ": "In which languages is Organized available?",
     "tr_whichLangsA": "<p>Actualmente, Organized admite más de {languagesCount} idiomas, ya sea total o parcialmente. Esto incluye idiomas ampliamente utilizados en nuestro mundo teocrático, como inglés, español, portugués, alemán, italiano, francés y japonés. Además, la app ya admite muchos otros idiomas como polaco, ucraniano, malgache, ruso, rumano y más.\n</p><p>Si deseas traducir la app a tu idioma, es fácil: abre nuestro <a href='https://translate.organized-app.com/'>proyecto de traducción</a> y comienza a traducir.</p>",
     "tr_whatSystemsQ": "What operation systems are supported?",
