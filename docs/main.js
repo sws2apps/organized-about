@@ -37851,12 +37851,6 @@ function handleLanguageSelection(event) {
         h1xxlElement.classList.remove('small-text');
     }
 
-	// if (['Türkçe'].includes(selectedLanguageData)) {
-	// 	h1xxl.whiteElement.classList.add('small-text');
-    // } else {
-    //     h1xxl.whiteElement.classList.remove('small-text');
-    // }
-
     fetchTranslations(translationsPath);
 
     menu.classList.remove('show');
