@@ -35075,314 +35075,314 @@ organized.require('ix2').init({
 			useFirstGroupAsInitialState: false,
 			createdOn: 1702505232814,
 		},
-		'a-7': {
-			id: 'a-7',
-			title: 'footer-word-animation',
-			actionItemGroups: [
-				{
-					actionItems: [
-						{
-							id: 'a-7-n-8',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 0,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|e65cd631-7371-3b3b-d0c0-ba8e42dda5b9' },
-								value: 'block',
-							},
-						},
-						{
-							id: 'a-7-n-9',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 0,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|c4d011fa-7a8c-eb78-eda1-8619191d3b30' },
-								value: 'none',
-							},
-						},
-						{
-							id: 'a-7-n-11',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 0,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|2c2f8937-551c-6813-fa15-2e65a0c23825' },
-								value: 'none',
-							},
-						},
-						{
-							id: 'a-7-n-12',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 0,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|fe0c5c91-22fe-edbf-386c-c52b3ad6e634' },
-								value: 'none',
-							},
-						},
-						{
-							id: 'a-7-n-14',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 0,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|afd2ebda-5d36-56dc-82a9-01738fd5d1cd' },
-								value: 'none',
-							},
-						},
-						{
-							id: 'a-7-n-7',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 0,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|0db10fbc-9953-2387-40a5-20de8e6d6c75' },
-								value: 'none',
-							},
-						},
-						{
-							id: 'a-7-n-10',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 0,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|821d3edd-1beb-8511-8dc6-24403b2078c7' },
-								value: 'none',
-							},
-						},
-						{
-							id: 'a-7-n-15',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 0,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|cacd2b02-a698-059f-3169-625d13ec2ac7' },
-								value: 'none',
-							},
-						},
-					],
-				},
-				{
-					actionItems: [
-						{
-							id: 'a-7-n-19',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 2000,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|c4d011fa-7a8c-eb78-eda1-8619191d3b30' },
-								value: 'block',
-							},
-						},
-						{
-							id: 'a-7-n-18',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 2000,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|e65cd631-7371-3b3b-d0c0-ba8e42dda5b9' },
-								value: 'none',
-							},
-						},
-					],
-				},
-				{
-					actionItems: [
-						{
-							id: 'a-7-n-21',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 2000,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|2c2f8937-551c-6813-fa15-2e65a0c23825' },
-								value: 'block',
-							},
-						},
-						{
-							id: 'a-7-n-20',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 2000,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|c4d011fa-7a8c-eb78-eda1-8619191d3b30' },
-								value: 'none',
-							},
-						},
-					],
-				},
-				{
-					actionItems: [
-						{
-							id: 'a-7-n-23',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 2000,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|fe0c5c91-22fe-edbf-386c-c52b3ad6e634' },
-								value: 'block',
-							},
-						},
-						{
-							id: 'a-7-n-24',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 2000,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|2c2f8937-551c-6813-fa15-2e65a0c23825' },
-								value: 'none',
-							},
-						},
-					],
-				},
-				{
-					actionItems: [
-						{
-							id: 'a-7-n-26',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 2000,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|afd2ebda-5d36-56dc-82a9-01738fd5d1cd' },
-								value: 'block',
-							},
-						},
-						{
-							id: 'a-7-n-25',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 2000,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|fe0c5c91-22fe-edbf-386c-c52b3ad6e634' },
-								value: 'none',
-							},
-						},
-					],
-				},
-				{
-					actionItems: [
-						{
-							id: 'a-7-n-28',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 2000,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|afd2ebda-5d36-56dc-82a9-01738fd5d1cd' },
-								value: 'none',
-							},
-						},
-						{
-							id: 'a-7-n-27',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 2000,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|0db10fbc-9953-2387-40a5-20de8e6d6c75' },
-								value: 'block',
-							},
-						},
-					],
-				},
-				{
-					actionItems: [
-						{
-							id: 'a-7-n-30',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 2000,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|821d3edd-1beb-8511-8dc6-24403b2078c7' },
-								value: 'block',
-							},
-						},
-						{
-							id: 'a-7-n-29',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 2000,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|0db10fbc-9953-2387-40a5-20de8e6d6c75' },
-								value: 'none',
-							},
-						},
-					],
-				},
-				{
-					actionItems: [
-						{
-							id: 'a-7-n-31',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 2000,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|821d3edd-1beb-8511-8dc6-24403b2078c7' },
-								value: 'none',
-							},
-						},
-						{
-							id: 'a-7-n-32',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 2000,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|cacd2b02-a698-059f-3169-625d13ec2ac7' },
-								value: 'block',
-							},
-						},
-					],
-				},
-				{
-					actionItems: [
-						{
-							id: 'a-7-n-33',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 0,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|cacd2b02-a698-059f-3169-625d13ec2ac7' },
-								value: 'none',
-							},
-						},
-						{
-							id: 'a-7-n-34',
-							actionTypeId: 'GENERAL_DISPLAY',
-							config: {
-								delay: 0,
-								easing: '',
-								duration: 0,
-								target: { id: '6579be8bf4af153c45a7fbb8|e65cd631-7371-3b3b-d0c0-ba8e42dda5b9' },
-								value: 'block',
-							},
-						},
-					],
-				},
-			],
-			useFirstGroupAsInitialState: true,
-			createdOn: 1702842857794,
-		},
+		// 'a-7': {
+		// 	id: 'a-7',
+		// 	title: 'footer-word-animation',
+		// 	actionItemGroups: [
+		// 		{
+		// 			actionItems: [
+		// 				{
+		// 					id: 'a-7-n-8',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 0,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|e65cd631-7371-3b3b-d0c0-ba8e42dda5b9' },
+		// 						value: 'block',
+		// 					},
+		// 				},
+		// 				{
+		// 					id: 'a-7-n-9',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 0,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|c4d011fa-7a8c-eb78-eda1-8619191d3b30' },
+		// 						value: 'none',
+		// 					},
+		// 				},
+		// 				{
+		// 					id: 'a-7-n-11',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 0,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|2c2f8937-551c-6813-fa15-2e65a0c23825' },
+		// 						value: 'none',
+		// 					},
+		// 				},
+		// 				{
+		// 					id: 'a-7-n-12',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 0,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|fe0c5c91-22fe-edbf-386c-c52b3ad6e634' },
+		// 						value: 'none',
+		// 					},
+		// 				},
+		// 				{
+		// 					id: 'a-7-n-14',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 0,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|afd2ebda-5d36-56dc-82a9-01738fd5d1cd' },
+		// 						value: 'none',
+		// 					},
+		// 				},
+		// 				{
+		// 					id: 'a-7-n-7',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 0,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|0db10fbc-9953-2387-40a5-20de8e6d6c75' },
+		// 						value: 'none',
+		// 					},
+		// 				},
+		// 				{
+		// 					id: 'a-7-n-10',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 0,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|821d3edd-1beb-8511-8dc6-24403b2078c7' },
+		// 						value: 'none',
+		// 					},
+		// 				},
+		// 				{
+		// 					id: 'a-7-n-15',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 0,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|cacd2b02-a698-059f-3169-625d13ec2ac7' },
+		// 						value: 'none',
+		// 					},
+		// 				},
+		// 			],
+		// 		},
+		// 		{
+		// 			actionItems: [
+		// 				{
+		// 					id: 'a-7-n-19',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 2000,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|c4d011fa-7a8c-eb78-eda1-8619191d3b30' },
+		// 						value: 'block',
+		// 					},
+		// 				},
+		// 				{
+		// 					id: 'a-7-n-18',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 2000,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|e65cd631-7371-3b3b-d0c0-ba8e42dda5b9' },
+		// 						value: 'none',
+		// 					},
+		// 				},
+		// 			],
+		// 		},
+		// 		{
+		// 			actionItems: [
+		// 				{
+		// 					id: 'a-7-n-21',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 2000,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|2c2f8937-551c-6813-fa15-2e65a0c23825' },
+		// 						value: 'block',
+		// 					},
+		// 				},
+		// 				{
+		// 					id: 'a-7-n-20',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 2000,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|c4d011fa-7a8c-eb78-eda1-8619191d3b30' },
+		// 						value: 'none',
+		// 					},
+		// 				},
+		// 			],
+		// 		},
+		// 		{
+		// 			actionItems: [
+		// 				{
+		// 					id: 'a-7-n-23',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 2000,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|fe0c5c91-22fe-edbf-386c-c52b3ad6e634' },
+		// 						value: 'block',
+		// 					},
+		// 				},
+		// 				{
+		// 					id: 'a-7-n-24',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 2000,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|2c2f8937-551c-6813-fa15-2e65a0c23825' },
+		// 						value: 'none',
+		// 					},
+		// 				},
+		// 			],
+		// 		},
+		// 		{
+		// 			actionItems: [
+		// 				{
+		// 					id: 'a-7-n-26',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 2000,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|afd2ebda-5d36-56dc-82a9-01738fd5d1cd' },
+		// 						value: 'block',
+		// 					},
+		// 				},
+		// 				{
+		// 					id: 'a-7-n-25',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 2000,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|fe0c5c91-22fe-edbf-386c-c52b3ad6e634' },
+		// 						value: 'none',
+		// 					},
+		// 				},
+		// 			],
+		// 		},
+		// 		{
+		// 			actionItems: [
+		// 				{
+		// 					id: 'a-7-n-28',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 2000,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|afd2ebda-5d36-56dc-82a9-01738fd5d1cd' },
+		// 						value: 'none',
+		// 					},
+		// 				},
+		// 				{
+		// 					id: 'a-7-n-27',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 2000,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|0db10fbc-9953-2387-40a5-20de8e6d6c75' },
+		// 						value: 'block',
+		// 					},
+		// 				},
+		// 			],
+		// 		},
+		// 		{
+		// 			actionItems: [
+		// 				{
+		// 					id: 'a-7-n-30',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 2000,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|821d3edd-1beb-8511-8dc6-24403b2078c7' },
+		// 						value: 'block',
+		// 					},
+		// 				},
+		// 				{
+		// 					id: 'a-7-n-29',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 2000,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|0db10fbc-9953-2387-40a5-20de8e6d6c75' },
+		// 						value: 'none',
+		// 					},
+		// 				},
+		// 			],
+		// 		},
+		// 		{
+		// 			actionItems: [
+		// 				{
+		// 					id: 'a-7-n-31',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 2000,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|821d3edd-1beb-8511-8dc6-24403b2078c7' },
+		// 						value: 'none',
+		// 					},
+		// 				},
+		// 				{
+		// 					id: 'a-7-n-32',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 2000,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|cacd2b02-a698-059f-3169-625d13ec2ac7' },
+		// 						value: 'block',
+		// 					},
+		// 				},
+		// 			],
+		// 		},
+		// 		{
+		// 			actionItems: [
+		// 				{
+		// 					id: 'a-7-n-33',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 0,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|cacd2b02-a698-059f-3169-625d13ec2ac7' },
+		// 						value: 'none',
+		// 					},
+		// 				},
+		// 				{
+		// 					id: 'a-7-n-34',
+		// 					actionTypeId: 'GENERAL_DISPLAY',
+		// 					config: {
+		// 						delay: 0,
+		// 						easing: '',
+		// 						duration: 0,
+		// 						target: { id: '6579be8bf4af153c45a7fbb8|e65cd631-7371-3b3b-d0c0-ba8e42dda5b9' },
+		// 						value: 'block',
+		// 					},
+		// 				},
+		// 			],
+		// 		},
+		// 	],
+		// 	useFirstGroupAsInitialState: true,
+		// 	createdOn: 1702842857794,
+		// },
 		'a-9': {
 			id: 'a-9',
 			title: 'card mouse hover',
@@ -38055,3 +38055,46 @@ function handleCardsMove(e) {
     card.parentElement.style.setProperty('--y', e.clientY - rect.top + 'px')
   })
 }
+
+
+
+/**************************************
+ 
+ *  Animation of words in the footer  *
+ 
+***************************************/
+
+document.addEventListener('DOMContentLoaded', () => {
+	const words = Array.from(document.querySelectorAll('.footer-word-intaraction'));
+	const footerContainer = document.querySelector('.footer-title-contaner');
+	const activeClass = 'active'; // You can style the visible word with a CSS class
+  
+	let currentIndex = 0;
+  
+	// Function to cycle through words
+	function updateWord() {
+	  // Hide all words
+	  words.forEach(word => word.style.display = 'none');
+	  // Show the current word
+	  words[currentIndex].style.display = 'block';
+	  // Move to the next index
+	  currentIndex = (currentIndex + 1) % words.length;
+	  // Adjust font size dynamically
+	  adjustFontSize();
+	}
+  
+	// Function to adjust font size based on container width
+	function adjustFontSize() {
+	  const activeWord = words[currentIndex].querySelector('h1');
+	  if (activeWord && footerContainer.offsetWidth > 400) {
+		const scale = 700 / footerContainer.offsetWidth; // Scale factor
+		activeWord.style.fontSize = `${scale * 100}%`; // Adjust font size proportionally
+	  } else if (activeWord) {
+		activeWord.style.fontSize = '100%'; // Reset font size
+	  }
+	}
+  
+	// Start the rotation
+	updateWord();
+	setInterval(updateWord, 2000); // Update every 2 seconds
+  });
