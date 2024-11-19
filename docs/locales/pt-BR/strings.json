@@ -30,7 +30,7 @@
     "tr_autoAssignQ": "O aplicativo tem recurso de designação automática?",
     "tr_autoAssignA": "Sim, você pode designar as partes de uma reunião automaticamente, com base no histórico e designações anteriores do publicador. Isso é chamado de “Auto preenchimento”. Depois de usá-lo, ainda é possível editar ou criar manualmente as designações.",
     "tr_congregationDataQ": "Os dados da congregação podem ser exportados?",
-    "tr_congregationDataA": "Claro! Você pode exportar programações, relatórios, formulários de designações, etc. para modelos PDF impressos (seja modelos oficiais como S-13, S-140, S-89 ou modelos personalizados)",
+    "tr_congregationDataA": "Claro! Você pode exportar programações, relatórios, formulários de designações, etc. para arquivos PDF (sejam modelos oficiais como S-13, S-140, S-89 ou modelos personalizados)",
     "tr_testAppQ": "Posso testar o aplicativo sem me registrar?",
     "tr_testAppA": "<p>Com certeza! Explore os recursos do aplicativo usando o <a href='https://test.organized-app.com/'>ambiente de teste</a>, onde você pode ver como ele funciona com dados fictícios de uma congregação. Fique à vontade para conferir, mas tenha em mente que qualquer informação inserida será apagada após atualizar a página.</p>",
     "tr_whichLangsQ": "Em quais idiomas o Organized está disponível?",
