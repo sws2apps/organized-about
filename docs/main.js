@@ -38065,42 +38065,42 @@ function handleCardsMove(e) {
 ***************************************/
 
 document.addEventListener('DOMContentLoaded', function() {
-            const container = document.querySelector('.footer-upper-container');
-            const interactionContainer = document.querySelector('.footer-heading-interaction-container');
-            const words = document.querySelectorAll('.footer-word-intaraction');
-            const headingBefore = document.querySelector('.footer-heading');
-            const headingAfter = document.querySelector('.footer-heading:last-of-type');
-            let currentWordIndex = 0;
+    const container = document.querySelector('.footer-upper-container');
+    const interactionContainer = document.querySelector('.footer-heading-interaction-container');
+    const words = document.querySelectorAll('.footer-word-intaraction');
+    const headingBefore = document.querySelector('.footer-heading');
+    const headingAfter = document.querySelector('.footer-heading:last-of-type');
+    let currentWordIndex = 0;
 
-            function adjustText() {
-                const containerWidth = container.clientWidth;
-                const interactionWidth = interactionContainer.clientWidth;
-                const availableWidth = containerWidth - interactionWidth;
+    function adjustText() {
+        const containerWidth = container.clientWidth;
+        const interactionWidth = interactionContainer.clientWidth;
+        const availableWidth = containerWidth - interactionWidth;
 
-                const beforeText = headingBefore.textContent;
-                const afterText = headingAfter.textContent;
+        const beforeText = headingBefore.textContent;
+        const afterText = headingAfter.textContent;
 
-                let beforeLength = beforeText.length;
-                let afterLength = afterText.length;
+        let beforeLength = beforeText.length;
+        let afterLength = afterText.length;
 
-                while (interactionContainer.scrollWidth > availableWidth) {
-                    if (beforeLength > 0) {
-                        headingBefore.textContent = beforeText.substring(0, --beforeLength) + '...';
-                    } else if (afterLength > 0) {
-                        headingAfter.textContent = '...' + afterText.substring(afterText.length - --afterLength);
-                    } else {
-                        break;
-                    }
-                }
+        while (interactionContainer.scrollWidth > availableWidth) {
+            if (beforeLength > 0) {
+                headingBefore.textContent = beforeText.substring(0, --beforeLength) + '...';
+            } else if (afterLength > 0) {
+                headingAfter.textContent = '...' + afterText.substring(afterText.length - --afterLength);
+            } else {
+                break;
             }
+        }
+    }
 
-            function changeWord() {
-                words[currentWordIndex].classList.remove('active');
-                currentWordIndex = (currentWordIndex + 1) % words.length;
-                words[currentWordIndex].classList.add('active');
-                adjustText();
-            }
+    function changeWord() {
+        words[currentWordIndex].style.display = 'none';
+        currentWordIndex = (currentWordIndex + 1) % words.length;
+        words[currentWordIndex].style.display = 'block';
+        adjustText();
+    }
 
-            setInterval(changeWord, 2000);
-            adjustText();
-        });
+    setInterval(changeWord, 2000);
+    adjustText();
+});
