@@ -38065,36 +38065,78 @@ function handleCardsMove(e) {
 ***************************************/
 
 document.addEventListener('DOMContentLoaded', () => {
-	const words = Array.from(document.querySelectorAll('.footer-word-intaraction'));
-	const footerContainer = document.querySelector('.footer-title-contaner');
-	const activeClass = 'active'; // You can style the visible word with a CSS class
+	const footerContainer = document.querySelector('.footer-upper-container');
+	const blueBlockWords = document.querySelectorAll('.footer-word-intaraction h1');
+	const headingBefore = document.querySelector('.footer-title-contaner .footer-heading[data-trID="tr_doAssignments"]');
+	const headingAfter = document.querySelector('.footer-title-contaner .footer-heading[data-trID="tr_withOrganized"]');
+	const blueBlockContainer = document.querySelector('.footer-heading-interaction-container');
   
-	let currentIndex = 0;
+	const PADDING = 25; // Minimum padding on all sides in pixels
+	let currentWordIndex = 0; // Index for cycling through blue block words
   
-	// Function to cycle through words
-	function updateWord() {
-	  // Hide all words
-	  words.forEach(word => word.style.display = 'none');
-	  // Show the current word
-	  words[currentIndex].style.display = 'block';
-	  // Move to the next index
-	  currentIndex = (currentIndex + 1) % words.length;
-	  // Adjust font size dynamically
-	  adjustFontSize();
-	}
+	// Function to get the actual font size applied to an element
+	const getRenderedFontSize = (element) => parseFloat(window.getComputedStyle(element).fontSize);
   
-	// Function to adjust font size based on container width
-	function adjustFontSize() {
-	  const activeWord = words[currentIndex].querySelector('h1');
-	  if (activeWord && footerContainer.offsetWidth > 400) {
-		const scale = 700 / footerContainer.offsetWidth; // Scale factor
-		activeWord.style.fontSize = `${scale * 100}%`; // Adjust font size proportionally
-	  } else if (activeWord) {
-		activeWord.style.fontSize = '100%'; // Reset font size
+	// Function to adjust font sizes dynamically
+	const adjustFontSizes = () => {
+	  const footerWidth = footerContainer.offsetWidth;
+	  const maxBlueBlockWidth = footerWidth * 0.2; // Blue block takes 20% of footer width
+	  let maxTextWidth = 0;
+  
+	  // Check screen width for conditional adjustments
+	  const isSmallScreen = window.innerWidth <= 767;
+  
+	  if (isSmallScreen) {
+		// Reset font sizes to 100% on smaller screens
+		headingBefore.style.fontSize = '';
+		headingAfter.style.fontSize = '';
+		blueBlockWords.forEach((word) => {
+		  word.style.fontSize = '';
+		});
+		return; // Exit resizing logic for small screens
 	  }
-	}
   
-	// Start the rotation
-	updateWord();
-	setInterval(updateWord, 2000); // Update every 2 seconds
-  });
+	  // Calculate the largest word in the blue block
+	  blueBlockWords.forEach((word) => {
+		word.style.fontSize = ''; // Reset to default for calculations
+		const wordWidth = word.offsetWidth;
+		if (wordWidth > maxTextWidth) {
+		  maxTextWidth = wordWidth;
+		}
+	  });
+  
+	  // Dynamically set blue block font size
+	  const blueFontSize = Math.min(
+		getRenderedFontSize(blueBlockWords[0]), // Actual size currently applied
+		(maxBlueBlockWidth - PADDING * 2) / maxTextWidth * getRenderedFontSize(blueBlockWords[0])
+	  );
+  
+	  blueBlockWords.forEach((word) => {
+		word.style.fontSize = `${blueFontSize}px`;
+	  });
+  
+	  // Adjust font sizes for text before and after blue block
+	  const remainingWidth = footerWidth - (maxBlueBlockWidth + PADDING * 4); // Space outside blue block
+	  const optimalFontSize = Math.min(
+		getRenderedFontSize(headingBefore) * 1.5, // Increase baseline size by 1.5x
+		(remainingWidth / 2 - PADDING) / headingBefore.offsetWidth * getRenderedFontSize(headingBefore)
+	  );
+  
+	  headingBefore.style.fontSize = `${optimalFontSize}px`;
+	  headingAfter.style.fontSize = `${optimalFontSize}px`;
+	};
+  
+	// Function to cycle through words in the blue block
+	const cycleBlueBlockWords = () => {
+	  blueBlockWords[currentWordIndex].parentElement.style.display = 'none'; // Hide current word
+	  currentWordIndex = (currentWordIndex + 1) % blueBlockWords.length; // Move to the next word
+	  blueBlockWords[currentWordIndex].parentElement.style.display = 'block'; // Show the next word
+	};
+  
+	// Start the word cycling every 2 seconds
+	setInterval(cycleBlueBlockWords, 2000); // 2 seconds = 2000ms
+  
+	// Adjust sizes on load and resize
+	window.addEventListener('resize', adjustFontSizes);
+	adjustFontSizes();
+  });  
