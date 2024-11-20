@@ -38138,5 +38138,5 @@ document.addEventListener('DOMContentLoaded', () => {
   
 	// Adjust sizes on load and resize
 	window.addEventListener('resize', adjustFontSizes);
-	adjustFontSizes();
-  });  
+	adjustFontSizes(); // Call this function right after defining to apply on page load
+  });
