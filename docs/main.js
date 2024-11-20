@@ -38139,4 +38139,4 @@ document.addEventListener('DOMContentLoaded', () => {
 	// Adjust sizes on load and resize
 	window.addEventListener('resize', adjustFontSizes);
 	adjustFontSizes();
-  });  
+  });
