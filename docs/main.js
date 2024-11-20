@@ -38064,79 +38064,43 @@ function handleCardsMove(e) {
  
 ***************************************/
 
-document.addEventListener('DOMContentLoaded', () => {
-	const footerContainer = document.querySelector('.footer-upper-container');
-	const blueBlockWords = document.querySelectorAll('.footer-word-intaraction h1');
-	const headingBefore = document.querySelector('.footer-title-contaner .footer-heading[data-trID="tr_doAssignments"]');
-	const headingAfter = document.querySelector('.footer-title-contaner .footer-heading[data-trID="tr_withOrganized"]');
-	const blueBlockContainer = document.querySelector('.footer-heading-interaction-container');
-  
-	const PADDING = 25; // Minimum padding on all sides in pixels
-	let currentWordIndex = 0; // Index for cycling through blue block words
-  
-	// Function to get the actual font size applied to an element
-	const getRenderedFontSize = (element) => parseFloat(window.getComputedStyle(element).fontSize);
-  
-	// Function to adjust font sizes dynamically
-	const adjustFontSizes = () => {
-	  const footerWidth = footerContainer.offsetWidth;
-	  const maxBlueBlockWidth = footerWidth * 0.2; // Blue block takes 20% of footer width
-	  let maxTextWidth = 0;
-  
-	  // Check screen width for conditional adjustments
-	  const isSmallScreen = window.innerWidth <= 767;
-  
-	  if (isSmallScreen) {
-		// Reset font sizes to 100% on smaller screens
-		headingBefore.style.fontSize = '';
-		headingAfter.style.fontSize = '';
-		blueBlockWords.forEach((word) => {
-		  word.style.fontSize = '';
-		});
-		return; // Exit resizing logic for small screens
-	  }
-  
-	  // Calculate the largest word in the blue block
-	  blueBlockWords.forEach((word) => {
-		word.style.fontSize = ''; // Reset to default for calculations
-		const wordWidth = word.offsetWidth;
-		if (wordWidth > maxTextWidth) {
-		  maxTextWidth = wordWidth;
-		}
-	  });
-  
-	  // Dynamically set blue block font size
-	  const blueFontSize = Math.min(
-		getRenderedFontSize(blueBlockWords[0]), // Actual size currently applied
-		(maxBlueBlockWidth - PADDING * 2) / maxTextWidth * getRenderedFontSize(blueBlockWords[0])
-	  );
-  
-	  blueBlockWords.forEach((word) => {
-		word.style.fontSize = `${blueFontSize}px`;
-	  });
-  
-	  // Adjust font sizes for text before and after blue block
-	  const remainingWidth = footerWidth - (maxBlueBlockWidth + PADDING * 4); // Space outside blue block
-	  const optimalFontSize = Math.min(
-		getRenderedFontSize(headingBefore) * 1.5, // Increase baseline size by 1.5x
-		(remainingWidth / 2 - PADDING) / headingBefore.offsetWidth * getRenderedFontSize(headingBefore)
-	  );
-  
-	  headingBefore.style.fontSize = `${optimalFontSize}px`;
-	  headingAfter.style.fontSize = `${optimalFontSize}px`;
-	};
-  
-	// Function to cycle through words in the blue block
-	const cycleBlueBlockWords = () => {
-	  blueBlockWords[currentWordIndex].parentElement.style.display = 'none'; // Hide current word
-	  currentWordIndex = (currentWordIndex + 1) % blueBlockWords.length; // Move to the next word
-	  blueBlockWords[currentWordIndex].parentElement.style.display = 'block'; // Show the next word
-	};
-  
-	// Start the word cycling every 2 seconds
-	setInterval(cycleBlueBlockWords, 2000); // 2 seconds = 2000ms
-  
-	// Adjust sizes on load and resize
-	window.addEventListener('resize', adjustFontSizes);
-	adjustFontSizes(); // Call this function right after defining to apply on page load
-  });
+document.addEventListener('DOMContentLoaded', function() {
+            const container = document.querySelector('.footer-upper-container');
+            const interactionContainer = document.querySelector('.footer-heading-interaction-container');
+            const words = document.querySelectorAll('.footer-word-intaraction');
+            const headingBefore = document.querySelector('.footer-heading');
+            const headingAfter = document.querySelector('.footer-heading:last-of-type');
+            let currentWordIndex = 0;
+
+            function adjustText() {
+                const containerWidth = container.clientWidth;
+                const interactionWidth = interactionContainer.clientWidth;
+                const availableWidth = containerWidth - interactionWidth;
+
+                const beforeText = headingBefore.textContent;
+                const afterText = headingAfter.textContent;
+
+                let beforeLength = beforeText.length;
+                let afterLength = afterText.length;
+
+                while (interactionContainer.scrollWidth > availableWidth) {
+                    if (beforeLength > 0) {
+                        headingBefore.textContent = beforeText.substring(0, --beforeLength) + '...';
+                    } else if (afterLength > 0) {
+                        headingAfter.textContent = '...' + afterText.substring(afterText.length - --afterLength);
+                    } else {
+                        break;
+                    }
+                }
+            }
+
+            function changeWord() {
+                words[currentWordIndex].classList.remove('active');
+                currentWordIndex = (currentWordIndex + 1) % words.length;
+                words[currentWordIndex].classList.add('active');
+                adjustText();
+            }
+
+            setInterval(changeWord, 2000);
+            adjustText();
+        });
