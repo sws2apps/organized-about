@@ -37788,6 +37788,7 @@ const languageFiles = {
     armenian: 'locales/hy-AM/strings.json',
     german: 'locales/de-DE/strings.json',
     english: 'locales/en/strings.json',
+	estonian: 'locales/et-EE/strings.json',
     french: 'locales/fr-FR/strings.json',
     hungarian: 'locales/hu-HU/strings.json',
     italian: 'locales/it-IT/strings.json',
