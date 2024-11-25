@@ -3677,6 +3677,7 @@ h5 {
   padding: 8px 24px;
   user-select: none;
   text-align: center;
+  align-content: center;
 }
 
 .tab-link-style.w--current {
