@@ -37840,13 +37840,13 @@ function handleLanguageSelection(event) {
         body.classList.remove('noto-sans');
     }
 
-	if (['Français'].includes(selectedLanguageData)) {
+	if (['french'].includes(selectedLanguageData)) {
         h1xElement.classList.add('small');
     } else {
         h1xElement.classList.remove('small');
     }
 
-    if (['Українська', 'Русский'].includes(selectedLanguageData)) {
+    if (['ukrainian', 'russian', 'estonian'].includes(selectedLanguageData)) {
         h1xxlElement.classList.add('small-text');
     } else {
         h1xxlElement.classList.remove('small-text');
