@@ -28,7 +28,7 @@
     "tr_manuallyEnterQ": "Preciso inserir manualmente as informações da Apostila da Reunião?",
     "tr_manuallyEnterA": "Não, você não precisa. O Organized pode buscar automaticamente todas as partes da reunião, discursos públicos e outras informações necessárias diretamente do jw.org ou do arquivo .epub. Isso garante que você sempre tenha as partes mais recentes do programa de reuniões prontas para designação e não precise passar horas copiando e colando as partes da reunião e calculando manualmente sua duração.",
     "tr_autoAssignQ": "O aplicativo tem recurso de designação automática?",
-    "tr_autoAssignA": "Sim, você pode designar as partes de uma reunião automaticamente, com base no histórico e designações anteriores do publicador. Isso é chamado de “Auto preenchimento”. Depois de usá-lo, ainda é possível editar ou criar manualmente as designações.",
+    "tr_autoAssignA": "Sim, você pode designar as partes de uma reunião automaticamente, com base no histórico de designações anteriores e nas qualificações do publicador. Isso é chamado de “Autopreenchimento”. Depois de usá-lo, ainda é possível editar ou criar manualmente as designações.",
     "tr_congregationDataQ": "Os dados da congregação podem ser exportados?",
     "tr_congregationDataA": "Claro! Você pode exportar programações, relatórios, formulários de designações, etc. para arquivos PDF (sejam modelos oficiais como S-13, S-140, S-89 ou modelos personalizados)",
     "tr_testAppQ": "Posso testar o aplicativo sem me registrar?",
