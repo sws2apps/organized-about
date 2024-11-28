@@ -32,7 +32,7 @@
     "tr_congregationDataQ": "Maaari bang i-export ang data ng kongregasyon?",
     "tr_congregationDataA": "Oo! Maaaring i-export ang mga iskedyul, mga report, assignment form, atbp. sa mga printed PDF templates (kasama na ang mga opisyal na templates tulad ng S-13, S-140, S-89 o mga custom-designed templates)",
     "tr_testAppQ": "Maaari ko bang subukan ang app kahit hindi ako naka-register?",
-    "tr_testAppA": "Absolutely! Explore the app's features using the <a href='https://test.organized-app.com/'>Test environment</a>, where you can see how it works with pre-filled imaginary congregation data. Feel free to check it out, but keep in mind that any entered information will be cleared after a page refresh.",
+    "tr_testAppA": "Mismo! Alamin ang mga feature sa link na <a href='https://test.organized-app.com/'>Test environment</a>, makikita kung paano gumagana gamit ang nakahandang imaginary congregation data. Malaya kang subukan ito, ngunit tandaan na anumang ipinasok na impormasyon ay mabubura pagkatapos i-refresh ng page.",
     "tr_whichLangsQ": "Sa anong mga wika available ang Organized?",
     "tr_whichLangsA": "<p>Sa kasalukuyan, sinusuportahan ng Organized ang higit sa {languagesCount} wika, buo o parte lamang nito. Kabilang dito ang mga wikang madami ang gumagamit sa teokratiko tulad ng English, Spanish, Portuguese, German, Italian, French, at Japanese. Available din ang app sa iba pang mga wika tulad ng Polish, Ukrainian, Malagasy, Russian, Romanian, atbp.</p><p>Kung gusto mong isalin ang app sa iyong wika, madali lang ito – tingnan ang aming <a href='https://translate.organized-app.com/'>translation project</a> at simulang magsalin.</p>",
     "tr_whatSystemsQ": "Anong operation systems ang pupuwede?",
