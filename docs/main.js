@@ -37791,6 +37791,7 @@ const languageFiles = {
 	estonian: 'locales/et-EE/strings.json',
     french: 'locales/fr-FR/strings.json',
     hungarian: 'locales/hu-HU/strings.json',
+	ilokano: 'locales/ilo-PH/strings.json',
     italian: 'locales/it-IT/strings.json',
     malagasy: 'locales/mg-MG/strings.json',
     polish: 'locales/pl-PL/strings.json',
