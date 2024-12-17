@@ -42,7 +42,7 @@
 	// Define the dynamic values for replacements
 	let replacementValues = {
 		congregationCount: 393,  // Last updated congregation count
-		languagesCount: 28,      // Last updated languages count
+		languagesCount: 35,      // Last updated languages count
 		countriesCount: 49,      // Last updated countries count, where congregations are using Organized
 		usersCount: 500          // Last updated users count
 	};
@@ -37791,6 +37791,7 @@ const languageFiles = {
 	estonian: 'locales/et-EE/strings.json',
     french: 'locales/fr-FR/strings.json',
     hungarian: 'locales/hu-HU/strings.json',
+	ilokano: 'locales/ilo-PH/strings.json',
     italian: 'locales/it-IT/strings.json',
     malagasy: 'locales/mg-MG/strings.json',
     polish: 'locales/pl-PL/strings.json',
@@ -37840,13 +37841,13 @@ function handleLanguageSelection(event) {
         body.classList.remove('noto-sans');
     }
 
-	if (['Français'].includes(selectedLanguageData)) {
+	if (['french'].includes(selectedLanguageData)) {
         h1xElement.classList.add('small');
     } else {
         h1xElement.classList.remove('small');
     }
 
-    if (['Українська', 'Русский'].includes(selectedLanguageData)) {
+    if (['ukrainian', 'russian', 'estonian'].includes(selectedLanguageData)) {
         h1xxlElement.classList.add('small-text');
     } else {
         h1xxlElement.classList.remove('small-text');
