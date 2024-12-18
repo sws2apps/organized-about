@@ -3017,7 +3017,7 @@ h5 {
 .footer-upper-container {
   background-color: #e8eeff;
   border-radius: 24px;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 30px;
   line-height: 50px;
