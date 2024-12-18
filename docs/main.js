@@ -38066,43 +38066,37 @@ function handleCardsMove(e) {
  
 ***************************************/
 
-document.addEventListener('DOMContentLoaded', function() {
-    const container = document.querySelector('.footer-upper-container');
-    const interactionContainer = document.querySelector('.footer-heading-interaction-container');
-    const words = document.querySelectorAll('.footer-word-intaraction');
-    const headingBefore = document.querySelector('.footer-heading');
-    const headingAfter = document.querySelector('.footer-heading:last-of-type');
-    let currentWordIndex = 0;
-
-    function adjustText() {
-        const containerWidth = container.clientWidth;
-        const interactionWidth = interactionContainer.clientWidth;
-        const availableWidth = containerWidth - interactionWidth;
-
-        const beforeText = headingBefore.textContent;
-        const afterText = headingAfter.textContent;
-
-        let beforeLength = beforeText.length;
-        let afterLength = afterText.length;
-
-        while (interactionContainer.scrollWidth > availableWidth) {
-            if (beforeLength > 0) {
-                headingBefore.textContent = beforeText.substring(0, --beforeLength) + '...';
-            } else if (afterLength > 0) {
-                headingAfter.textContent = '...' + afterText.substring(afterText.length - --afterLength);
-            } else {
-                break;
-            }
-        }
-    }
-
-    function changeWord() {
-        words[currentWordIndex].style.display = 'none';
-        currentWordIndex = (currentWordIndex + 1) % words.length;
-        words[currentWordIndex].style.display = 'block';
-        adjustText();
-    }
-
-    setInterval(changeWord, 2000);
-    adjustText();
-});
+document.addEventListener('DOMContentLoaded', () => {
+	const words = Array.from(document.querySelectorAll('.footer-word-intaraction'));
+	const footerContainer = document.querySelector('.footer-title-contaner');
+	const activeClass = 'active'; // You can style the visible word with a CSS class
+  
+	let currentIndex = 0;
+  
+	// Function to cycle through words
+	function updateWord() {
+	  // Hide all words
+	  words.forEach(word => word.style.display = 'none');
+	  // Show the current word
+	  words[currentIndex].style.display = 'block';
+	  // Move to the next index
+	  currentIndex = (currentIndex + 1) % words.length;
+	  // Adjust font size dynamically
+	  adjustFontSize();
+	}
+  
+	// Function to adjust font size based on container width
+	function adjustFontSize() {
+	  const activeWord = words[currentIndex].querySelector('h1');
+	  if (activeWord && footerContainer.offsetWidth > 400) {
+		const scale = 700 / footerContainer.offsetWidth; // Scale factor
+		activeWord.style.fontSize = `${scale * 100}%`; // Adjust font size proportionally
+	  } else if (activeWord) {
+		activeWord.style.fontSize = '100%'; // Reset font size
+	  }
+	}
+  
+	// Start the rotation
+	updateWord();
+	setInterval(updateWord, 2000); // Update every 2 seconds
+  });
