@@ -1984,7 +1984,8 @@ textarea.w-input, textarea.w-select {
   }
 
   .footer-heading-interaction-container {
-    padding: 4px 24px 4px 24px !important;
+    padding: 0px 20px 0px 20px !important;
+    height: 38px;
   }
 
   .footer-image-container {
