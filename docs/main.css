@@ -3310,10 +3310,6 @@ h5 {
   display: flex;
 }
 
-.menuPart, .menuPartLast {
-  padding: 0px 8px;
-}
-
 .head h2 {
   font-size: 1.5rem;
   font-weight: 600;
