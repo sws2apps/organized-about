@@ -37799,12 +37799,14 @@ const languageFiles = {
     'portuguese-br': 'locales/pt-BR/strings.json',
     russian: 'locales/ru-RU/strings.json',
     turkish: 'locales/tr-TR/strings.json',
+	vietnamese: 'locales/vi-VN/strings.json',
     tagalog: 'locales/tl-PH/strings.json',
     ukrainian: 'locales/uk-UA/strings.json',
     nepali: 'locales/ne-NP/strings.json',
     japanese: 'locales/ja-JP/strings.json',
     finnish: 'locales/fi-FI/strings.json',
     swedish: 'locales/sv-SE/strings.json',
+	slovenian: 'locales/sl-SI/strings.json',
 	chinese: 'locales/ch-CHS/strings.json'
 };
 
