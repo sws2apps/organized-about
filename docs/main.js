@@ -37806,6 +37806,7 @@ const languageFiles = {
     nepali: 'locales/ne-NP/strings.json',
     japanese: 'locales/ja-JP/strings.json',
     finnish: 'locales/fi-FI/strings.json',
+    romanian: 'locales/sv-SE/strings.json',
     swedish: 'locales/sv-SE/strings.json',
     slovenian: 'locales/sl-SL/strings.json',
     chinese: 'locales/ch-CHS/strings.json'
