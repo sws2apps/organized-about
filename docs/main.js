@@ -37787,11 +37787,12 @@ const notoSansLanguages = ['japanese', 'malagasy', 'armenian', 'nepali'];
 const languageFiles = {
     armenian: 'locales/hy-AM/strings.json',
     german: 'locales/de-DE/strings.json',
+    dutch: 'locales/nl-NL/strings.json',
     english: 'locales/en/strings.json',
-	estonian: 'locales/et-EE/strings.json',
+    estonian: 'locales/et-EE/strings.json',
     french: 'locales/fr-FR/strings.json',
     hungarian: 'locales/hu-HU/strings.json',
-	ilokano: 'locales/ilo-PH/strings.json',
+    ilokano: 'locales/ilo-PH/strings.json',
     italian: 'locales/it-IT/strings.json',
     malagasy: 'locales/mg-MG/strings.json',
     polish: 'locales/pl-PL/strings.json',
@@ -37799,7 +37800,7 @@ const languageFiles = {
     'portuguese-br': 'locales/pt-BR/strings.json',
     russian: 'locales/ru-RU/strings.json',
     turkish: 'locales/tr-TR/strings.json',
-	vietnamese: 'locales/vi-VN/strings.json',
+    vietnamese: 'locales/vi-VN/strings.json',
     tagalog: 'locales/tl-PH/strings.json',
     ukrainian: 'locales/uk-UA/strings.json',
     nepali: 'locales/ne-NP/strings.json',
@@ -37807,7 +37808,7 @@ const languageFiles = {
     finnish: 'locales/fi-FI/strings.json',
     swedish: 'locales/sv-SE/strings.json',
     slovenian: 'locales/sl-SL/strings.json',
-	chinese: 'locales/ch-CHS/strings.json'
+    chinese: 'locales/ch-CHS/strings.json'
 };
 
 const select = document.querySelector('.language-btn');
