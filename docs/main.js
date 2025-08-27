@@ -37799,6 +37799,8 @@ const languageFiles = {
     portuguese: 'locales/pt-PT/strings.json',
     'portuguese-br': 'locales/pt-BR/strings.json',
     russian: 'locales/ru-RU/strings.json',
+	spanish: 'locales/es-ES/strings.json',
+	'spanish-spain': 'locales/es-SSP/strings.json',
     turkish: 'locales/tr-TR/strings.json',
     vietnamese: 'locales/vi-VN/strings.json',
     tagalog: 'locales/tl-PH/strings.json',
