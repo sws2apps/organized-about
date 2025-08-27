@@ -41,10 +41,10 @@
 
 	// Define the dynamic values for replacements
 	let replacementValues = {
-		congregationCount: 393,  // Last updated congregation count
-		languagesCount: 35,      // Last updated languages count
-		countriesCount: 49,      // Last updated countries count, where congregations are using Organized
-		usersCount: 500          // Last updated users count
+		congregationCount: 250,  // Last updated congregation count
+		languagesCount: 42,      // Last updated languages count
+		countriesCount: 42,      // Last updated countries count, where congregations are using Organized
+		usersCount: 650          // Last updated users count
 	};
 
 	// Function to replace placeholders
@@ -37799,6 +37799,8 @@ const languageFiles = {
     portuguese: 'locales/pt-PT/strings.json',
     'portuguese-br': 'locales/pt-BR/strings.json',
     russian: 'locales/ru-RU/strings.json',
+	spanish: 'locales/es-ES/strings.json',
+	'spanish-spain': 'locales/es-SSP/strings.json',
     turkish: 'locales/tr-TR/strings.json',
     vietnamese: 'locales/vi-VN/strings.json',
     tagalog: 'locales/tl-PH/strings.json',
