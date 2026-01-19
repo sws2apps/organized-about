@@ -75,8 +75,19 @@ function initCookieConsent() {
         en: getCookieTranslations(),
       },
     },
+    onFirstAction: function(user_preferences, cookie) {
+        // Check if necessary cookies are accepted on first action
+        if (cookie && cookie.categories && cookie.categories.includes('necessary')) {
+            const pendingLanguage = sessionStorage.getItem('pendingLanguage');
+            if (pendingLanguage) {
+                localStorage.setItem('selectedLanguage', pendingLanguage);
+                sessionStorage.removeItem('pendingLanguage');
+            }
+        }
+    },
   });
 }
+
 
 // Initialize on page load
 if (document.readyState === 'loading') {
@@ -92,3 +103,20 @@ window.updateCookieConsentLanguage = function() {
     CookieConsent.updateLanguage('en', translations);
   }
 };
+
+// Listen for cookie consent changes
+window.addEventListener('cc:onChange', function(event) {
+  // Check if necessary cookies were just accepted
+  if (event.detail.cookie && event.detail.cookie.categories) {
+    const categories = event.detail.cookie.categories;
+    
+    // If necessary cookies are accepted, transfer pending language to localStorage
+    if (categories.includes('necessary')) {
+      const pendingLanguage = sessionStorage.getItem('pendingLanguage');
+      if (pendingLanguage) {
+        localStorage.setItem('selectedLanguage', pendingLanguage);
+        sessionStorage.removeItem('pendingLanguage');
+      }
+    }
+  }
+});

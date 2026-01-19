@@ -39,35 +39,46 @@
 
 
 
-
-	// Define the dynamic values for replacements (will be updated from API)
+	// Define the dynamic values for replacements
 	let replacementValues = {
-		congregationCount: 250,  // Fallback value
-		languagesCount: 42,      // Fallback value
-		countriesCount: 42,      // Fallback value
-		usersCount: 650          // Fallback value
+		congregationCount: 250,  // Last updated congregation count
+		languagesCount: 42,      // Last updated languages count
+		countriesCount: 42,      // Last updated countries count, where congregations are using Organized
+		usersCount: 650          // Last updated users count
 	};
 
-	// Fetch stats from API and update replacement values
+	// Fetch stats from the API
 	async function fetchStats() {
 		try {
 			const response = await fetch('https://api-v3.organized-app.com/api/v3/public/stats');
-			if (response.ok) {
-				const data = await response.json();
-				replacementValues = {
-					congregationCount: data.congregations || replacementValues.congregationCount,
-					languagesCount: data.languages || replacementValues.languagesCount,
-					countriesCount: data.countries?.count || replacementValues.countriesCount,
-					usersCount: data.users || replacementValues.usersCount
-				};
-				// Update placeholders after fetching new data
-				updatePlaceholders();
+			if (!response.ok) {
+				throw new Error('Failed to fetch stats');
 			}
+			const data = await response.json();
+			
+			// Update the replacement values with API data
+			if (data.countries !== undefined && data.countries.count !== undefined) {
+				replacementValues.countriesCount = data.countries.count;
+			}
+			if (data.congregations !== undefined) {
+				replacementValues.congregationCount = data.congregations;
+			}
+			if (data.languages !== undefined) {
+				replacementValues.languagesCount = data.languages;
+			}
+			if (data.users !== undefined) {
+				replacementValues.usersCount = data.users;
+			}
+			
+			// Trigger an update of the elements
+			updateElements();
 		} catch (error) {
-			console.warn('Failed to fetch stats from API, using fallback values:', error);
+			console.warn('Could not fetch stats from API, using default values:', error);
 		}
 	}
 
+	// Call fetchStats on page load
+	fetchStats();
 
 	// Function to replace placeholders
 	function replacePlaceholders(message, replacements) {
@@ -76,38 +87,35 @@
 		});
 	}
 
+	// Array of trIDs to update
+	const trIDs = ['tr_languagesDesc', 'tr_whichLangsA'];
+
+	// Function to update the elements (moved to global scope)
+	function updateElements() {
+		trIDs.forEach(trID => {
+			// Select the element using the data-trID attribute
+			const element = document.querySelector(`[data-trID="${trID}"]`);
+
+			if (element) { // Check if the element exists
+				// Get the original text with the placeholder
+				let originalText = element.textContent;
+
+				// Replace placeholders with the actual values
+				let updatedText = replacePlaceholders(originalText, replacementValues);
+
+				// Update the element with the replaced text
+				element.textContent = updatedText;
+			}
+		});
+	}
+
 	// Once the DOM is fully loaded, replace the placeholders in specific elements
 	document.addEventListener('DOMContentLoaded', function() {
-		// Array of trIDs to update
-		const trIDs = ['tr_languagesDesc', 'tr_whichLangsA'];
-
-		// Function to update the elements
-		function updatePlaceholders() {
-			trIDs.forEach(trID => {
-				// Select the element using the data-trID attribute
-				const element = document.querySelector(`[data-trID="${trID}"]`);
-
-				if (element) { // Check if the element exists
-					// Get the original text with the placeholder
-					let originalText = element.textContent;
-
-					// Replace placeholders with the actual values
-					let updatedText = replacePlaceholders(originalText, replacementValues);
-
-					// Update the element with the replaced text
-					element.textContent = updatedText;
-				}
-			});
-		}
-
 		// Call the function once to initialize the values
-		updatePlaceholders();
-
-		// Fetch stats from API and update dynamically
-		fetchStats();
+		updateElements();
 
 		// Then, call the function every second to update the values
-		setInterval(updatePlaceholders, 1000);
+		setInterval(updateElements, 1000);
 	});
 
 	
@@ -37898,8 +37906,14 @@ function handleLanguageSelection(event) {
     fetchTranslations(translationsPath);
 
     menu.classList.remove('show');
-    if (typeof CookieConsent !== 'undefined' && CookieConsent.acceptedCategory('preferences')) {
+    
+    // Save language preference
+    if (typeof CookieConsent !== 'undefined' && CookieConsent.acceptedCategory('necessary')) {
+        // Cookies accepted, save to localStorage
         localStorage.setItem('selectedLanguage', selectedLanguageData);
+    } else {
+        // Cookies not accepted yet, save to sessionStorage temporarily
+        sessionStorage.setItem('pendingLanguage', selectedLanguageData);
     }
 
 
@@ -38112,42 +38126,73 @@ function handleCardsMove(e) {
 ***************************************/
 
 document.addEventListener('DOMContentLoaded', () => {
-	const words = Array.from(document.querySelectorAll('.footer-word-intaraction'));
-	const footerContainer = document.querySelector('.footer-title-contaner');
-  
-	let currentIndex = 0;
-	let isAnimating = false;
-  
-	// Function to cycle through words without animation
-	function updateWord() {
-	  // Hide current word
-	  words[currentIndex].style.display = 'none';
-	  
-	  // Move to next word
-	  currentIndex = (currentIndex + 1) % words.length;
-	  
-	  // Show next word
-	  words[currentIndex].style.display = 'block';
-	  
-	  adjustFontSize();
-	}
-  
-	// Function to adjust font size based on container width
-	function adjustFontSize() {
-	  const activeWord = words[currentIndex].querySelector('h1');
-	  if (activeWord && footerContainer.offsetWidth > 400) {
-		const scale = 700 / footerContainer.offsetWidth; // Scale factor
-		activeWord.style.fontSize = `${scale * 100}%`; // Adjust font size proportionally
-	  } else if (activeWord) {
-		activeWord.style.fontSize = '100%'; // Reset font size
-	  }
-	}
-  
-	// Initialize: show first word
-	words[0].style.display = 'block';
-	adjustFontSize();
+	// Typewriter Animation Logic
+	const container = document.querySelector('.footer-heading-interaction-container');
+	const imageContainer = document.querySelector('.footer-image-container');
+	const wordsElements = Array.from(document.querySelectorAll('.footer-word-intaraction'));
+
+	// 1. Create dynamic element for typing
+	const typeWriterElement = document.createElement('h1');
+	typeWriterElement.className = 'h1-xl semi-bold footer-intaraction-title';
+	typeWriterElement.style.margin = '0';
+	typeWriterElement.style.whiteSpace = 'nowrap';
+	typeWriterElement.style.position = 'relative'; // Ensure it flows in flex container
 	
-	// Start the rotation
-	setInterval(updateWord, 2500); // Update every 2.5 seconds
+	// Insert before image so sparkles stay on right -> NO, User wants Sparkles on LEFT
+	// So we move image to start, and insert text after it.
+	
+	// 1. Move image to start
+	container.insertBefore(imageContainer, container.firstChild);
+	
+	// 2. Append text element (after image)
+	container.appendChild(typeWriterElement);
+
+	// 2. Hide original static elements
+	wordsElements.forEach(el => el.style.display = 'none');
+	
+	// Reset container width to auto to let flexbox handle it
+	container.style.width = 'auto';
+
+	// 3. Typing Logic
+	let wordIndex = 0;
+	let charIndex = 0;
+	let isDeleting = false;
+
+	function type() {
+		const currentWord = wordsElements[wordIndex].innerText.trim();
+		
+		if (isDeleting) {
+			// Backspace
+			typeWriterElement.innerText = currentWord.substring(0, charIndex - 1);
+			charIndex--;
+		} else {
+			// Type
+			typeWriterElement.innerText = currentWord.substring(0, charIndex + 1);
+			charIndex++;
+		}
+		
+		// Add margin only if there is text to separate it from the icon
+		typeWriterElement.style.marginLeft = charIndex > 0 ? '8px' : '0px';
+
+		// Determine typing speed
+		let typeSpeed = 100;
+		if (isDeleting) typeSpeed /= 2; // Delete faster
+
+		if (!isDeleting && charIndex === currentWord.length) {
+			// Finished typing word, wait 3s before deleting
+			typeSpeed = 3000;
+			isDeleting = true;
+		} else if (isDeleting && charIndex === 0) {
+			// Finished deleting, move to next word
+			isDeleting = false;
+			wordIndex = (wordIndex + 1) % wordsElements.length;
+			typeSpeed = 500;
+		}
+
+		setTimeout(type, typeSpeed);
+	}
+
+	// Start the typewriter loop
+	type();
   });
 
