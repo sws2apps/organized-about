@@ -39,13 +39,35 @@
 
 
 
-	// Define the dynamic values for replacements
+
+	// Define the dynamic values for replacements (will be updated from API)
 	let replacementValues = {
-		congregationCount: 250,  // Last updated congregation count
-		languagesCount: 42,      // Last updated languages count
-		countriesCount: 42,      // Last updated countries count, where congregations are using Organized
-		usersCount: 650          // Last updated users count
+		congregationCount: 250,  // Fallback value
+		languagesCount: 42,      // Fallback value
+		countriesCount: 42,      // Fallback value
+		usersCount: 650          // Fallback value
 	};
+
+	// Fetch stats from API and update replacement values
+	async function fetchStats() {
+		try {
+			const response = await fetch('https://api-v3.organized-app.com/api/v3/public/stats');
+			if (response.ok) {
+				const data = await response.json();
+				replacementValues = {
+					congregationCount: data.congregations || replacementValues.congregationCount,
+					languagesCount: data.languages || replacementValues.languagesCount,
+					countriesCount: data.countries?.count || replacementValues.countriesCount,
+					usersCount: data.users || replacementValues.usersCount
+				};
+				// Update placeholders after fetching new data
+				updatePlaceholders();
+			}
+		} catch (error) {
+			console.warn('Failed to fetch stats from API, using fallback values:', error);
+		}
+	}
+
 
 	// Function to replace placeholders
 	function replacePlaceholders(message, replacements) {
@@ -60,7 +82,7 @@
 		const trIDs = ['tr_languagesDesc', 'tr_whichLangsA'];
 
 		// Function to update the elements
-		function updateElements() {
+		function updatePlaceholders() {
 			trIDs.forEach(trID => {
 				// Select the element using the data-trID attribute
 				const element = document.querySelector(`[data-trID="${trID}"]`);
@@ -79,10 +101,13 @@
 		}
 
 		// Call the function once to initialize the values
-		updateElements();
+		updatePlaceholders();
+
+		// Fetch stats from API and update dynamically
+		fetchStats();
 
 		// Then, call the function every second to update the values
-		setInterval(updateElements, 1000);
+		setInterval(updatePlaceholders, 1000);
 	});
 
 	
