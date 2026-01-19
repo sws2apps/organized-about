@@ -38186,7 +38186,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			// Finished deleting, move to next word
 			isDeleting = false;
 			wordIndex = (wordIndex + 1) % wordsElements.length;
-			typeSpeed = 500;
+			typeSpeed = 0; // Immediate start for next word
 		}
 
 		setTimeout(type, typeSpeed);
