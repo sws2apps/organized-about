@@ -6984,3 +6984,13 @@ body.rtl .body-regular {
 #cc-main .cm__desc {
   padding-top: 0 !important;
 }
+
+/* Cookie consent - remove footer top margin */
+#cc-main .cm__footer {
+  margin-top: 0 !important;
+}
+
+/* Cookie consent - reduce description top margin */
+#cc-main .cm__desc {
+  margin-top: 8px !important;
+}

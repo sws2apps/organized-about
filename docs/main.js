@@ -38093,34 +38093,17 @@ document.addEventListener('DOMContentLoaded', () => {
 	let currentIndex = 0;
 	let isAnimating = false;
   
-	// Function to cycle through words with spinning animation
+	// Function to cycle through words without animation
 	function updateWord() {
-	  if (isAnimating) return;
-	  isAnimating = true;
+	  // Hide current word
+	  words[currentIndex].style.display = 'none';
 	  
-	  const currentWord = words[currentIndex];
-	  const nextIndex = (currentIndex + 1) % words.length;
-	  const nextWord = words[nextIndex];
+	  // Move to next word
+	  currentIndex = (currentIndex + 1) % words.length;
 	  
-	  // Exit animation for current word
-	  currentWord.classList.add('word-exit');
+	  // Show next word
+	  words[currentIndex].style.display = 'block';
 	  
-	  // After exit animation starts, show and animate in the next word
-	  setTimeout(() => {
-		currentWord.style.display = 'none';
-		currentWord.classList.remove('word-exit');
-		
-		nextWord.style.display = 'block';
-		nextWord.classList.add('word-enter');
-		
-		// Remove enter class after animation completes
-		setTimeout(() => {
-		  nextWord.classList.remove('word-enter');
-		  isAnimating = false;
-		}, 600);
-	  }, 300);
-	  
-	  currentIndex = nextIndex;
 	  adjustFontSize();
 	}
   
