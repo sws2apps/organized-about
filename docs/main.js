@@ -37958,14 +37958,26 @@ document.addEventListener('click', (event) => {
 });
 
 window.addEventListener('load', () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlLanguage = urlParams.get('lang');
     const storedLanguage = localStorage.getItem('selectedLanguage');
-    if (storedLanguage) {
-        const languageOption = document.querySelector(`a[data-language="${storedLanguage}"]`);
+    
+    let languageToLoad = urlLanguage || storedLanguage;
+
+    if (languageToLoad) {
+        // If it's a URL param, we might want to normalize it or ensure it exists in our list.
+        // For now, we trust the click handler to ignore invalid ones or we select by data-language
+        const languageOption = document.querySelector(`a[data-language="${languageToLoad.toLowerCase()}"]`); // Ensure lowercase matching if needed, though data attributes seem lowercase
+        
         if (languageOption) {
             languageOption.click();
+        } else if (storedLanguage) {
+             // Fallback to stored if URL param was invalid
+             const storedOption = document.querySelector(`a[data-language="${storedLanguage}"]`);
+             if (storedOption) storedOption.click();
         }
     } else {
-        const defaultLanguageOption = document.querySelector('a[data-language="English"]');
+        const defaultLanguageOption = document.querySelector('a[data-language="english"]');
         if (defaultLanguageOption) {
             defaultLanguageOption.click();
         }
