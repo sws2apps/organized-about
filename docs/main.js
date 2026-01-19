@@ -37783,6 +37783,7 @@ organized.require('ix2').init({
 });
 
 const notoSansLanguages = ['japanese', 'malagasy', 'armenian', 'nepali'];
+const rtlLanguages = ['hebrew'];
 
 const languageFiles = {
     armenian: 'locales/hy-AM/strings.json',
@@ -37791,6 +37792,7 @@ const languageFiles = {
     english: 'locales/en/strings.json',
     estonian: 'locales/et-EE/strings.json',
     french: 'locales/fr-FR/strings.json',
+    hebrew: 'locales/he-IL/strings.json',
     hungarian: 'locales/hu-HU/strings.json',
     ilokano: 'locales/ilo-PH/strings.json',
     italian: 'locales/it-IT/strings.json',
@@ -37810,7 +37812,7 @@ const languageFiles = {
     finnish: 'locales/fi-FI/strings.json',
     romanian: 'locales/ro-RO/strings.json',
     swedish: 'locales/sv-SE/strings.json',
-    slovenian: 'locales/sl-SL/strings.json',
+    slovenian: 'locales/sl-SI/strings.json',
     chinese: 'locales/ch-CHS/strings.json'
 };
 
@@ -37847,6 +37849,15 @@ function handleLanguageSelection(event) {
         body.classList.remove('noto-sans');
     }
 
+    // RTL support for Hebrew
+    if (rtlLanguages.includes(selectedLanguageData)) {
+        document.documentElement.setAttribute('dir', 'rtl');
+        body.classList.add('rtl');
+    } else {
+        document.documentElement.setAttribute('dir', 'ltr');
+        body.classList.remove('rtl');
+    }
+
 	if (['french'].includes(selectedLanguageData)) {
         h1xElement.classList.add('small');
     } else {
@@ -37862,7 +37873,10 @@ function handleLanguageSelection(event) {
     fetchTranslations(translationsPath);
 
     menu.classList.remove('show');
-    localStorage.setItem('selectedLanguage', selectedLanguageData);
+    if (typeof CookieConsent !== 'undefined' && CookieConsent.acceptedCategory('preferences')) {
+        localStorage.setItem('selectedLanguage', selectedLanguageData);
+    }
+
 
     updateActiveClass(event.target);
 }
@@ -38075,19 +38089,38 @@ function handleCardsMove(e) {
 document.addEventListener('DOMContentLoaded', () => {
 	const words = Array.from(document.querySelectorAll('.footer-word-intaraction'));
 	const footerContainer = document.querySelector('.footer-title-contaner');
-	const activeClass = 'active'; // You can style the visible word with a CSS class
   
 	let currentIndex = 0;
+	let isAnimating = false;
   
-	// Function to cycle through words
+	// Function to cycle through words with spinning animation
 	function updateWord() {
-	  // Hide all words
-	  words.forEach(word => word.style.display = 'none');
-	  // Show the current word
-	  words[currentIndex].style.display = 'block';
-	  // Move to the next index
-	  currentIndex = (currentIndex + 1) % words.length;
-	  // Adjust font size dynamically
+	  if (isAnimating) return;
+	  isAnimating = true;
+	  
+	  const currentWord = words[currentIndex];
+	  const nextIndex = (currentIndex + 1) % words.length;
+	  const nextWord = words[nextIndex];
+	  
+	  // Exit animation for current word
+	  currentWord.classList.add('word-exit');
+	  
+	  // After exit animation starts, show and animate in the next word
+	  setTimeout(() => {
+		currentWord.style.display = 'none';
+		currentWord.classList.remove('word-exit');
+		
+		nextWord.style.display = 'block';
+		nextWord.classList.add('word-enter');
+		
+		// Remove enter class after animation completes
+		setTimeout(() => {
+		  nextWord.classList.remove('word-enter');
+		  isAnimating = false;
+		}, 600);
+	  }, 300);
+	  
+	  currentIndex = nextIndex;
 	  adjustFontSize();
 	}
   
@@ -38102,7 +38135,11 @@ document.addEventListener('DOMContentLoaded', () => {
 	  }
 	}
   
+	// Initialize: show first word
+	words[0].style.display = 'block';
+	adjustFontSize();
+	
 	// Start the rotation
-	updateWord();
-	setInterval(updateWord, 2000); // Update every 2 seconds
+	setInterval(updateWord, 2500); // Update every 2.5 seconds
   });
+
