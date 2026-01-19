@@ -3530,7 +3530,7 @@ h5 {
 }
 
 .menuPart {
-  padding: 6px 0px;
+  padding: 3px 0px;
   margin: 0px 12px;
 }
 
@@ -3542,7 +3542,11 @@ h5 {
 .hoverOnCard {
   display: flex;
   align-items: center;
-  padding: 8px 11px 8px 20px;
+  padding: 6px 11px 6px 20px;
+}
+
+.hoverOnCard svg {
+  flex-shrink: 0;
 }
 
 .menuPart:hover .hoverOnCard {
@@ -3568,7 +3572,7 @@ h5 {
 }
 
 .menuPartLast {
-  padding: 6px 0px;
+  padding: 3px 0px;
   margin: 0px 12px;
 }
 
