@@ -6979,10 +6979,8 @@ body.rtl .body-regular {
 }
 
 /* Cookie consent spacing adjustments */
-#cc-main .cm__footer {
-  padding-top: 0 !important;
-}
 
+/* Cookie consent spacing adjustments - corrected */
 #cc-main .cm__desc {
-  padding-top: 8px !important;
+  padding-top: 0 !important;
 }
