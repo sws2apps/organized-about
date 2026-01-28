@@ -212,7 +212,7 @@
     "tr_cookieDesc": "Мы используем файлы cookie, чтобы запомнить твой язык и понять, как ты пользуешься сайтом.",
     "tr_cookieAcceptAll": "Принять все",
     "tr_cookieRejectAll": "Отклонить все",
-    "tr_cookieManagePreferences": "Управление настройками",
+    "tr_cookieManagePreferences": "Manage preferences",
     "tr_cookiePrivacyPolicy": "Политика конфиденциальности",
     "tr_cookieTerms": "Условия использования",
     "tr_cookieSettingsTitle": "Настройки cookie",
@@ -222,11 +222,11 @@
     "tr_cookieSettingsClose": "Закрыть окно",
     "tr_cookieUsageTitle": "Использование cookie",
     "tr_cookieUsageDesc": "Мы используем файлы cookie для обеспечения базовой работы сайта и улучшения твоего опыта. Ты можешь управлять настройками для каждой категории ниже. Подробнее — в нашей <a href=\"#\" class=\"cc__link\">политике конфиденциальности</a>.",
-    "tr_cookieNecessaryTitle": "Strictly Necessary cookies",
-    "tr_cookieNecessaryDesc": "These cookies are essential for the proper functioning of the website, such as remembering your language selection. Without these cookies, some features would not work as intended.",
-    "tr_cookieAnalyticsTitle": "Analytics cookies",
-    "tr_cookieAnalyticsDesc": "These cookies help us understand how visitors interact with the website, helping us find and fix issues and improve the overall experience.",
+    "tr_cookieNecessaryTitle": "Обязательные файлы cookie",
+    "tr_cookieNecessaryDesc": "Эти файлы cookie необходимы для правильной работы веб-сайта, например, запоминания выбранного тобой языка. Без этих cookie, некоторые функции не будут работать, как задумывалось.",
+    "tr_cookieAnalyticsTitle": "Cookies для аналитики",
+    "tr_cookieAnalyticsDesc": "Эти файлы cookie помогают нам понять, как посетители взаимодействуют с веб-сайтом, помогая нам найти и исправить проблемы и улучшить общий опыт.",
     "tr_cookieMoreInfoTitle": "More information",
     "tr_cookieMoreInfoDesc": "For any queries in relation to our policy on cookies and your choices, please <a class=\"cc__link\" href=\"mailto:support@organized-app.com\">contact us</a>.",
-    "tr_createdBy": "Created by "
+    "tr_createdBy": "Создано "
 }
