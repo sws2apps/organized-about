@@ -223,10 +223,10 @@
     "tr_cookieUsageTitle": "Utilização de cookies",
     "tr_cookieUsageDesc": "Usamos cookies para garantir as funcionalidades básicas do site e melhorar a sua experiência. Você pode gerenciar suas preferências para cada categoria abaixo. Para mais detalhes, leia a nossa <a href=\"#\" class=\"cc__link\">política de privacidade</a>.",
     "tr_cookieNecessaryTitle": "Cookies estritamente necessários",
-    "tr_cookieNecessaryDesc": "These cookies are essential for the proper functioning of the website, such as remembering your language selection. Without these cookies, some features would not work as intended.",
-    "tr_cookieAnalyticsTitle": "Analytics cookies",
+    "tr_cookieNecessaryDesc": "Estes cookies são essenciais para o funcionamento apropriado do website, como por exemplo lembrar o idioma selecionado. Sem estes cookies, algumas funcionalidades não funcionam como intencionado.",
+    "tr_cookieAnalyticsTitle": "Cookies da Analytics",
     "tr_cookieAnalyticsDesc": "These cookies help us understand how visitors interact with the website, helping us find and fix issues and improve the overall experience.",
     "tr_cookieMoreInfoTitle": "Mais informações",
-    "tr_cookieMoreInfoDesc": "For any queries in relation to our policy on cookies and your choices, please <a class=\"cc__link\" href=\"mailto:support@organized-app.com\">contact us</a>.",
+    "tr_cookieMoreInfoDesc": "Para qualquer questão relacionada à nossa política de cookies e suas escolhas, por favor <a class\"cc_link\" href=\"mailto:support@organized-app.com\">contacte-nos</a>.",
     "tr_createdBy": "Criado por "
 }
